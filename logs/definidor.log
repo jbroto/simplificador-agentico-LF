@@ -1,0 +1,96 @@
+2026-08-27 10:59:35,378 | INFO | Agentes.definicion_agente | Iniciando agente A2A en puerto 8004.
+2026-08-27 11:07:51,067 | INFO | Agentes.definicion_agente | Iniciando agente A2A en puerto 8004.
+2026-08-27 11:09:55,942 | INFO | Agentes.definicion_agente | Iniciando agente A2A en puerto 8004.
+2026-08-27 11:14:44,191 | INFO | Agentes.definicion_agente | Iniciando agente A2A en puerto 8004.
+2026-08-27 11:28:05,773 | INFO | Agentes.definicion_agente | Iniciando agente A2A en puerto 8004.
+2026-08-27 11:30:52,433 | INFO | Agentes.definicion_agente | Iniciando agente A2A en puerto 8004.
+2026-08-27 11:35:19,009 | INFO | Agentes.definicion_agente | Iniciando agente A2A en puerto 8004.
+2026-08-27 11:42:49,419 | INFO | Agentes.definicion_agente | Iniciando agente A2A en puerto 8004.
+2026-08-27 11:47:07,313 | INFO | Agentes.definicion_agente | Iniciando agente A2A en puerto 8004.
+2026-08-27 12:00:02,304 | INFO | Agentes.definicion_agente | Iniciando agente A2A en puerto 8004.
+2026-08-27 12:16:55,055 | INFO | Agentes.definicion_agente | Iniciando agente A2A en puerto 8004.
+2026-08-27 12:30:44,388 | INFO | Agentes.definicion_agente | Iniciando agente A2A en puerto 8004.
+2026-08-27 12:56:39,715 | INFO | Agentes.definicion_agente | Iniciando agente A2A en puerto 8004.
+2026-08-27 13:06:33,672 | INFO | Agentes.definicion_agente | Iniciando agente A2A en puerto 8004.
+2026-08-27 13:17:09,861 | INFO | Agentes.definicion_agente | Solicitud recibida. Texto: 3390 caracteres.
+2026-08-27 13:17:09,861 | INFO | Agentes.definicion_agente | Ejecutando modelo para generar definiciones.
+2026-08-27 13:17:10,327 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:17:10,337 | INFO | Agentes.definicion_agente | Glosario generado correctamente: 7 caracteres.
+2026-08-27 13:40:44,107 | INFO | Agentes.definicion_agente | Solicitud recibida. Texto: 1432 caracteres.
+2026-08-27 13:40:44,108 | INFO | Agentes.definicion_agente | Ejecutando modelo para generar definiciones.
+2026-08-27 13:40:44,703 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:40:44,705 | INFO | Agentes.definicion_agente | Glosario generado correctamente: 458 caracteres.
+2026-08-27 14:08:04,395 | INFO | Agentes.definicion_agente | Solicitud recibida. Texto: 1569 caracteres.
+2026-08-27 14:08:04,396 | INFO | Agentes.definicion_agente | Ejecutando modelo para generar definiciones.
+2026-08-27 14:08:05,308 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:08:05,310 | INFO | Agentes.definicion_agente | Glosario generado correctamente: 520 caracteres.
+2026-08-27 14:18:15,886 | INFO | Agentes.definicion_agente | Solicitud recibida. Texto: 1623 caracteres.
+2026-08-27 14:18:15,887 | INFO | Agentes.definicion_agente | Ejecutando modelo para generar definiciones.
+2026-08-27 14:18:16,280 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:18:16,282 | INFO | Agentes.definicion_agente | Glosario generado correctamente: 7 caracteres.
+2026-08-27 14:36:00,690 | INFO | Agentes.definicion_agente | Solicitud recibida. Texto: 1286 caracteres.
+2026-08-27 14:36:00,691 | INFO | Agentes.definicion_agente | Ejecutando modelo para generar definiciones.
+2026-08-27 14:36:01,142 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:36:01,144 | INFO | Agentes.definicion_agente | Glosario generado correctamente: 7 caracteres.
+2026-08-27 14:46:13,048 | INFO | Agentes.definicion_agente | Solicitud recibida. Texto: 1555 caracteres.
+2026-08-27 14:46:13,048 | INFO | Agentes.definicion_agente | Ejecutando modelo para generar definiciones.
+2026-08-27 14:46:13,480 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:46:13,482 | INFO | Agentes.definicion_agente | Glosario generado correctamente: 246 caracteres.
+2026-08-27 14:56:42,544 | INFO | Agentes.definicion_agente | Solicitud recibida. Texto: 3403 caracteres.
+2026-08-27 14:56:42,545 | INFO | Agentes.definicion_agente | Ejecutando modelo para generar definiciones.
+2026-08-27 14:56:43,552 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:56:43,555 | INFO | Agentes.definicion_agente | Glosario generado correctamente: 1334 caracteres.
+2026-08-27 15:21:42,990 | INFO | Agentes.definicion_agente | Solicitud recibida. Texto: 4384 caracteres.
+2026-08-27 15:21:42,991 | INFO | Agentes.definicion_agente | Ejecutando modelo para generar definiciones.
+2026-08-27 15:21:43,884 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:21:43,886 | INFO | Agentes.definicion_agente | Glosario generado correctamente: 986 caracteres.
+2026-08-27 15:48:21,694 | INFO | Agentes.definicion_agente | Solicitud recibida. Texto: 3363 caracteres.
+2026-08-27 15:48:21,695 | INFO | Agentes.definicion_agente | Ejecutando modelo para generar definiciones.
+2026-08-27 15:48:22,266 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:48:22,269 | INFO | Agentes.definicion_agente | Glosario generado correctamente: 16 caracteres.
+2026-08-27 16:03:41,253 | INFO | Agentes.definicion_agente | Solicitud recibida. Texto: 2887 caracteres.
+2026-08-27 16:03:41,254 | INFO | Agentes.definicion_agente | Ejecutando modelo para generar definiciones.
+2026-08-27 16:03:41,830 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:03:41,833 | INFO | Agentes.definicion_agente | Glosario generado correctamente: 218 caracteres.
+2026-08-27 16:31:35,853 | INFO | Agentes.definicion_agente | Solicitud recibida. Texto: 4776 caracteres.
+2026-08-27 16:31:35,854 | INFO | Agentes.definicion_agente | Ejecutando modelo para generar definiciones.
+2026-08-27 16:31:37,607 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:31:37,610 | INFO | Agentes.definicion_agente | Glosario generado correctamente: 1839 caracteres.
+2026-08-27 16:58:33,994 | INFO | Agentes.definicion_agente | Solicitud recibida. Texto: 3675 caracteres.
+2026-08-27 16:58:33,995 | INFO | Agentes.definicion_agente | Ejecutando modelo para generar definiciones.
+2026-08-27 16:58:34,380 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:58:34,383 | INFO | Agentes.definicion_agente | Glosario generado correctamente: 7 caracteres.
+2026-08-27 17:27:00,543 | INFO | Agentes.definicion_agente | Solicitud recibida. Texto: 2538 caracteres.
+2026-08-27 17:27:00,544 | INFO | Agentes.definicion_agente | Ejecutando modelo para generar definiciones.
+2026-08-27 17:27:01,771 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:27:01,774 | INFO | Agentes.definicion_agente | Glosario generado correctamente: 7 caracteres.
+2026-08-27 17:36:36,636 | INFO | Agentes.definicion_agente | Solicitud recibida. Texto: 794 caracteres.
+2026-08-27 17:36:36,636 | INFO | Agentes.definicion_agente | Ejecutando modelo para generar definiciones.
+2026-08-27 17:36:37,002 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:36:37,008 | INFO | Agentes.definicion_agente | Glosario generado correctamente: 7 caracteres.
+2026-08-27 18:02:11,251 | INFO | Agentes.definicion_agente | Solicitud recibida. Texto: 2026 caracteres.
+2026-08-27 18:02:11,252 | INFO | Agentes.definicion_agente | Ejecutando modelo para generar definiciones.
+2026-08-27 18:02:12,155 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:02:12,160 | INFO | Agentes.definicion_agente | Glosario generado correctamente: 786 caracteres.
+2026-08-27 18:35:41,772 | INFO | Agentes.definicion_agente | Solicitud recibida. Texto: 5284 caracteres.
+2026-08-27 18:35:41,773 | INFO | Agentes.definicion_agente | Ejecutando modelo para generar definiciones.
+2026-08-27 18:35:42,356 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:35:42,359 | INFO | Agentes.definicion_agente | Glosario generado correctamente: 7 caracteres.
+2026-08-27 19:01:57,691 | INFO | Agentes.definicion_agente | Solicitud recibida. Texto: 2442 caracteres.
+2026-08-27 19:01:57,693 | INFO | Agentes.definicion_agente | Ejecutando modelo para generar definiciones.
+2026-08-27 19:01:58,552 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 19:01:58,559 | INFO | Agentes.definicion_agente | Glosario generado correctamente: 728 caracteres.
+2026-08-27 19:17:58,758 | INFO | Agentes.definicion_agente | Solicitud recibida. Texto: 2537 caracteres.
+2026-08-27 19:17:58,759 | INFO | Agentes.definicion_agente | Ejecutando modelo para generar definiciones.
+2026-08-27 19:17:59,382 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 19:17:59,385 | INFO | Agentes.definicion_agente | Glosario generado correctamente: 240 caracteres.
+2026-08-27 19:40:24,354 | INFO | Agentes.definicion_agente | Solicitud recibida. Texto: 2309 caracteres.
+2026-08-27 19:40:24,355 | INFO | Agentes.definicion_agente | Ejecutando modelo para generar definiciones.
+2026-08-27 19:40:25,141 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 19:40:25,144 | INFO | Agentes.definicion_agente | Glosario generado correctamente: 608 caracteres.
+2026-08-28 11:10:09,557 | INFO | Agentes.definicion_agente | Iniciando agente A2A en puerto 8004.
+2026-08-28 11:21:38,170 | INFO | Agentes.definicion_agente | Solicitud recibida. Texto: 3442 caracteres.
+2026-08-28 11:21:38,170 | INFO | Agentes.definicion_agente | Ejecutando modelo para generar definiciones.
+2026-08-28 11:21:39,577 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 11:21:39,594 | INFO | Agentes.definicion_agente | Glosario generado correctamente: 1475 caracteres.
+2026-09-03 11:05:00,115 | INFO | Agentes.definicion_agente | Iniciando agente A2A en puerto 8004.

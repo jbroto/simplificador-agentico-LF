@@ -1,0 +1,1032 @@
+2026-08-27 10:59:35,456 | INFO | Agentes.agentes_critico.critico_sintactico | Iniciando agente A2A en puerto 8008.
+2026-08-27 10:59:59,429 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 2842 caracteres.
+2026-08-27 10:59:59,430 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 11:00:02,858 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-08-27 11:00:02,861 | ERROR | Agentes.agentes_critico.critico_sintactico | Error al ejecutar el modelo de crítica sintáctica.
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\PracticaFinal\Agentes\agentes_critico\critico_sintactico.py", line 150, in process
+    informe = await structured_llm.ainvoke(messages)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 3241, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5752, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 494, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1760, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1718, in agenerate
+    raise exceptions[0]
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2053, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_groq\chat_models.py", line 642, in _agenerate
+    response = await self.async_client.create(messages=message_dicts, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\resources\chat\completions.py", line 941, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1762, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1576, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.BadRequestError: Error code: 400 - {'error': {'message': "Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': ''}}
+2026-08-27 11:00:14,533 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 1659 caracteres.
+2026-08-27 11:00:14,534 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 11:00:17,300 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 11:00:17,353 | ERROR | Agentes.agentes_critico.critico_sintactico | Error al ejecutar el modelo de crítica sintáctica.
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\output_parsers\pydantic.py", line 28, in _parse_obj
+    return self.pydantic_object.model_validate(obj)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\pydantic\main.py", line 732, in model_validate
+    return cls.__pydantic_validator__.validate_python(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        obj,
+        ^^^^
+    ...<5 lines>...
+        by_name=by_name,
+        ^^^^^^^^^^^^^^^^
+    )
+    ^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for CriticReport
+conclusion
+  Field required [type=missing, input_value={'especialidad': 'sintact...ás, lo cambiaría."'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\PracticaFinal\Agentes\agentes_critico\critico_sintactico.py", line 150, in process
+    informe = await structured_llm.ainvoke(messages)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 3241, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\output_parsers\base.py", line 230, in ainvoke
+    return await self._acall_with_config(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 2155, in _acall_with_config
+    output: Output = await coro_with_context(coro, context)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\output_parsers\base.py", line 297, in aparse_result
+    return await run_in_executor(None, self.parse_result, result, partial=partial)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\config.py", line 667, in run_in_executor
+    return await asyncio.get_running_loop().run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Roaming\uv\python\cpython-3.13.0-windows-x86_64-none\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\config.py", line 658, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\output_parsers\pydantic.py", line 76, in parse_result
+    return self._parse_obj(json_object)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\output_parsers\pydantic.py", line 35, in _parse_obj
+    raise self._parser_exception(e, obj) from e
+langchain_core.exceptions.OutputParserException: Failed to parse CriticReport from completion {"especialidad": "sintactico", "estado": "necesita_simplificacion", "problemas": [{"elemento": "Marina se miró al espejo mientras se pintaba los labios de rojo, con la mano temblándole como si tuviera quince años y no cuarenta y uno.", "pauta_id": "G33", "problema": "Uso de gerundio \"temblándole\" que dificulta la comprensión de la acción.", "recomendacion": "Reemplazar el gerundio por una estructura simple, por ejemplo: \"con la mano que temblaba\"."}, {"elemento": "Llevaba veintitrés años pisando escenarios, tragándose promesas rotas y ese algo raro que nunca supo nombrar pero que la mantenía ahí, noche tras noche.", "pauta_id": "G33", "problema": "Gerundio \"tragándose\" que complica la lectura.", "recomendacion": "Cambiar a una oración simple: \"tragaba promesas rotas\"."}, {"elemento": "Marina se levantó despacio, alisándose el vestido con las manos.", "pauta_id": "G33", "problema": "Gerundio \"alisándose\" que interrumpe la fluidez.", "recomendacion": "Reescribir como: \"Marina se levantó despacio y alisó el vestido con las manos.\""}, {"elemento": "—Si hubiera sabido que esta iba a ser la última, habría elegido otra obra. Una que no me jodiera tanto por dentro.", "pauta_id": "G46", "problema": "Condicionales \"Si hubiera sabido\" y \"habría elegido\" que dificultan la comprensión.", "recomendacion": "Eliminar la condición: \"Sabía que esta iba a ser la última y elegí otra obra.\""}, {"elemento": "—Si hubiera sabido que esta iba a ser la última, habría elegido otra obra. Una que no me jodiera tanto por dentro.", "pauta_id": "G47", "problema": "Uso de subjuntivo \"no me jodiera\" que complica la oración.", "recomendacion": "Reformular a indicativo: \"una que no me jodía tanto por dentro.\""}, {"elemento": "—Si hubiera sabido que esta iba a ser la última, habría elegido otra obra. Una que no me jodiera tanto por dentro.", "pauta_id": "G35", "problema": "Frase negativa \"no me jodiera\" que va en contra de la recomendación de frases positivas.", "recomendacion": "Cambiar a: \"una que me afectaba mucho por dentro.\""}, {"elemento": "—Si pudiéramos volver atrás, ¿lo cambiarías?", "pauta_id": "G46", "problema": "Condicional \"Si pudiéramos\" y \"cambiarías\" que generan ambigüedad.", "recomendacion": "Simplificar: \"Si volviéramos atrás, lo cambiaría.\""}]}. Got: 1 validation error for CriticReport
+conclusion
+  Field required [type=missing, input_value={'especialidad': 'sintact...ás, lo cambiaría."'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE 
+2026-08-27 11:01:18,256 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 1656 caracteres.
+2026-08-27 11:01:18,256 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 11:01:18,363 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-27 11:01:18,365 | INFO | groq._base_client | Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-08-27 11:01:24,269 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 11:01:24,275 | ERROR | Agentes.agentes_critico.critico_sintactico | Error al ejecutar el modelo de crítica sintáctica.
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\output_parsers\pydantic.py", line 28, in _parse_obj
+    return self.pydantic_object.model_validate(obj)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\pydantic\main.py", line 732, in model_validate
+    return cls.__pydantic_validator__.validate_python(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        obj,
+        ^^^^
+    ...<5 lines>...
+        by_name=by_name,
+        ^^^^^^^^^^^^^^^^
+    )
+    ^
+pydantic_core._pydantic_core.ValidationError: 4 validation errors for CriticReport
+especialidad
+  Field required [type=missing, input_value={'description': '', 'prop...l'], 'type': 'string'}}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+estado
+  Field required [type=missing, input_value={'description': '', 'prop...l'], 'type': 'string'}}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+problemas
+  Field required [type=missing, input_value={'description': '', 'prop...l'], 'type': 'string'}}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+conclusion
+  Field required [type=missing, input_value={'description': '', 'prop...l'], 'type': 'string'}}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\PracticaFinal\Agentes\agentes_critico\critico_sintactico.py", line 150, in process
+    informe = await structured_llm.ainvoke(messages)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 3241, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\output_parsers\base.py", line 230, in ainvoke
+    return await self._acall_with_config(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 2155, in _acall_with_config
+    output: Output = await coro_with_context(coro, context)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\output_parsers\base.py", line 297, in aparse_result
+    return await run_in_executor(None, self.parse_result, result, partial=partial)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\config.py", line 667, in run_in_executor
+    return await asyncio.get_running_loop().run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Roaming\uv\python\cpython-3.13.0-windows-x86_64-none\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\config.py", line 658, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\output_parsers\pydantic.py", line 76, in parse_result
+    return self._parse_obj(json_object)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\output_parsers\pydantic.py", line 35, in _parse_obj
+    raise self._parser_exception(e, obj) from e
+langchain_core.exceptions.OutputParserException: Failed to parse CriticReport from completion {"description": "", "properties": {"conclusion": {"type": "string"}, "especialidad": {"enum": ["lexico", "sintactico", "estructural"], "type": "string"}}}. Got: 4 validation errors for CriticReport
+especialidad
+  Field required [type=missing, input_value={'description': '', 'prop...l'], 'type': 'string'}}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+estado
+  Field required [type=missing, input_value={'description': '', 'prop...l'], 'type': 'string'}}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+problemas
+  Field required [type=missing, input_value={'description': '', 'prop...l'], 'type': 'string'}}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+conclusion
+  Field required [type=missing, input_value={'description': '', 'prop...l'], 'type': 'string'}}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE 
+2026-08-27 11:02:21,458 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 1484 caracteres.
+2026-08-27 11:02:21,459 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 11:02:21,580 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-27 11:02:21,581 | INFO | groq._base_client | Retrying request to /openai/v1/chat/completions in 19.000000 seconds
+2026-08-27 11:02:43,831 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-08-27 11:02:43,833 | ERROR | Agentes.agentes_critico.critico_sintactico | Error al ejecutar el modelo de crítica sintáctica.
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\PracticaFinal\Agentes\agentes_critico\critico_sintactico.py", line 150, in process
+    informe = await structured_llm.ainvoke(messages)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 3241, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5752, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 494, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1760, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1718, in agenerate
+    raise exceptions[0]
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2053, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_groq\chat_models.py", line 642, in _agenerate
+    response = await self.async_client.create(messages=message_dicts, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\resources\chat\completions.py", line 941, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1762, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1576, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.BadRequestError: Error code: 400 - {'error': {'message': "Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': ''}}
+2026-08-27 11:07:51,108 | INFO | Agentes.agentes_critico.critico_sintactico | Iniciando agente A2A en puerto 8008.
+2026-08-27 11:08:02,107 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 2842 caracteres.
+2026-08-27 11:08:02,108 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 11:08:02,399 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-08-27 11:08:02,402 | ERROR | Agentes.agentes_critico.critico_sintactico | Error al ejecutar el modelo de crítica sintáctica.
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\PracticaFinal\Agentes\agentes_critico\critico_sintactico.py", line 150, in process
+    informe = await structured_llm.ainvoke(messages)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 3241, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5752, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 494, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1760, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1718, in agenerate
+    raise exceptions[0]
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2053, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_groq\chat_models.py", line 642, in _agenerate
+    response = await self.async_client.create(messages=message_dicts, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\resources\chat\completions.py", line 941, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1762, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1576, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.BadRequestError: Error code: 400 - {'error': {'message': "'messages' must contain the word 'json' in some form, to use 'response_format' of type 'json_object'.", 'type': 'invalid_request_error'}}
+2026-08-27 11:08:08,904 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 1659 caracteres.
+2026-08-27 11:08:08,904 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 11:08:09,096 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-08-27 11:08:09,098 | ERROR | Agentes.agentes_critico.critico_sintactico | Error al ejecutar el modelo de crítica sintáctica.
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\PracticaFinal\Agentes\agentes_critico\critico_sintactico.py", line 150, in process
+    informe = await structured_llm.ainvoke(messages)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 3241, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5752, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 494, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1760, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1718, in agenerate
+    raise exceptions[0]
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2053, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_groq\chat_models.py", line 642, in _agenerate
+    response = await self.async_client.create(messages=message_dicts, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\resources\chat\completions.py", line 941, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1762, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1576, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.BadRequestError: Error code: 400 - {'error': {'message': "'messages' must contain the word 'json' in some form, to use 'response_format' of type 'json_object'.", 'type': 'invalid_request_error'}}
+2026-08-27 11:09:55,971 | INFO | Agentes.agentes_critico.critico_sintactico | Iniciando agente A2A en puerto 8008.
+2026-08-27 11:10:10,140 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 2842 caracteres.
+2026-08-27 11:10:10,140 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 11:10:13,577 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-08-27 11:10:13,579 | ERROR | Agentes.agentes_critico.critico_sintactico | Error al ejecutar el modelo de crítica sintáctica.
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\PracticaFinal\Agentes\agentes_critico\critico_sintactico.py", line 150, in process
+    informe = await structured_llm.ainvoke(messages)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 3241, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5752, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 494, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1760, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1718, in agenerate
+    raise exceptions[0]
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2053, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_groq\chat_models.py", line 642, in _agenerate
+    response = await self.async_client.create(messages=message_dicts, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\resources\chat\completions.py", line 941, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1762, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1576, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.BadRequestError: Error code: 400 - {'error': {'message': "Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': ''}}
+2026-08-27 11:14:44,233 | INFO | Agentes.agentes_critico.critico_sintactico | Iniciando agente A2A en puerto 8008.
+2026-08-27 11:14:55,754 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 2842 caracteres.
+2026-08-27 11:14:55,755 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 11:14:58,915 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-08-27 11:14:58,917 | ERROR | Agentes.agentes_critico.critico_sintactico | Error al ejecutar el modelo de crítica sintáctica.
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\PracticaFinal\Agentes\agentes_critico\critico_sintactico.py", line 134, in process
+    informe = await structured_llm.ainvoke(messages)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 3241, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5752, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 494, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1760, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1718, in agenerate
+    raise exceptions[0]
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2053, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_groq\chat_models.py", line 642, in _agenerate
+    response = await self.async_client.create(messages=message_dicts, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\resources\chat\completions.py", line 941, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1762, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1576, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.BadRequestError: Error code: 400 - {'error': {'message': "Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': ''}}
+2026-08-27 11:15:12,353 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 1659 caracteres.
+2026-08-27 11:15:12,354 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 11:15:15,151 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-08-27 11:15:15,153 | ERROR | Agentes.agentes_critico.critico_sintactico | Error al ejecutar el modelo de crítica sintáctica.
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\PracticaFinal\Agentes\agentes_critico\critico_sintactico.py", line 134, in process
+    informe = await structured_llm.ainvoke(messages)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 3241, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5752, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 494, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1760, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1718, in agenerate
+    raise exceptions[0]
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2053, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_groq\chat_models.py", line 642, in _agenerate
+    response = await self.async_client.create(messages=message_dicts, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\resources\chat\completions.py", line 941, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1762, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1576, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.BadRequestError: Error code: 400 - {'error': {'message': "Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': ''}}
+2026-08-27 11:28:05,884 | INFO | Agentes.agentes_critico.critico_sintactico | Iniciando agente A2A en puerto 8008.
+2026-08-27 11:28:18,738 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 2842 caracteres.
+2026-08-27 11:28:18,738 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 11:28:22,309 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-08-27 11:28:22,311 | ERROR | Agentes.agentes_critico.critico_sintactico | Error al ejecutar el modelo de crítica sintáctica.
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\PracticaFinal\Agentes\agentes_critico\critico_sintactico.py", line 135, in process
+    informe_llm = await structured_llm.ainvoke(messages)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 3241, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5752, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 494, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1760, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1718, in agenerate
+    raise exceptions[0]
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2053, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_groq\chat_models.py", line 642, in _agenerate
+    response = await self.async_client.create(messages=message_dicts, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\resources\chat\completions.py", line 941, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1762, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1576, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.BadRequestError: Error code: 400 - {'error': {'message': 'Tool choice is required, but model did not call a tool', 'type': 'invalid_request_error', 'code': 'tool_use_failed', 'failed_generation': ''}}
+2026-08-27 11:30:52,504 | INFO | Agentes.agentes_critico.critico_sintactico | Iniciando agente A2A en puerto 8008.
+2026-08-27 11:31:03,429 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 2842 caracteres.
+2026-08-27 11:31:03,430 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 11:31:08,295 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-08-27 11:31:08,298 | ERROR | Agentes.agentes_critico.critico_sintactico | Error al ejecutar el modelo de crítica sintáctica.
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\PracticaFinal\Agentes\agentes_critico\critico_sintactico.py", line 135, in process
+    informe_llm = await structured_llm.ainvoke(messages)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 3241, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5752, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 494, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1760, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1718, in agenerate
+    raise exceptions[0]
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2053, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_groq\chat_models.py", line 642, in _agenerate
+    response = await self.async_client.create(messages=message_dicts, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\resources\chat\completions.py", line 941, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1762, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1576, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.BadRequestError: Error code: 400 - {'error': {'message': "Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': ''}}
+2026-08-27 11:35:19,036 | INFO | Agentes.agentes_critico.critico_sintactico | Iniciando agente A2A en puerto 8008.
+2026-08-27 11:35:30,478 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 2842 caracteres.
+2026-08-27 11:35:30,479 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 11:35:35,058 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-08-27 11:35:35,060 | ERROR | Agentes.agentes_critico.critico_sintactico | Tipo de excepción: <class 'groq.BadRequestError'>
+2026-08-27 11:35:35,061 | ERROR | Agentes.agentes_critico.critico_sintactico | Contenido completo: Error code: 400 - {'error': {'message': "Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': ''}}
+2026-08-27 11:35:35,061 | ERROR | Agentes.agentes_critico.critico_sintactico | Status: 400
+2026-08-27 11:35:35,062 | ERROR | Agentes.agentes_critico.critico_sintactico | Body crudo: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-08-27 11:42:49,393 | INFO | Agentes.agentes_critico.critico_sintactico | Iniciando agente A2A en puerto 8008.
+2026-08-27 11:43:01,121 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 2842 caracteres.
+2026-08-27 11:43:01,122 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 11:43:05,923 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-08-27 11:43:05,925 | ERROR | Agentes.agentes_critico.critico_sintactico | Tipo de excepción: <class 'groq.BadRequestError'>
+2026-08-27 11:43:05,926 | ERROR | Agentes.agentes_critico.critico_sintactico | Contenido completo: Error code: 400 - {'error': {'message': "Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': ''}}
+2026-08-27 11:43:05,926 | ERROR | Agentes.agentes_critico.critico_sintactico | Status: 400
+2026-08-27 11:43:05,926 | ERROR | Agentes.agentes_critico.critico_sintactico | Body crudo: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-08-27 11:47:07,331 | INFO | Agentes.agentes_critico.critico_sintactico | Iniciando agente A2A en puerto 8008.
+2026-08-27 11:47:17,680 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 2842 caracteres.
+2026-08-27 11:47:17,681 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 11:47:22,950 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 11:47:22,978 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=14
+2026-08-27 11:49:40,844 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 1659 caracteres.
+2026-08-27 11:49:40,845 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 11:49:43,036 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 11:49:43,041 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=4
+2026-08-27 12:00:02,523 | INFO | Agentes.agentes_critico.critico_sintactico | Iniciando agente A2A en puerto 8008.
+2026-08-27 12:00:13,719 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 2842 caracteres.
+2026-08-27 12:00:13,720 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 12:00:18,841 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 12:00:18,866 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=14
+2026-08-27 12:16:55,072 | INFO | Agentes.agentes_critico.critico_sintactico | Iniciando agente A2A en puerto 8008.
+2026-08-27 12:17:13,612 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 2842 caracteres.
+2026-08-27 12:17:13,613 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 12:17:17,423 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 12:17:17,446 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=27
+2026-08-27 12:22:44,734 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 3073 caracteres.
+2026-08-27 12:22:44,735 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 12:22:48,074 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 12:22:48,079 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=36
+2026-08-27 12:26:14,746 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 1659 caracteres.
+2026-08-27 12:26:14,747 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 12:26:17,481 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 12:26:17,486 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=25
+2026-08-27 12:30:44,448 | INFO | Agentes.agentes_critico.critico_sintactico | Iniciando agente A2A en puerto 8008.
+2026-08-27 12:30:55,900 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 2842 caracteres.
+2026-08-27 12:30:55,900 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 12:31:00,006 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 12:31:00,033 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=27
+2026-08-27 12:36:30,048 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 3073 caracteres.
+2026-08-27 12:36:30,049 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 12:36:34,244 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 12:36:34,250 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=36
+2026-08-27 12:39:58,225 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 1659 caracteres.
+2026-08-27 12:39:58,226 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 12:39:58,348 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-27 12:39:58,350 | INFO | groq._base_client | Retrying request to /openai/v1/chat/completions in 7.000000 seconds
+2026-08-27 12:40:08,364 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 12:40:08,369 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=25
+2026-08-27 12:45:10,060 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 1764 caracteres.
+2026-08-27 12:45:10,060 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 12:45:12,506 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 12:45:12,516 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=17
+2026-08-27 12:56:39,715 | INFO | Agentes.agentes_critico.critico_sintactico | Iniciando agente A2A en puerto 8008.
+2026-08-27 12:56:51,807 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 2842 caracteres.
+2026-08-27 12:56:51,808 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 12:56:55,887 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 12:56:55,912 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=27
+2026-08-27 13:00:43,871 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 1659 caracteres.
+2026-08-27 13:00:43,872 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 13:00:43,995 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-27 13:00:43,997 | INFO | groq._base_client | Retrying request to /openai/v1/chat/completions in 14.000000 seconds
+2026-08-27 13:01:00,828 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:01:00,834 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=25
+2026-08-27 13:06:33,747 | INFO | Agentes.agentes_critico.critico_sintactico | Iniciando agente A2A en puerto 8008.
+2026-08-27 13:06:45,030 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 2842 caracteres.
+2026-08-27 13:06:45,030 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 13:06:48,998 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:06:49,040 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=27
+2026-08-27 13:14:03,499 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 3390 caracteres.
+2026-08-27 13:14:03,500 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 13:14:04,793 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:14:04,795 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=9
+2026-08-27 13:17:14,455 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 1659 caracteres.
+2026-08-27 13:17:14,456 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 13:17:17,239 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:17:17,242 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=25
+2026-08-27 13:23:57,663 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 1514 caracteres.
+2026-08-27 13:23:57,664 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 13:23:59,399 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:23:59,402 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=12
+2026-08-27 13:29:14,616 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 1452 caracteres.
+2026-08-27 13:29:14,616 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 13:29:16,998 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:29:17,001 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=36
+2026-08-27 13:33:26,439 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 1432 caracteres.
+2026-08-27 13:33:26,440 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 13:33:28,395 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:33:28,398 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=20
+2026-08-27 13:37:37,373 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 1432 caracteres.
+2026-08-27 13:37:37,374 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 13:37:39,174 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:37:39,176 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=20
+2026-08-27 13:40:48,859 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 1656 caracteres.
+2026-08-27 13:40:48,860 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 13:40:53,486 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:40:53,490 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=24
+2026-08-27 13:48:14,185 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 1570 caracteres.
+2026-08-27 13:48:14,186 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 13:48:15,721 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:48:15,723 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=11
+2026-08-27 13:54:30,666 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 1594 caracteres.
+2026-08-27 13:54:30,667 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 13:54:32,121 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:54:32,124 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=18
+2026-08-27 13:59:43,376 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 1566 caracteres.
+2026-08-27 13:59:43,377 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 13:59:45,139 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:59:45,142 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=10
+2026-08-27 14:04:57,806 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 1569 caracteres.
+2026-08-27 14:04:57,807 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 14:04:58,855 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:04:58,858 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=9
+2026-08-27 14:08:09,452 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 1484 caracteres.
+2026-08-27 14:08:09,453 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 14:08:12,511 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:08:12,513 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=26
+2026-08-27 14:15:11,837 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 1623 caracteres.
+2026-08-27 14:15:11,838 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 14:15:12,336 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:15:12,339 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=adecuado, problemas=0
+2026-08-27 14:18:20,397 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 1156 caracteres.
+2026-08-27 14:18:20,397 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 14:18:22,112 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:18:22,115 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=15
+2026-08-27 14:24:36,188 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 1217 caracteres.
+2026-08-27 14:24:36,189 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 14:24:37,152 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:24:37,154 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=10
+2026-08-27 14:28:46,560 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 1255 caracteres.
+2026-08-27 14:28:46,560 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 14:28:47,907 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:28:47,909 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=12
+2026-08-27 14:32:56,674 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 1286 caracteres.
+2026-08-27 14:32:56,675 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 14:32:57,298 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:32:57,300 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=adecuado, problemas=0
+2026-08-27 14:36:05,286 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 1591 caracteres.
+2026-08-27 14:36:05,286 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 14:36:10,244 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:36:10,246 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=27
+2026-08-27 14:43:08,098 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 1555 caracteres.
+2026-08-27 14:43:08,098 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 14:43:08,651 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:43:08,653 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=adecuado, problemas=0
+2026-08-27 14:46:17,619 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 3105 caracteres.
+2026-08-27 14:46:17,619 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 14:46:21,572 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:46:21,575 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=22
+2026-08-27 14:53:35,136 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 3403 caracteres.
+2026-08-27 14:53:35,137 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 14:53:35,703 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:53:35,707 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=adecuado, problemas=0
+2026-08-27 14:56:48,344 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 3217 caracteres.
+2026-08-27 14:56:48,345 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 14:56:53,237 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:56:53,242 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=27
+2026-08-27 15:04:15,527 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 3277 caracteres.
+2026-08-27 15:04:15,528 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 15:04:16,108 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:04:16,112 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=adecuado, problemas=0
+2026-08-27 15:08:38,927 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 3535 caracteres.
+2026-08-27 15:08:38,928 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 15:08:39,595 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:08:39,599 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=adecuado, problemas=0
+2026-08-27 15:13:05,842 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 4065 caracteres.
+2026-08-27 15:13:05,843 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 15:13:07,477 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:13:07,481 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=12
+2026-08-27 15:18:31,626 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 4384 caracteres.
+2026-08-27 15:18:31,626 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 15:18:36,083 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:18:36,088 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=61
+2026-08-27 15:21:48,776 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 3469 caracteres.
+2026-08-27 15:21:48,777 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 15:21:53,716 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:21:53,720 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=23
+2026-08-27 15:25:07,274 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 3071 caracteres.
+2026-08-27 15:25:07,275 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 15:25:12,171 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:25:12,181 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=23
+2026-08-27 15:32:55,044 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 3036 caracteres.
+2026-08-27 15:32:55,045 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 15:32:56,559 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:32:56,563 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=9
+2026-08-27 15:39:26,259 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 3266 caracteres.
+2026-08-27 15:39:26,259 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 15:39:27,425 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:39:27,429 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=adecuado, problemas=0
+2026-08-27 15:45:15,155 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 3363 caracteres.
+2026-08-27 15:45:15,155 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 15:45:16,410 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:45:16,419 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=8
+2026-08-27 15:48:26,892 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 2988 caracteres.
+2026-08-27 15:48:26,893 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 15:48:32,105 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:48:32,110 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=28
+2026-08-27 15:56:21,783 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 2731 caracteres.
+2026-08-27 15:56:21,784 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 15:56:23,961 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:56:23,966 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=24
+2026-08-27 16:00:35,816 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 2887 caracteres.
+2026-08-27 16:00:35,817 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 16:00:36,688 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:00:36,692 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=adecuado, problemas=0
+2026-08-27 16:03:46,760 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 3154 caracteres.
+2026-08-27 16:03:46,761 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 16:03:50,430 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:03:50,434 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=32
+2026-08-27 16:08:51,902 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 3926 caracteres.
+2026-08-27 16:08:51,903 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 16:08:53,446 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:08:53,451 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=9
+2026-08-27 16:16:31,686 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 4097 caracteres.
+2026-08-27 16:16:31,687 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 16:16:32,524 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:16:32,529 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=4
+2026-08-27 16:23:42,784 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 4120 caracteres.
+2026-08-27 16:23:42,784 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 16:23:43,815 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:23:43,819 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=adecuado, problemas=0
+2026-08-27 16:28:29,971 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 4776 caracteres.
+2026-08-27 16:28:29,972 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 16:28:30,845 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:28:30,849 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=adecuado, problemas=0
+2026-08-27 16:31:42,476 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 3010 caracteres.
+2026-08-27 16:31:42,477 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 16:31:46,474 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:31:46,479 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=31
+2026-08-27 16:39:11,524 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 3579 caracteres.
+2026-08-27 16:39:11,525 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 16:39:12,580 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:39:12,584 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=5
+2026-08-27 16:44:32,832 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 3599 caracteres.
+2026-08-27 16:44:32,832 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 16:44:33,728 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:44:33,732 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=4
+2026-08-27 16:50:04,914 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 3646 caracteres.
+2026-08-27 16:50:04,914 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 16:50:05,810 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:50:05,814 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=4
+2026-08-27 16:55:21,960 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 3675 caracteres.
+2026-08-27 16:55:21,960 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 16:55:23,151 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:55:23,156 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=6
+2026-08-27 16:58:40,683 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 2322 caracteres.
+2026-08-27 16:58:40,684 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 16:58:44,837 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:58:44,843 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=19
+2026-08-27 17:06:05,703 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 2603 caracteres.
+2026-08-27 17:06:05,705 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 17:06:07,420 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:06:07,429 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=14
+2026-08-27 17:11:26,517 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 2393 caracteres.
+2026-08-27 17:11:26,518 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 17:11:29,204 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:11:29,221 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=35
+2026-08-27 17:17:02,425 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 2119 caracteres.
+2026-08-27 17:17:02,427 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 17:17:03,346 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:17:03,351 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=6
+2026-08-27 17:23:51,248 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 2538 caracteres.
+2026-08-27 17:23:51,249 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 17:23:53,149 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:23:53,160 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=8
+2026-08-27 17:27:08,083 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 777 caracteres.
+2026-08-27 17:27:08,084 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 17:27:09,758 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:27:09,769 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=10
+2026-08-27 17:33:29,302 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 794 caracteres.
+2026-08-27 17:33:29,303 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 17:33:29,873 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:33:29,882 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=adecuado, problemas=0
+2026-08-27 17:36:44,247 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 1560 caracteres.
+2026-08-27 17:36:44,249 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 17:36:47,364 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:36:47,375 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=24
+2026-08-27 17:43:48,285 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 1814 caracteres.
+2026-08-27 17:43:48,286 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 17:43:48,887 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:43:48,896 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=adecuado, problemas=0
+2026-08-27 17:48:05,194 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 1814 caracteres.
+2026-08-27 17:48:05,196 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 17:48:06,628 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:48:06,638 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=10
+2026-08-27 17:52:22,383 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 1797 caracteres.
+2026-08-27 17:52:22,384 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 17:52:24,172 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:52:24,182 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=18
+2026-08-27 17:59:02,323 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 2026 caracteres.
+2026-08-27 17:59:02,324 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 17:59:03,737 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:59:03,742 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=14
+2026-08-27 18:02:18,569 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 3150 caracteres.
+2026-08-27 18:02:18,570 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 18:02:22,498 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:02:22,504 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=34
+2026-08-27 18:09:48,138 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 5226 caracteres.
+2026-08-27 18:09:48,139 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 18:09:53,166 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:09:53,171 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=64
+2026-08-27 18:17:35,547 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 5257 caracteres.
+2026-08-27 18:17:35,548 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 18:17:37,657 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:17:37,663 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=23
+2026-08-27 18:25:02,065 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 5283 caracteres.
+2026-08-27 18:25:02,066 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 18:25:05,764 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:25:05,770 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=49
+2026-08-27 18:32:28,333 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 5284 caracteres.
+2026-08-27 18:32:28,334 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 18:32:32,339 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:32:32,350 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=45
+2026-08-27 18:35:49,517 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 2852 caracteres.
+2026-08-27 18:35:49,518 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 18:35:54,170 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:35:54,180 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=17
+2026-08-27 18:43:50,135 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 2239 caracteres.
+2026-08-27 18:43:50,136 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 18:43:51,667 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:43:51,672 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=13
+2026-08-27 18:49:09,535 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 2420 caracteres.
+2026-08-27 18:49:09,536 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 18:49:11,262 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:49:11,271 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=18
+2026-08-27 18:54:29,993 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 2459 caracteres.
+2026-08-27 18:54:29,995 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 18:54:32,086 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:54:32,096 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=28
+2026-08-27 18:58:48,306 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 2442 caracteres.
+2026-08-27 18:58:48,307 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 18:58:51,262 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:58:51,271 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=31
+2026-08-27 19:02:05,741 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 1974 caracteres.
+2026-08-27 19:02:05,742 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 19:02:09,101 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 19:02:09,112 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=20
+2026-08-27 19:09:17,156 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 2672 caracteres.
+2026-08-27 19:09:17,157 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 19:09:17,685 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 19:09:17,689 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=adecuado, problemas=0
+2026-08-27 19:14:51,628 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 2537 caracteres.
+2026-08-27 19:14:51,629 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 19:14:52,529 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 19:14:52,540 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=adecuado, problemas=0
+2026-08-27 19:18:05,755 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 1661 caracteres.
+2026-08-27 19:18:05,756 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 19:18:10,133 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 19:18:10,139 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=15
+2026-08-27 19:25:31,204 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 2054 caracteres.
+2026-08-27 19:25:31,206 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 19:25:33,636 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 19:25:33,646 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=23
+2026-08-27 19:30:52,116 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 2740 caracteres.
+2026-08-27 19:30:52,118 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 19:30:52,716 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 19:30:52,721 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=2
+2026-08-27 19:37:17,480 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 2309 caracteres.
+2026-08-27 19:37:17,482 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-27 19:37:18,462 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 19:37:18,471 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=adecuado, problemas=0
+2026-08-28 11:10:09,556 | INFO | Agentes.agentes_critico.critico_sintactico | Iniciando agente A2A en puerto 8008.
+2026-08-28 11:10:28,511 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 3469 caracteres.
+2026-08-28 11:10:28,512 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-28 11:10:33,568 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 11:10:33,618 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=necesita_simplificacion, problemas=23
+2026-08-28 11:18:30,787 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 3442 caracteres.
+2026-08-28 11:18:30,788 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-08-28 11:18:31,582 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 11:18:31,585 | INFO | Agentes.agentes_critico.critico_sintactico | Informe sintáctico generado: estado=adecuado, problemas=0
+2026-09-03 11:05:00,118 | INFO | Agentes.agentes_critico.critico_sintactico | Iniciando agente A2A en puerto 8008.
+2026-09-03 11:07:46,015 | INFO | Agentes.agentes_critico.critico_sintactico | Solicitud recibida. Texto: 30 caracteres.
+2026-09-03 11:07:46,016 | INFO | Agentes.agentes_critico.critico_sintactico | Ejecutando modelo de crítica sintáctica.
+2026-09-03 11:07:46,883 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-09-03 11:07:46,884 | ERROR | Agentes.agentes_critico.critico_sintactico | Tipo de excepción: <class 'groq.AuthenticationError'>
+2026-09-03 11:07:46,885 | ERROR | Agentes.agentes_critico.critico_sintactico | Contenido completo: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'expired_api_key'}}
+2026-09-03 11:07:46,885 | ERROR | Agentes.agentes_critico.critico_sintactico | Status: 401
+2026-09-03 11:07:46,885 | ERROR | Agentes.agentes_critico.critico_sintactico | Body crudo: {"error":{"message":"Invalid API Key","type":"invalid_request_error","code":"expired_api_key"}}
+

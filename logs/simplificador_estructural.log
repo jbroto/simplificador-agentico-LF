@@ -1,0 +1,1982 @@
+2026-08-27 10:59:35,400 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Iniciando agente A2A en puerto 8006.
+2026-08-27 11:07:51,110 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Iniciando agente A2A en puerto 8006.
+2026-08-27 11:09:55,948 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Iniciando agente A2A en puerto 8006.
+2026-08-27 11:14:44,222 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Iniciando agente A2A en puerto 8006.
+2026-08-27 11:28:05,797 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Iniciando agente A2A en puerto 8006.
+2026-08-27 11:30:52,441 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Iniciando agente A2A en puerto 8006.
+2026-08-27 11:35:18,997 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Iniciando agente A2A en puerto 8006.
+2026-08-27 11:42:49,362 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Iniciando agente A2A en puerto 8006.
+2026-08-27 11:47:07,268 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Iniciando agente A2A en puerto 8006.
+2026-08-27 12:00:02,316 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Iniciando agente A2A en puerto 8006.
+2026-08-27 12:16:55,081 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Iniciando agente A2A en puerto 8006.
+2026-08-27 12:30:44,388 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Iniciando agente A2A en puerto 8006.
+2026-08-27 12:56:39,718 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Iniciando agente A2A en puerto 8006.
+2026-08-27 13:06:33,696 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Iniciando agente A2A en puerto 8006.
+2026-08-27 13:12:58,587 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Solicitud recibida. Texto: 3376 caracteres. Informe crítico: sí
+2026-08-27 13:12:58,587 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | === INFORME DEL CRÍTICO ESTRUCTURAL ===
+ESTRUCTURAL ===
+{
+  "especialidad": "estructural",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "El Sábado Ramblero centrará el 18 de febrero, tres años después, los actos del Carnaval más concurrido de la Comunidad Valenciana, como ha explicado este viernes el concejal de Fiestas, Manuel Jiménez.",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "“Si en 2020, antes que nos azotara la pandemia, el Sábado Ramblero ya se había convertido en un auténtico referente, cómo será el de este año cuando tenemos ganas de disfrutar y pasarlo bien, después de un paréntesis de tres años”, ha destacado el edil.",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "“Si en 2020, antes que nos azotara la pandemia, el Sábado Ramblero ya se había convertido en un auténtico referente, cómo será el de este año cuando tenemos ganas de disfrutar y pasarlo bien, después de un paréntesis de tres años”, ha destacado el edil.",
+      "pauta_id": "G44"
+    },
+    {
+      "elemento": "El Infantil incluye talleres infantiles -pintacaras, dulces personajes y antifaces de Carnaval-, un photocall familiar y una actuación infantil con el espectáculo “Marcha Pirata”.",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "El Infantil incluye talleres infantiles -pintacaras, dulces personajes y antifaces de Carnaval-, un photocall familiar y una actuación infantil con el espectáculo “Marcha Pirata”.",
+      "pauta_id": "G43"
+    },
+    {
+      "elemento": "En el primero de ellos se podrá escuchar música electrónica a cargo de Pakito DJ, Adri Grajams -como se le conoce en ese ámbito- e Iván.",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "En el del Portal de Elche se podrá escuchar a “La Mundial Orquesta Show”.",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "La Mesa de Carnaval La Plaza del Carmen, en pleno Casco Antiguo, se convertirá en el epicentro de los actos organizados por la Mesa de Carnaval, conocida como \"La Meka\".",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "La sucesión de actos se trasladará el 22 de febrero -Miércoles de Ceniza- al Panteón de Quijano.",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "Allí, a partir de las 20 horas, se representará el Velatorio de la Sardina. A la conclusión, en torno a las 21 horas, partirá el Desfile de la Sardina hacia la Plaza del Carmen, donde se hará la “Quema de la Sardina”, antes del Concierto de Carnaval.",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "Los juegos populares previstos para el domingo 26 en la Plaza de Castellón -conocida como Les Palmeretes- pondrán el punto final a las celebraciones del Carnaval 2023 en Alicante.",
+      "pauta_id": "G22"
+    }
+  ],
+  "conclusion": "La estructura del texto necesita simplificación debido a la presencia de signos de puntuación no recomendados, uso de mayúsculas innecesarias y falta de organización en listas y diálogos."
+}
+
+
+2026-08-27 13:12:58,588 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Se ha recibido un informe del agente Crítico.
+2026-08-27 13:12:58,588 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Ejecutando modelo de simplificación estructural.
+2026-08-27 13:13:01,664 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:13:01,674 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Resultado generado correctamente: 3390 caracteres.
+2026-08-27 13:22:54,606 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Solicitud recibida. Texto: 1525 caracteres. Informe crítico: sí
+2026-08-27 13:22:54,606 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | === INFORME DEL CRÍTICO ESTRUCTURAL ===
+ESTRUCTURAL ===
+{
+  "especialidad": "estructural",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "Fragmento: '—¿Lista? Quedan cinco minutos —soltó, y había cierto tono en su voz que ella conocía demasiado bien.'",
+      "pauta_id": "G44"
+    },
+    {
+      "elemento": "Fragmento: '—Si hubiera sabido que esta iba a ser la última, habría elegido otra obra. Una que no me jodiera tanto por dentro.'",
+      "pauta_id": "G44"
+    },
+    {
+      "elemento": "Fragmento: '—Mira, después de treinta y dos funciones cualquiera diría que ya lo controlamos todo, pero tú y yo sabemos que cada noche es un mundo distinto.'",
+      "pauta_id": "G44"
+    },
+    {
+      "elemento": "Fragmento: '—Si pudiéramos volver atrás, ¿lo cambiarías? —preguntó en voz baja.'",
+      "pauta_id": "G44"
+    },
+    {
+      "elemento": "Fragmento: '—Ni una sola cosa —dijo él, negando con la cabeza—. Este momento, aquí contigo, vale más que todo lo que pude haber imaginado alguna vez.'",
+      "pauta_id": "G44"
+    },
+    {
+      "elemento": "Fragmento: 'Llevaba veintitrés años pisando escenarios, tragándose promesas rotas y ese algo raro que nunca supo nombrar pero que la mantenía ahí, noche tras noche.'",
+      "pauta_id": "G23"
+    },
+    {
+      "elemento": "Fragmento: 'Marina se miró al espejo mientras se pintaba los labios de rojo, con la mano temblándole como si tuviera quince años y no cuarenta y uno.'",
+      "pauta_id": "G22"
+    }
+  ],
+  "conclusion": "El texto presenta problemas estructurales significativos que impiden su lectura fácil, principalmente por el uso de diálogos en estilo narrativo en lugar de teatral, la presencia de signos de puntuación no recomendados (punto y coma) y la falta de organización en viñetas para las listas implícitas."
+}
+
+
+2026-08-27 13:22:54,607 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Se ha recibido un informe del agente Crítico.
+2026-08-27 13:22:54,607 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Ejecutando modelo de simplificación estructural.
+2026-08-27 13:22:55,888 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:22:55,889 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Resultado generado correctamente: 1514 caracteres.
+2026-08-27 13:47:10,938 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Solicitud recibida. Texto: 1593 caracteres. Informe crítico: sí
+2026-08-27 13:47:10,938 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | === INFORME DEL CRÍTICO ESTRUCTURAL ===
+ESTRUCTURAL ===
+{
+  "especialidad": "estructural",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "\u000faltima frase: 'Si tan solo hubieran sabido que postergar las decisiones dif\u000edciles solo exacerbar\u000eda el desastre.'",
+      "pauta_id": "G23"
+    },
+    {
+      "elemento": "P\u000e1rrafo inicial: 'Era 17/09/2019, lo recordaba porque ese mismo d\u000eda, hac\u000eda quince a\u000fios, hab\u000eda debutado... Pero volvamos al ensayo: Clara hab\u000eda irrumpido...'",
+      "pauta_id": "G40"
+    },
+    {
+      "elemento": "P\u000e1rrafo final: 'Pero eso hab\u000eda sido antes... Ahora, con veintisi\u000e9s d\u000edas de retraso... Sebasti\u000e1n rememoraba aquella conversaci\u000f3n...'",
+      "pauta_id": "G40"
+    },
+    {
+      "elemento": "Todo el texto: mezcla de presente, pasado y reflexiones sin separaci\u000f3n clara por temas o tiempos.",
+      "pauta_id": "G42"
+    },
+    {
+      "elemento": "Di\u000e1logos: '—Si no te aquietas un momento... —le hab\u000eda espetado Sebasti\u000e1n...' y '—Hace tres meses me prometiste... —replic\u000f3 Clara...'",
+      "pauta_id": "G44"
+    }
+  ],
+  "conclusion": "El texto presenta m\u000fasiples incumplimientos estructurales graves, incluyendo el uso de puntuaci\u000f3n prohibida (punto y coma, par\u000e9ntesis impl\u000edcitos en la estructura narrativa compleja, aunque no hay par\u000e9ntesis expl\u000edcitos, s\u000ed hay di\u000e1logos sin guion inicial en el primer bloque de di\u000e1logo si se considera el formato, pero m\u000e1s importante: el uso de punto y coma en la \u000faltima frase, y la falta de organizaci\u000f3n temporal clara con saltos en el tiempo sin transiciones claras para lectura f\u000e1cil). Adem\u000e1s, el texto es denso, con vocabulario dif\u000edcil sin ejemplos, y no dirige al lector en segunda persona donde corresponde (aunque es narrativa, la regla G41 aplica a acciones del lector, aqu\u000ed no hay acci\u000f3n del lector, pero la estructura general falla en G40 y G42). Se detecta punto y coma (;) en la \u000faltima frase. Tambi\u000e9n hay uso de di\u000e1logos que no siguen estrictamente el estilo teatral con guion en todas las intervenciones si se mira el flujo, pero el principal problema estructural claro es el punto y coma y la organizaci\u000f3n temporal desordenada para un lector de lectura f\u000e1cil."
+}
+
+
+2026-08-27 13:47:10,939 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Se ha recibido un informe del agente Crítico.
+2026-08-27 13:47:10,939 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Ejecutando modelo de simplificación estructural.
+2026-08-27 13:47:12,415 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:47:12,416 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Resultado generado correctamente: 1570 caracteres.
+2026-08-27 13:52:25,759 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Solicitud recibida. Texto: 1551 caracteres. Informe crítico: sí
+2026-08-27 13:52:25,759 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | === INFORME DEL CRÍTICO ESTRUCTURAL ===
+ESTRUCTURAL ===
+{
+  "especialidad": "estructural",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "P\u000e1rrafo: 'Eso pasa antes. Antes, ellos creen que algo los mantiene unidos. Ese algo no tiene nombre. Ese algo los une al proyecto.'",
+      "pauta_id": "G40"
+    },
+    {
+      "elemento": "P\u000e1rrafo: 'Ahora hay 26 d\u000edas de retraso. El dinero se gasta en cosas sin importancia. Sebasti\u000e1n recuerda una conversaci\u000f3n. La conversaci\u000f3n pasa en el camerino peque\u000f1o. Todo empieza a torcerse all\u000ed.'",
+      "pauta_id": "G40"
+    },
+    {
+      "elemento": "P\u000e1rrafo: 'Un objeto con punta rasga el vestido azul de Clara. Eso pasa aquella noche. La relaci\u000f3n de ellos se rompe. La relaci\u000f3n se rompe para siempre.'",
+      "pauta_id": "G40"
+    },
+    {
+      "elemento": "P\u000e1rrafo: 'Ellos no saben que dejar las decisiones dif\u000edciles para despu\u000e9s empeora el desastre.'",
+      "pauta_id": "G41"
+    },
+    {
+      "elemento": "P\u000e1rrafo: 'El dinero se gasta en cosas sin importancia.'",
+      "pauta_id": "G39"
+    }
+  ],
+  "conclusion": "El texto presenta problemas estructurales significativos, principalmente en la organizaci\u000f3n temporal (G40) y en la direcci\u000f3n al lector (G41), adem\u000e1s de un posible exceso de informaci\u000f3n (G39)."
+}
+
+
+2026-08-27 13:52:25,759 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Se ha recibido un informe del agente Crítico.
+2026-08-27 13:52:25,759 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Ejecutando modelo de simplificación estructural.
+2026-08-27 13:52:27,014 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:52:27,015 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Resultado generado correctamente: 1490 caracteres.
+2026-08-27 14:03:54,756 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Solicitud recibida. Texto: 1569 caracteres. Informe crítico: sí
+2026-08-27 14:03:54,756 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | === INFORME DEL CRÍTICO ESTRUCTURAL ===
+ESTRUCTURAL ===
+{
+  "especialidad": "estructural",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "Párrafo: 'Antes, ellos creían que una fuerza los unía. Esa fuerza no tiene nombre. Esa fuerza los une al proyecto.'",
+      "pauta_id": "G40"
+    },
+    {
+      "elemento": "Párrafo: 'Ahora hay 26 días de retraso. Ellos gastan el dinero en cosas poco importantes. Sebastián recuerda una conversación. La conversación pasa en el camerino pequeño. Todo sale mal allí.'",
+      "pauta_id": "G40"
+    },
+    {
+      "elemento": "Párrafo: 'Un objeto con punta rasga el vestido azul de Clara. Eso pasa aquella noche. La relación de ellos termina. La relación termina para siempre.'",
+      "pauta_id": "G40"
+    },
+    {
+      "elemento": "Fragmento: 'Sebastián dice: —Si te calmas, esto termina pronto.'",
+      "pauta_id": "G44"
+    },
+    {
+      "elemento": "Fragmento: 'Clara dice: —Hace 3 meses me prometiste que este montaje sería diferente.'",
+      "pauta_id": "G44"
+    },
+    {
+      "elemento": "Fragmento: 'Clara dice: —No ocultamos el anterior.'",
+      "pauta_id": "G44"
+    }
+  ],
+  "conclusion": "El texto presenta problemas estructurales que requieren simplificación, principalmente en la organización de la información temporal (G40) y en la presentación de diálogos (G44)."
+}
+
+
+2026-08-27 14:03:54,756 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Se ha recibido un informe del agente Crítico.
+2026-08-27 14:03:54,757 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Ejecutando modelo de simplificación estructural.
+2026-08-27 14:03:56,033 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:03:56,034 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Resultado generado correctamente: 1569 caracteres.
+2026-08-27 14:14:08,652 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Solicitud recibida. Texto: 1631 caracteres. Informe crítico: sí
+2026-08-27 14:14:08,653 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | === INFORME DEL CRÍTICO ESTRUCTURAL ===
+ESTRUCTURAL ===
+{
+  "especialidad": "estructural",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "Lavar el arroz bajo agua fría hasta que el agua salga clara, eliminando aproximadamente el 80% del almidón superficial.",
+      "pauta_id": "G39"
+    },
+    {
+      "elemento": "Llevar a ebullición a fuego medio-alto, luego reducir a fuego lento. Cocinar hasta que el agua se haya absorbido casi por completo, lo que tomará entre 10-12 minutos.",
+      "pauta_id": "G39"
+    },
+    {
+      "elemento": "Agregar 3 tazas de leche (el 75% del total), la rama de canela y la cáscara de limón. Revolver constantemente. Mantener el fuego medio-bajo durante aproximadamente 25-30 minutos. No dejar de remover para evitar que se pegue al fondo.",
+      "pauta_id": "G39"
+    },
+    {
+      "elemento": "Cuando el arroz haya absorbido la mayor parte de la leche y tenga una consistencia cremosa, añadir el azúcar y la taza restante de leche. Continuar cocinando por 10-15 minutos más. Remover sin cesar.",
+      "pauta_id": "G39"
+    },
+    {
+      "elemento": "Vigilar la textura cuidadosamente. Retirar del fuego cuando alcance la consistencia deseada. Tener en cuenta que espesará un 20% adicional al enfriarse.",
+      "pauta_id": "G39"
+    },
+    {
+      "elemento": "Espolvorear canela en polvo generosamente por encima antes de servir. Disfrutar tibio o frío según preferencia.",
+      "pauta_id": "G41"
+    }
+  ],
+  "conclusion": "La estructura del texto necesita simplificación para cumplir con las normas de Lectura Fácil, especialmente en la claridad de las instrucciones y la eliminación de información redundante o compleja."
+}
+
+
+2026-08-27 14:14:08,653 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Se ha recibido un informe del agente Crítico.
+2026-08-27 14:14:08,653 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Ejecutando modelo de simplificación estructural.
+2026-08-27 14:14:10,074 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:14:10,076 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Resultado generado correctamente: 1623 caracteres.
+2026-08-27 14:22:31,789 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Solicitud recibida. Texto: 1188 caracteres. Informe crítico: sí
+2026-08-27 14:22:31,790 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | === INFORME DEL CRÍTICO ESTRUCTURAL ===
+ESTRUCTURAL ===
+{
+  "especialidad": "estructural",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "Martina y Julio NO podían NO sentir emoción",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "UN SOBRE AMARILLO",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "detrás de una estantería que NO dejaba NO moverse",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "CIENTOS DE CARTAS DE AMOR",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "una nota que decía: \"Para l@s valientes que se atrevan a continuar mi búsqueda\".",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "Para l@s valientes",
+      "pauta_id": "G25"
+    },
+    {
+      "elemento": "L@s vecin@s del barrio",
+      "pauta_id": "G25"
+    },
+    {
+      "elemento": "libros apilados hasta el techo, un gato de cerámica sobre el mostrador y UN SOBRE AMARILLO con su nombre escrito en tinta negra.",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "libros apilados hasta el techo, un gato de cerámica sobre el mostrador y UN SOBRE AMARILLO con su nombre escrito en tinta negra.",
+      "pauta_id": "G43"
+    }
+  ],
+  "conclusion": "La estructura del texto necesita simplificación debido a la presencia de mayúsculas innecesarias, uso de puntuación no recomendada (comillas), lenguaje no inclusivo según la norma (uso de @) y falta de organización visual adecuada para las listas y diálogos."
+}
+
+
+2026-08-27 14:22:31,790 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Se ha recibido un informe del agente Crítico.
+2026-08-27 14:22:31,790 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Ejecutando modelo de simplificación estructural.
+2026-08-27 14:22:32,766 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:22:32,767 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Resultado generado correctamente: 1215 caracteres.
+2026-08-27 14:42:05,046 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Solicitud recibida. Texto: 1555 caracteres. Informe crítico: sí
+2026-08-27 14:42:05,046 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | === INFORME DEL CRÍTICO ESTRUCTURAL ===
+ESTRUCTURAL ===
+{
+  "especialidad": "estructural",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "La frase: 'Habr\u0001a perdido a su hermana hac\u0001a tres inviernos \u00014o tal vez cuatro, ya no estaba seguro\u00015'",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "La frase: '...la misma que desapareci\u00013 despu\u0000e9s del incendio. Marcus se detuvo al escuchar un susurro entre los \u00011rboles. No era el viento. Nunca era el viento en este lugar maldito, aunque a veces deseaba creer que s\u0000ed, que todo era producto de su imaginaci\u00013n exhausta.'",
+      "pauta_id": "G39"
+    },
+    {
+      "elemento": "La frase: 'Ella hab\u0000eda intentado advertirle sobre el pacto, sobre lo que su madre hab\u0000a hecho antes de morir para salvar el pueblo de la plaga.'",
+      "pauta_id": "G40"
+    },
+    {
+      "elemento": "La frase: 'Marcus apret\u00013 el pu\u00013o alrededor de la daga de hierro que hab\u0000a forjado \u0000l mismo \u00014en la herrer\u0000a de su padre, donde tambi\u0000n hab\u0000a conocido a Elena, pero eso ya no importaba\u00015.'",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "La frase: '\"Hermano\", dijo con una voz que parec\u0000a venir desde muy lejos, y Marcus sinti\u00013 que las l\u0001grimas quemaban sus mejillas.'",
+      "pauta_id": "G44"
+    }
+  ],
+  "conclusion": "El texto presenta m\u000faltiples incumplimientos de las reglas de Lectura F\u0001cil, especialmente en el uso de puntuaci\u0001n compleja, di\u0001logos no estandarizados y estructura narrativa no lineal."
+}
+
+
+2026-08-27 14:42:05,047 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Se ha recibido un informe del agente Crítico.
+2026-08-27 14:42:05,047 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Ejecutando modelo de simplificación estructural.
+2026-08-27 14:42:06,331 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:42:06,333 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Resultado generado correctamente: 1555 caracteres.
+2026-08-27 14:52:30,692 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Solicitud recibida. Texto: 3487 caracteres. Informe crítico: sí
+2026-08-27 14:52:30,692 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | === INFORME DEL CRÍTICO ESTRUCTURAL ===
+ESTRUCTURAL ===
+{
+  "especialidad": "estructural",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "La fiesta estará dividida en dos partes: la infantil y la adulta.",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "donde los más pequeños disfrutarán de personajes como: Drilo, Guau, Peligre, Huga, Rafa, Era y Pom-Pom",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "las aventuras con sus amigos de “La Pandilla de Drilo”",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "los “locos motoristas”",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "recorrerá las calles de la Plaza de Baix, Corredora, Obispo Tormo, Plaza de Santa Isabel, Uberna, Trinquet, para volver a la Plaza de Baix nuevamente por Corredora",
+      "pauta_id": "G43"
+    },
+    {
+      "elemento": "A las 17:30 dará comienzo el espectáculo infantil con el show del cocodrilo más famoso entre las niñas y niños y las aventuras con sus amigos de “La Pandilla de Drilo”, donde los más pequeños disfrutarán de personajes como: Drilo, Guau, Peligre, Huga, Rafa, Era y Pom-Pom que se han convertido en un icono para todas las niñas y niños y que mediante sus historias y populares canciones realizan una labor didáctica e inculcan valores tan importantes como el respeto por el prójimo y la naturaleza.",
+      "pauta_id": "G39"
+    }
+  ],
+  "conclusion": "La estructura del texto necesita simplificación debido a la presencia de listas sin viñetas, uso de signos de puntuación no recomendados (comillas, dos puntos en listas largas) y frases excesivamente largas que dificultan la lectura."
+}
+
+
+2026-08-27 14:52:30,693 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Se ha recibido un informe del agente Crítico.
+2026-08-27 14:52:30,693 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Ejecutando modelo de simplificación estructural.
+2026-08-27 14:52:32,969 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:52:32,972 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Resultado generado correctamente: 3403 caracteres.
+2026-08-27 15:02:07,531 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Solicitud recibida. Texto: 3470 caracteres. Informe crítico: sí
+2026-08-27 15:02:07,532 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | === INFORME DEL CRÍTICO ESTRUCTURAL ===
+ESTRUCTURAL ===
+{
+  "especialidad": "estructural",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "El itinerario previsto en el término de Alicante ciudad discurre desde el Altet por el túnel iluminado, avenida de Elche, avenida de Loring, Mártires por la Libertad, calle de Jovellanos, avenida de Denia y la rotonda N 332.",
+      "pauta_id": "G43"
+    },
+    {
+      "elemento": "Los itinerarios alternativos de entrada a la ciudad son desde la autovía del Mediterráneo y en los movimientos internos por la Gran Vía y Vía Parque.",
+      "pauta_id": "G43"
+    },
+    {
+      "elemento": "Todo el itinerario de la marcha neutralizada se mantendrá cortado al tráfico con la antelación estimada por la Policía Local desde las 13,30 a las 14,30 horas, y dará inicio en la rotonda existente frente a las Desalinizadoras que se cortará en su totalidad hasta la intersección con la vía Antoñita Moreno, y los vehículos sentidos salida de Alicante se desviarán por Antoñita Moreno, saliendo hacia la la N#340.",
+      "pauta_id": "G23"
+    },
+    {
+      "elemento": "Asimismo, desde la intersección con la vía Antoñita Moreno circularán en sentido del tráfico por el litoral, funcionando la circulación en sentido salida de Alicante hasta Federico Mayo. Desde la intersección con Federico Mayo hasta hasta Plaza del Mar se cortará el tráfico en ambos sentidos, y se podrán realizar ventanas temporales a criterio de la Policía Local.",
+      "pauta_id": "G23"
+    },
+    {
+      "elemento": "Las avenidas de Juan Bautista Lafora y Jovellanos se cortará únicamente el sentido de la marcha en la parte litoral, y en el tramo de Av Denia, desde La intersección con Villajoyosa hasta Padre Esplá se cortará en su totalidad. Por último, desde la intersección con Padre Esplá hasta a salida de la ciudad por avenida de Denia se cortará únicamente el sentido de la marcha.",
+      "pauta_id": "G23"
+    },
+    {
+      "elemento": "Está previsto llevar a cabo por la Policía precortes a la altura de la Albufera y Padre Esplá, en todas las calles recayentes al circuito, y se podrán añadir puntos de filtrado según indicaciones de la Policía Local.",
+      "pauta_id": "G23"
+    },
+    {
+      "elemento": "Alicante se convierte de nuevo este miércoles en el escenario de paso de la primera etapa de la 74ª edición de la Volta a la Comunitat Valenciana (VCV), que se disputa del 1 al 5 de febrero y arranca desde Orihuela, con paso por el frente litoral de Alicante y primera meta en Altea tras atravesar un recorrido de más de 188 kilómetros y dos puertos de montaña.",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "El Ayuntamiento de Alicante ha preparado un amplio dispositivo de control de Tráfico y Transportes en la ciudad con 60 efectivos de Policía Local para coordinar el paso establecido por la organización con un recorrido neutralizado bajo el control y supervisión de los agentes que discurrirá entre las 13:54 y las 14:01 horas según rutómetro.",
+      "pauta_id": "G39"
+    },
+    {
+      "elemento": "El gobierno municipal recomienda este martes 1 de febrero evitar la circulación por la avenida de Elche, el frente litoral y la avenida de Denia entre las 13 y 15 horas, utilizar el transporte público y salir con antelación suficiente.",
+      "pauta_id": "G41"
+    }
+  ],
+  "conclusion": "La estructura del texto necesita simplificación debido a la presencia de listas sin viñetas, uso de puntuación inadecuada (punto y coma, paréntesis implícitos en la estructura de frases largas) y falta de organización clara de la información temporal y temática."
+}
+
+
+2026-08-27 15:02:07,532 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Se ha recibido un informe del agente Crítico.
+2026-08-27 15:02:07,533 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Ejecutando modelo de simplificación estructural.
+2026-08-27 15:02:09,692 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:02:09,694 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Resultado generado correctamente: 3169 caracteres.
+2026-08-27 15:17:26,602 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Solicitud recibida. Texto: 4087 caracteres. Informe crítico: sí
+2026-08-27 15:17:26,602 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | === INFORME DEL CRÍTICO ESTRUCTURAL ===
+ESTRUCTURAL ===
+{
+  "especialidad": "estructural",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "La carrera pasa por:",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "No circules por:",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "Los caminos alternativos para entrar en la ciudad son:",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "La Policía Local corta el sentido de la marcha en la parte de la costa de:",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "La Policía Local hace cortes previos a la altura de:",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "La Policía Local corta el tráfico en todo el camino de la carrera. La Policía Local calcula cuándo empiezan los cortes. Los cortes duran desde las 1:30 de la tarde hasta las 2:30 de la tarde. La carrera empieza en la rotonda frente a las plantas de desalar agua.",
+      "pauta_id": "G40"
+    }
+  ],
+  "conclusion": "La estructura del texto necesita simplificación debido a la presencia de signos de puntuación no recomendados (dos puntos) y a la falta de organización temporal en la sección de cortes de tráfico."
+}
+
+
+2026-08-27 15:17:26,603 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Se ha recibido un informe del agente Crítico.
+2026-08-27 15:17:26,603 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Ejecutando modelo de simplificación estructural.
+2026-08-27 15:17:29,422 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:17:29,428 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Resultado generado correctamente: 4384 caracteres.
+2026-08-27 15:31:50,857 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Solicitud recibida. Texto: 3135 caracteres. Informe crítico: sí
+2026-08-27 15:31:50,857 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | === INFORME DEL CRÍTICO ESTRUCTURAL ===
+ESTRUCTURAL ===
+{
+  "especialidad": "estructural",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "La Concejalía de Fiestas ha programado para este sábado día 13 de agosto a las 20:30 horas una nueva edición del Desfile de Verano que, habitualmente se celebra a mitad de agosto suponiendo un gran atractivo para visitantes y torrevejenses.",
+      "pauta_id": "G39"
+    },
+    {
+      "elemento": "Con todo el colorido y sus espectaculares coreografías desfilarán las comparsas, “No ni ná”, “Bufa la gamba”, “Blanca de sal…”, “Osadía”, “Aquí hay tomate”, “Las Cherries”, “Soul Dance” y “Soul Kids”.",
+      "pauta_id": "G43"
+    },
+    {
+      "elemento": "“No ni ná”, “Bufa la gamba”, “Blanca de sal…”, “Osadía”, “Aquí hay tomate”, “Las Cherries”, “Soul Dance” y “Soul Kids”",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "“Blanca de sal…”",
+      "pauta_id": "G24"
+    },
+    {
+      "elemento": "También dos “filaes” moras de berberíscos, una de mujeres y otra de hombres y tres cristianas, “Los Dragones de San Jorge”, una femenina y dos masculinas.",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "La concejal de Fiestas, Concha Sala ha manifestado su agradecimiento tanto a las comparsas del carnaval torrevejense, como a las representaciones festeras de Alicante y Crevillent ya que “todo han sido facilidades para participar en este desfile que supone un aliciente especial para Torrevieja en unas fechas de tanta afluencia como es este mes de agosto”.",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "Sala también resaltó que se trata “de una participación voluntaria y altruista por parte tanto de las comparsas del carnaval como de la representación festera de moros y cristianos y por tanto expresamos nuestra más sincera gratitud por colaborar con la ciudad de Torrevieja”.",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "El desfile partirá a las 20:30 horas desde las inmediaciones del Centro Cultural “Virgen del Carmen” y recorrerá la calle Ramón Gallud hasta su intersección con la calle Patricio Pérez.",
+      "pauta_id": "G22"
+    }
+  ],
+  "conclusion": "La estructura del texto necesita simplificación debido a la presencia de listas sin viñetas, uso de puntuación no recomendada (comillas, puntos suspensivos) y frases excesivamente largas que dificultan la lectura."
+}
+
+
+2026-08-27 15:31:50,858 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Se ha recibido un informe del agente Crítico.
+2026-08-27 15:31:50,858 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Ejecutando modelo de simplificación estructural.
+2026-08-27 15:31:52,868 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:31:52,871 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Resultado generado correctamente: 3036 caracteres.
+2026-08-27 15:37:19,046 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Solicitud recibida. Texto: 3050 caracteres. Informe crítico: sí
+2026-08-27 15:37:19,047 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | === INFORME DEL CRÍTICO ESTRUCTURAL ===
+ESTRUCTURAL ===
+{
+  "especialidad": "estructural",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "La corte de la sal 2021/2022 será la principal.",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "Dos de ellos son grupos de la Sociedad Musical Ciudad de Torrevieja – Los Salerosos.",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "Participan estas comparsas:\n- No ni ná\n- Bufa la gamba\n- Blanca de sal\n- Osadía\n- Aquí hay tomate\n- Las Cherries\n- Soul Dance\n- Soul Kids",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "La Reina de la Sal es Victoria Magoñ Rodríguez.",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "Las damas son Juncal Gómez Rivero y Marta Mesa Vizcaíno.",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "Son Brenda Hernández y Triana Marín.",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "La concejal de Fiestas, Concha Sala, da las gracias.",
+      "pauta_id": "G20"
+    }
+  ],
+  "conclusion": "La estructura del texto necesita simplificación debido a la presencia de puntuación no recomendada (barra, guion largo), falta de dos puntos antes de listas largas y uso de mayúsculas innecesarias en nombres propios."
+}
+
+
+2026-08-27 15:37:19,048 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Se ha recibido un informe del agente Crítico.
+2026-08-27 15:37:19,048 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Ejecutando modelo de simplificación estructural.
+2026-08-27 15:37:21,076 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:37:21,079 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Resultado generado correctamente: 3052 caracteres.
+2026-08-27 15:44:10,140 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Solicitud recibida. Texto: 3363 caracteres. Informe crítico: sí
+2026-08-27 15:44:10,140 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | === INFORME DEL CRÍTICO ESTRUCTURAL ===
+ESTRUCTURAL ===
+{
+  "especialidad": "estructural",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "Participan estas comparsas:\n- No ni ná\n- Bufa la gamba\n- Blanca de sal\n- Osadía\n- Aquí hay tomate\n- Las Cherries\n- Soul Dance\n- Soul Kids",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "Contrabandistas: personas que llevan mercancías sin pagar los impuestos.",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "Filaes de berberíscos: grupos de personas que visten con ropa de color rojo y blanco, típica de las fiestas de moros y cristianos.",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "El Carnaval de Torrevieja tiene el título de Interés Turístico Autonómico de la Comunitat Valenciana.",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "La comunidad autónoma da el título de Interés Turístico Autonómico.",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "Comunitat Valenciana es el nombre oficial de la Comunidad Valenciana.",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "Estas fiestas tienen el título de Interés Turístico Nacional.",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "El Estado da el título de Interés Turístico Nacional.",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "Tres grupos de cristianos llamados Los Dragones de San Jorge vienen.",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "Dos de ellos son grupos de la Sociedad Musical Ciudad de Torrevieja y Los Salerosos.",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "El desfile sale de la zona del Centro Cultural Virgen del Carmen.",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "El desfile recorre la calle Ramón Gallud.",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "El desfile termina en el cruce con la calle Patricio Pérez.",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "El espacio está situado junto al Hotel Fontana.",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "Participan estas comparsas:\n- No ni ná\n- Bufa la gamba\n- Blanca de sal\n- Osadía\n- Aquí hay tomate\n- Las Cherries\n- Soul Dance\n- Soul Kids",
+      "pauta_id": "G43"
+    }
+  ],
+  "conclusion": "La estructura del texto necesita simplificación debido a la presencia de puntuación no recomendada (dos puntos), listas sin viñetas y uso de mayúsculas innecesarias."
+}
+
+
+2026-08-27 15:44:10,141 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Se ha recibido un informe del agente Crítico.
+2026-08-27 15:44:10,141 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Ejecutando modelo de simplificación estructural.
+2026-08-27 15:44:12,919 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:44:12,922 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Resultado generado correctamente: 3363 caracteres.
+2026-08-27 15:54:14,727 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Solicitud recibida. Texto: 2654 caracteres. Informe crítico: sí
+2026-08-27 15:54:14,728 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | === INFORME DEL CRÍTICO ESTRUCTURAL ===
+ESTRUCTURAL ===
+{
+  "especialidad": "estructural",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "La programación incluye conferencias, talleres, proyecciones de cine, teatro, exposiciones, mesas redondas, etc.",
+      "pauta_id": "G43"
+    },
+    {
+      "elemento": "La programación incluye conferencias, talleres, proyecciones de cine, teatro, exposiciones, mesas redondas, etc.",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "destacando que “desde la Concejalía de Igualdad y Mujer, a través de la Unidad de Igualdad, venimos desarrollando un proyecto coeducativo dirigido a todos los centros de la ciudad, desde Infantil a Secundaria, que comenzamos en septiembre y concluirá en junio. Este proyecto continuará el próximo curso para que todo el alumnado pueda recibir los talleres adaptados a cada curso y así crear una base sólida promoviendo la igualdad desde la infancia”.",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "ha indicado que “en estos momentos estamos realizando el Taller de Coeducación ‘Arturo y Clementina’, un ciclo infantil de los Centros Educativos de Elda que empezó el 14 de febrero y terminará el 15 de marzo. Con este taller pretendemos fomentar la igualdad y el buen trato a través del cuento ‘Arturo y Clementina’”.",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "ha indicado que “este año hemos querido dar visibilidad y reconocer al Club Balonmano Femenino como el primer equipo femenino que logró más éxitos deportivos, llegando a ser campeón de liga y convirtiéndose en germen de mujeres que surgió de los colegios de nuestra ciudad y que llego a la élite. Fue un club que abrió puertas a otras mujeres que querían practicar deporte en nuestra ciudad”.",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "ha destacado dos de los espectáculos que tendrán como escenario el Teatro Castelar, “como ‘Monólogos muy cuquis’, un espectáculo de Pink Show Comedy que ha sido un éxito enorme y para el que ya están agotadas todas las entradas. Será el mismo 8 de marzo a las 20 horas”.",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "ha recordado que “el sábado 12 de marzo, a las 20 horas, se representará Flamenco Kitchen, que recrea el mundo laboral de un grupo de mujeres que muestran en tono tragicómico sus vivencias a lo largo de sus largas jornadas de trabajo en la cocina de un restaurante”.",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "ha afirmado que “Elda está que se sale con un calendario de actividades con motivo del 8-M impresionante. El trabajo de coordinación de las diferentes áreas ha sido complejo para poder cuadrar todos eventos y actividades”.",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "ha repasado algunas de las actividades organizadas desde la Universidad, como la exposición ‘Mujeres de la Transición (1975-1983), que se puede disfrutar ya en la Sala Ficia del Museo del Calzado, las proyecciones de las películas ‘Norma Rae y de ‘La Kermesse Heroïque’, los días 2 y 16 de marzo en la Fundación Paurides entre otras actividades.",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "ha repasado algunas de las actividades organizadas desde la Universidad, como la exposición ‘Mujeres de la Transición (1975-1983), que se puede disfrutar ya en la Sala Ficia del Museo del Calzado, las proyecciones de las películas ‘Norma Rae y de ‘La Kermesse Heroïque’, los días 2 y 16 de marzo en la Fundación Paurides entre otras actividades.",
+      "pauta_id": "G43"
+    }
+  ],
+  "conclusion": "La estructura del texto necesita simplificación debido a la presencia de listas sin viñetas, uso de signos de puntuación no recomendados (comillas, paréntesis), frases largas y falta de organización visual."
+}
+
+
+2026-08-27 15:54:14,728 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Se ha recibido un informe del agente Crítico.
+2026-08-27 15:54:14,728 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Ejecutando modelo de simplificación estructural.
+2026-08-27 15:54:16,783 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:54:16,786 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Resultado generado correctamente: 2630 caracteres.
+2026-08-27 16:15:25,499 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Solicitud recibida. Texto: 4060 caracteres. Informe crítico: sí
+2026-08-27 16:15:25,500 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | === INFORME DEL CRÍTICO ESTRUCTURAL ===
+ESTRUCTURAL ===
+{
+  "especialidad": "estructural",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "Sección 'Organizan': Concejalía de Juventud - Centro 14 del Ayuntamiento de Alicante.",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "Sección 'Organizan': Lista de entidades organizadoras.",
+      "pauta_id": "G43"
+    },
+    {
+      "elemento": "Sección 'Colaboran': Lista de entidades colaboradoras.",
+      "pauta_id": "G43"
+    },
+    {
+      "elemento": "Sección 'Inscripciones': Lista de pasos para inscribirse.",
+      "pauta_id": "G43"
+    },
+    {
+      "elemento": "Sección 'CROSSFIT COSTABLANCA': Frase 'Los horarios son a las 6 y 15 de la tarde, a las 7 y 30 de la tarde y a las 8 y 30 de la noche.'",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "Sección 'PILATES': Frase 'Los horarios son a las 6 y 30 de la tarde y a las 7 y 45 de la noche.'",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "Sección 'BAILE URBANO': Frase 'Hay exhibiciones a las 7 de la noche y a las 8 y 15 de la noche.'",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "Sección 'RUGBY': Frase 'Trabajamos el pase, la evasión, los placajes y los ensayos.'",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "Sección 'CROSSFIT COSTABLANCA': Frase 'El material incluye empuje de trineos, barras y pesas rusas.'",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "Sección 'RUGBY': Frase 'Trabajamos el pase, la evasión, los placajes y los ensayos.'",
+      "pauta_id": "G41"
+    },
+    {
+      "elemento": "Sección 'INICIACIÓN AL ULTIMATE FRISBEE': Frase 'El objetivo es coger el disco en la zona del campo del oponente.'",
+      "pauta_id": "G45"
+    },
+    {
+      "elemento": "Sección 'CALISTENIA': Frase 'Instructores dan orientaciones e instrucciones a las personas inscritas.'",
+      "pauta_id": "G41"
+    }
+  ],
+  "conclusion": "La estructura del texto necesita simplificación debido a la presencia de listas sin viñetas, uso de guiones para separar entidades, y falta de espacios en blanco para organizar la información por temas."
+}
+
+
+2026-08-27 16:15:25,500 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Se ha recibido un informe del agente Crítico.
+2026-08-27 16:15:25,501 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Ejecutando modelo de simplificación estructural.
+2026-08-27 16:15:28,603 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:15:28,609 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Resultado generado correctamente: 4097 caracteres.
+2026-08-27 16:20:01,234 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Solicitud recibida. Texto: 4097 caracteres. Informe crítico: sí
+2026-08-27 16:20:01,234 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | === INFORME DEL CRÍTICO ESTRUCTURAL ===
+ESTRUCTURAL ===
+{
+  "especialidad": "estructural",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "ACTIVIDADES",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "VOLEY PLAYA",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "FUTEVOLEY",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "CROSSFIT COSTABLANCA",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "PILATES",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "CALISTENIA",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "RUGBY",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "INICIACIÓN AL ULTIMATE FRISBEE",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "BAILE URBANO",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "GYMKHANA",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "Organizan:\n• Concejalía de Juventud del Ayuntamiento de Alicante.\n• Centro 14 del Ayuntamiento de Alicante.\n• Concejalía de Deportes del Ayuntamiento de Alicante.\n• Eventos y Formación Next Mind.",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "Colaboran:\n• Club Voley Arena Playa.\n• Wild Light's.\n• Crossfit Costa Blanca.\n• Futevolei Alicante.\n• Grizzly Mode One.\n• Bárbaros Ultimate Frisbee Alicante.\n• In Situ Dance School.\n• Tramuntana Avenura.",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "Inscripciones:\n• Envía un correo a info@nextmind.es.\n• Escribe tu nombre completo.\n• Escribe tu edad.\n• Escribe la clase.\n• Escribe la hora.\n• También puedes inscribirte el mismo día del evento.",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "El material incluye:\n• Empuje de trineos.\n• Barras.\n• Pesas rusas.",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "Los horarios son:\n• A las 6:15 de la tarde.\n• A las 7:30 de la tarde.\n• A las 8:30 de la noche.",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "Los horarios son:\n• A las 6:30 de la tarde.\n• A las 7:45 de la noche.",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "Hay demostraciones:\n• A las 7 de la noche.\n• A las 8 y 15 de la noche.",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "Trabajas el pase, la evasión, los placajes y los ensayos.",
+      "pauta_id": "G23"
+    }
+  ],
+  "conclusion": "La estructura del texto presenta varios incumplimientos de las reglas de Lectura Fácil, principalmente en el uso de mayúsculas para títulos, la falta de dos puntos antes de listas largas y el uso de puntuación no recomendada (punto y coma)."
+}
+
+
+2026-08-27 16:20:01,234 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Se ha recibido un informe del agente Crítico.
+2026-08-27 16:20:01,235 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Ejecutando modelo de simplificación estructural.
+2026-08-27 16:20:01,369 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-27 16:20:01,371 | INFO | groq._base_client | Retrying request to /openai/v1/chat/completions in 26.000000 seconds
+2026-08-27 16:20:30,889 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:20:30,892 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Resultado generado correctamente: 4098 caracteres.
+2026-08-27 16:38:05,981 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Solicitud recibida. Texto: 3739 caracteres. Informe crítico: sí
+2026-08-27 16:38:05,982 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | === INFORME DEL CRÍTICO ESTRUCTURAL ===
+ESTRUCTURAL ===
+{
+  "especialidad": "estructural",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "Alicante, 7 de diciembre de 2022. La playa del Postiguet acogera el Alicante SUP Open APP Tour, prueba de paddle surf dentro del APP World Tour, el campeonato de mundo de este deporte. La competicion se desarrollara entre el prximo viernes y el domingo y sera la penaltima dentro del circuito que ya ha pasado por Santa Mnica (EE UU), Londres, Busan (Corea del Sur) y Pars y que finalizara en Jeddah (Arabia Saud). Esta prueba esta organizada por el Club Deportivo Parres e impulsada por el Patronato de Turismo Alicante City&Beach.",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "Alicante, 7 de diciembre de 2022. La playa del Postiguet acogera el Alicante SUP Open APP Tour, prueba de paddle surf dentro del APP World Tour, el campeonato de mundo de este deporte. La competicion se desarrollara entre el prximo viernes y el domingo y sera la penaltima dentro del circuito que ya ha pasado por Santa Mnica (EE UU), Londres, Busan (Corea del Sur) y Pars y que finalizara en Jeddah (Arabia Saud). Esta prueba esta organizada por el Club Deportivo Parres e impulsada por el Patronato de Turismo Alicante City&Beach.",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "Alicante, 7 de diciembre de 2022. La playa del Postiguet acogera el Alicante SUP Open APP Tour, prueba de paddle surf dentro del APP World Tour, el campeonato de mundo de este deporte. La competicion se desarrollara entre el prximo viernes y el domingo y sera la penaltima dentro del circuito que ya ha pasado por Santa Mnica (EE UU), Londres, Busan (Corea del Sur) y Pars y que finalizara en Jeddah (Arabia Saud). Esta prueba esta organizada por el Club Deportivo Parres e impulsada por el Patronato de Turismo Alicante City&Beach.",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "La vicealcaldesa y responsable del Patronato de Turismo Alicante City&Beach, Mari Carmen Snchez, ha destacado el hecho de que la ciudad sea escenario de una de las pruebas del campeonato mundial, lo que nos coloca en el mapa internacional del paddle surf. Alicante dispone de unas infraestructuras y un clima ptimos para acoger pruebas deportivas internacionales que suponen un impulso para el turismo deportivo e inciden en la desestacionalizacion que buscamos como destino, ha afirmado.",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "Ademas, las pruebas cuentan con actividades paralelas de iniciacion al paddle surf, actuaciones musicales y zona de ocio y restauracion. En este sentido, la vicealcaldesa ha animado a alicantinos y visitantes a acercarse este fin de semana a la playa del Postiguet para disfrutar del espectculo deportivo y pasar una jornada de deporte y diverson en familia o con amigos.",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "Por su parte, el organizador del evento, Daniel Parres, ha agradecido al Patronato de Turismo su apoyo para poder llevar a cabo un evento de estas caractersticas. Ademas, ha seialado que Alicante reine las caractersticas necesarias para acercar a los deportes nuticos a todo el mundo y la celebracion de esta prueba internacional es una buena forma de hacerlo y de dar a conocer la ciudad en el circuito.",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "En el evento participaran atletas de mas de 15 pases, entre los que se encuentran EE UU, Per, Argentina, Japon, Corea del Sur, Francia, Italia, Hungra y Belgica. Ademas, contara con la presencia del comentarista australiano Travis Grant, atleta que ha ganado cuatro veces la Molokai Oahu, una de las pruebas mas duras de SUP Race.",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "En el evento participaran atletas de mas de 15 pases, entre los que se encuentran EE UU, Per, Argentina, Japon, Corea del Sur, Francia, Italia, Hungra y Belgica. Ademas, contara con la presencia del comentarista australiano Travis Grant, atleta que ha ganado cuatro veces la Molokai Oahu, una de las pruebas mas duras de SUP Race.",
+      "pauta_id": "G43"
+    },
+    {
+      "elemento": "Los tres das de pruebas deportivas se celebraran una serie de actividades paralelas a la competicion. La asociacion organiza la APP Pool, una piscina gigante que proporcionara un punto de entrada para principiantes al deporte, as como espacio para realizar otras actividades como SUP Yoga y Pilates.",
+      "pauta_id": "G43"
+    },
+    {
+      "elemento": "Por otra parte, el evento cuenta con una zona de ocio, organizada por Sol Rototom Beach, un punto en el que tanto riders como visitantes podran disfrutar de la msica y la cultura urbana, as como de una zona de restauracion.",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "En esta zona, el viernes 9 de diciembre actuara la compaa de flamenco Pura Sangre que despues dejara paso a los Djs de Urban Corner (Loca Fm Murcia). Y repetiran el sabado 10, da dedicado a la msica y al arte urbano, con el simposio artstico de los grafiteros Ikon, Best y Tom Rock.",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "En esta zona, el viernes 9 de diciembre actuara la compaa de flamenco Pura Sangre que despues dejara paso a los Djs de Urban Corner (Loca Fm Murcia). Y repetiran el sabado 10, da dedicado a la msica y al arte urbano, con el simposio artstico de los grafiteros Ikon, Best y Tom Rock.",
+      "pauta_id": "G43"
+    }
+  ],
+  "conclusion": "La estructura del texto necesita simplificación debido a la presencia de signos de puntuacion poco habituales, uso de mayaculas innecesarias, falta de organizacion en listas y ausencia de vietas."
+}
+
+
+2026-08-27 16:38:05,983 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Se ha recibido un informe del agente Crítico.
+2026-08-27 16:38:05,983 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Ejecutando modelo de simplificación estructural.
+2026-08-27 16:38:09,353 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:38:09,356 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Resultado generado correctamente: 3579 caracteres.
+2026-08-27 16:43:27,855 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Solicitud recibida. Texto: 3593 caracteres. Informe crítico: sí
+2026-08-27 16:43:27,856 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | === INFORME DEL CRÍTICO ESTRUCTURAL ===
+ESTRUCTURAL ===
+{
+  "especialidad": "estructural",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "Alicante City&Beach",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "Alicante City&Beach",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "City&Beach: Significa ciudad y playa.",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "APP Tour",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "APP World Tour",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "APP Pool",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "SUP Yoga",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "SUP Race",
+      "pauta_id": "G20"
+    }
+  ],
+  "conclusion": "La estructura del texto necesita simplificación debido a la presencia de signos de puntuación no recomendados (comillas, ampersand) y el uso de mayúsculas en palabras que no son acrónimos."
+}
+
+
+2026-08-27 16:43:27,856 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Se ha recibido un informe del agente Crítico.
+2026-08-27 16:43:27,856 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Ejecutando modelo de simplificación estructural.
+2026-08-27 16:43:30,644 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:43:30,648 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Resultado generado correctamente: 3599 caracteres.
+2026-08-27 16:47:42,909 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Solicitud recibida. Texto: 3599 caracteres. Informe crítico: sí
+2026-08-27 16:47:42,909 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | === INFORME DEL CRÍTICO ESTRUCTURAL ===
+ESTRUCTURAL ===
+{
+  "especialidad": "estructural",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "SUP: Es una tabla de surf. Se usa para remar de pie.",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "APP: Es la Asociación de Paddle Surf.",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "Paddle surf: Es el deporte de remar de pie sobre una tabla.",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "APP World Tour: Es el campeonato del mundo de este deporte.",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "El circuito pasa por:\n- Santa Mónica (Estados Unidos).\n- Londres.\n- Busán (Corea del Sur).\n- París.",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "El circuito termina en Jeddah (Arabia Saudí).",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "City y Beach: Significa ciudad y playa.",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "Molokai Oahu: Es una carrera de paddle surf en Hawái.",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "SUP Race: Es una carrera de paddle surf.",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "APP Pool: Es una piscina gigante.",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "SUP Yoga: Es yoga sobre la tabla de paddle surf.",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "Disc jockey: Es una persona que pone música en una fiesta o en la radio.",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "El circuito pasa por:\n- Santa Mónica (Estados Unidos).\n- Londres.\n- Busán (Corea del Sur).\n- París.",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "Entre ellos están:\n- Estados Unidos.\n- Perú.\n- Argentina.\n- Japón.\n- Corea del Sur.\n- Francia.\n- Italia.\n- Hungría.\n- Bélgica.",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "Hay:\n- SUP Yoga.\n- Pilates.",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "El circuito pasa por:\n- Santa Mónica (Estados Unidos).\n- Londres.\n- Busán (Corea del Sur).\n- París.",
+      "pauta_id": "G43"
+    },
+    {
+      "elemento": "Entre ellos están:\n- Estados Unidos.\n- Perú.\n- Argentina.\n- Japón.\n- Corea del Sur.\n- Francia.\n- Italia.\n- Hungría.\n- Bélgica.",
+      "pauta_id": "G43"
+    },
+    {
+      "elemento": "Hay:\n- SUP Yoga.\n- Pilates.",
+      "pauta_id": "G43"
+    }
+  ],
+  "conclusion": "La estructura del texto presenta varios incumplimientos de las reglas de Lectura Fácil, principalmente en el uso de puntuación (dos puntos, paréntesis), la organización de listas y la presentación de información complementaria."
+}
+
+
+2026-08-27 16:47:42,910 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Se ha recibido un informe del agente Crítico.
+2026-08-27 16:47:42,910 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Ejecutando modelo de simplificación estructural.
+2026-08-27 16:47:43,039 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-27 16:47:43,040 | INFO | groq._base_client | Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2026-08-27 16:47:44,134 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-27 16:47:44,136 | INFO | groq._base_client | Retrying request to /openai/v1/chat/completions in 13.000000 seconds
+2026-08-27 16:47:59,857 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:47:59,860 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Resultado generado correctamente: 3595 caracteres.
+2026-08-27 16:54:17,359 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Solicitud recibida. Texto: 3646 caracteres. Informe crítico: sí
+2026-08-27 16:54:17,359 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | === INFORME DEL CRÍTICO ESTRUCTURAL ===
+ESTRUCTURAL ===
+{
+  "especialidad": "estructural",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "El circuito pasa por:\n• Santa Mónica, en Estados Unidos.\n• Londres.\n• Busán, en Corea del Sur.\n• París.",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "Entre ellos están:\n• Estados Unidos.\n• Perú.\n• Argentina.\n• Japón.\n• Corea del Sur.\n• Francia.\n• Italia.\n• Hungría.\n• Bélgica.",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "Hay:\n• SUP Yoga.\n• Pilates.",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "La vicealcaldesa pide a la gente que vaya a la playa del Postiguet este fin de semana.",
+      "pauta_id": "G41"
+    },
+    {
+      "elemento": "La vicealcaldesa pide a la gente que disfrute del espectáculo deportivo.",
+      "pauta_id": "G41"
+    },
+    {
+      "elemento": "La vicealcaldesa pide a la gente que pase una jornada de deporte y diversión.",
+      "pauta_id": "G41"
+    }
+  ],
+  "conclusion": "La estructura del texto presenta varios incumplimientos de las reglas de Lectura Fácil, principalmente en el uso de puntuación, la organización de listas y la dirección al lector."
+}
+
+
+2026-08-27 16:54:17,359 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Se ha recibido un informe del agente Crítico.
+2026-08-27 16:54:17,360 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Ejecutando modelo de simplificación estructural.
+2026-08-27 16:54:19,707 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:54:19,710 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Resultado generado correctamente: 3675 caracteres.
+2026-08-27 17:04:58,559 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Solicitud recibida. Texto: 2603 caracteres. Informe crítico: sí
+2026-08-27 17:04:58,559 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | === INFORME DEL CRÍTICO ESTRUCTURAL ===
+ESTRUCTURAL ===
+{
+  "especialidad": "estructural",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "Los alumnos y alumnas que ya estaban inscritos en las Escuelas Deportivas Municipales de Mantenimiento Físico y Artes Marciales reanudarán la actividad la próxima semana tras el levantamiento de las restricciones por parte de la Generalitat Valenciana, siempre que la situación sanitaria lo permita.",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "El concejal de Deportes, Fernando Gómez, ha apuntado que “el deporte federado se ha iniciado y debemos de reanudar también esta actividad deportiva tan importante para muchos ciudadanos y ciudadanas que necesitan de una oferta accesible para todos y todas, de deporte igualitario y de inclusión”.",
+      "pauta_id": "G44"
+    },
+    {
+      "elemento": "La pandemia provocada por el Covid-19 ha dificultado durante la presente temporada la realización de estas actividades deportivas que llevan a cabo más de 400 usuarios de diferentes edades, siendo suspendidas hasta en dos oportunidades, procediendo finalmente a la devolución de las tasas no disfrutadas por los inscritos en las Escuelas Municipales y los Campeonatos Locales.",
+      "pauta_id": "G23"
+    },
+    {
+      "elemento": "El edil ha apuntado que “debido a la evolución de la pandemia, tanto desde la Generalitat Valenciana como desde el Ayuntamiento de Elda se tuvieron que adoptar ciertas medidas restrictivas, entre ellas el aplazamiento de los cursos de las Escuelas Municipales y de las actividades deportivas que organiza la propia Concejalía. Además, se procedió a la devolución de las tasas no disfrutadas a todos los usuarios y usuarias que presentaron la documentación necesaria”.",
+      "pauta_id": "G44"
+    },
+    {
+      "elemento": "Todavía hay algunos beneficiarios/as de dicha devolución que no han presentado la documentación necesaria para poder realizar el trámite, por lo que deben cumplimentar la Hoja de Mantenimiento a Terceros, pudiendo descargarla de la web www.elda.es o solicitarla en la Concejalía de Deportes, con cita previa, a través de la web o llamando al teléfono 966989202.",
+      "pauta_id": "G25"
+    },
+    {
+      "elemento": "Todavía hay algunos beneficiarios/as de dicha devolución que no han presentado la documentación necesaria para poder realizar el trámite, por lo que deben cumplimentar la Hoja de Mantenimiento a Terceros, pudiendo descargarla de la web www.elda.es o solicitarla en la Concejalía de Deportes, con cita previa, a través de la web o llamando al teléfono 966989202.",
+      "pauta_id": "G43"
+    },
+    {
+      "elemento": "“Estamos muy satisfechos con la participación y la demanda que han tenido las Escuelas Municipales en los últimos años, ya que cuentan con más de 400 inscritos entre las diferentes modalidades. Vamos a trabajar para que se puedan ampliar en un futuro”, ha apuntado Fernando Gómez.",
+      "pauta_id": "G44"
+    }
+  ],
+  "conclusion": "La estructura del texto necesita simplificación debido a la presencia de puntuación no recomendada, uso de mayúsculas innecesarias y falta de organización en listas y diálogos."
+}
+
+
+2026-08-27 17:04:58,560 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Se ha recibido un informe del agente Crítico.
+2026-08-27 17:04:58,560 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Ejecutando modelo de simplificación estructural.
+2026-08-27 17:05:02,218 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:05:02,222 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Resultado generado correctamente: 2603 caracteres.
+2026-08-27 17:09:19,143 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Solicitud recibida. Texto: 2603 caracteres. Informe crítico: sí
+2026-08-27 17:09:19,144 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | === INFORME DEL CRÍTICO ESTRUCTURAL ===
+ESTRUCTURAL ===
+{
+  "especialidad": "estructural",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "Párrafo 2: 'Generalitat Valenciana: Es el gobierno de la Comunidad Valenciana.'",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "Párrafo 4: 'Concejal: Es la persona que trabaja en el Ayuntamiento y se encarga de un tema concreto, como el deporte.'",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "Párrafo 6: 'Campeonatos Locales: Son competiciones deportivas que se hacen en la ciudad.'",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "Párrafo 8: 'Concejalía: Es la parte del Ayuntamiento que se encarga de un tema concreto, como el deporte.'",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "Párrafo 5: 'Estas medidas incluyen posponer los cursos de las Escuelas Municipales. También incluyen posponer las actividades deportivas de la Concejalía.'",
+      "pauta_id": "G43"
+    },
+    {
+      "elemento": "Párrafo 9: 'Puedes descargar esta hoja de la página web www.elda.es. También puedes pedir la hoja en la Concejalía de Deportes. Para esto necesitas pedir cita antes. Puedes pedir cita por la web. También puedes llamar al teléfono 966 989 202.'",
+      "pauta_id": "G43"
+    },
+    {
+      "elemento": "Párrafos 1-10: El texto alterna entre noticias actuales, definiciones, contexto pasado (pandemia) y acciones futuras, rompiendo la secuencia temporal lógica.",
+      "pauta_id": "G40"
+    }
+  ],
+  "conclusion": "La estructura del texto necesita simplificación debido a la presencia de listas sin viñetas, uso de puntuación no recomendada (dos puntos) y falta de orden cronológico en la información."
+}
+
+
+2026-08-27 17:09:19,145 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Se ha recibido un informe del agente Crítico.
+2026-08-27 17:09:19,146 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Ejecutando modelo de simplificación estructural.
+2026-08-27 17:09:20,742 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:09:20,748 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Resultado generado correctamente: 2462 caracteres.
+2026-08-27 17:15:57,819 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Solicitud recibida. Texto: 2121 caracteres. Informe crítico: sí
+2026-08-27 17:15:57,821 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | === INFORME DEL CRÍTICO ESTRUCTURAL ===
+ESTRUCTURAL ===
+{
+  "especialidad": "estructural",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "Estas medidas incluyen:",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "Puedes pedir cita:",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "El Ayuntamiento va a trabajar para tener m\u000e1s escuelas en el futuro.",
+      "pauta_id": "G40"
+    },
+    {
+      "elemento": "Tambi\u000e9n debemos volver a hacer esta actividad deportiva.",
+      "pauta_id": "G41"
+    }
+  ],
+  "conclusion": "La estructura del texto necesita simplificación debido a la presencia de puntuaci\u000f3n no recomendada (dos puntos), falta de organizaci\u000f3n temporal clara y uso de primera persona en lugar de segunda para acciones del lector."
+}
+
+
+2026-08-27 17:15:57,822 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Se ha recibido un informe del agente Crítico.
+2026-08-27 17:15:57,824 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Ejecutando modelo de simplificación estructural.
+2026-08-27 17:15:59,338 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:15:59,346 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Resultado generado correctamente: 2119 caracteres.
+2026-08-27 17:22:45,790 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Solicitud recibida. Texto: 2539 caracteres. Informe crítico: sí
+2026-08-27 17:22:45,792 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | === INFORME DEL CRÍTICO ESTRUCTURAL ===
+ESTRUCTURAL ===
+{
+  "especialidad": "estructural",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "La pandemia del Covid-19 complica el deporte esta temporada. Las autoridades paran las actividades dos veces.",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "El Ayuntamiento devuelve el dinero de los cursos cancelados. Esto afecta a las personas de las Escuelas Municipales y de los Campeonatos Locales.",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "Los Campeonatos Locales son competiciones deportivas en la ciudad.",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "La Generalitat Valenciana y el Ayuntamiento de Elda limitan la actividad. Estas medidas incluyen:",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "La Generalitat Valenciana es el gobierno de la Comunidad Valenciana.",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "La Concejalía es la parte del Ayuntamiento que gestiona un tema. Por ejemplo, el deporte.",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "El Ayuntamiento devuelve el dinero de los cursos cancelados. Esto es para las personas que entregan los papeles.",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "Algunas personas no entregan los papeles. Ellos deben rellenar la Hoja de Mantenimiento a Terceros.",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "Puedes descargar esta hoja en la web www.elda.es. También puedes pedir la hoja en la Concejalía de Deportes. Para esto, pide cita antes. Puedes pedir cita:",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "La Generalitat Valenciana elimina las normas de limitación. Esto ocurre si la salud lo permite.",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "Los alumnos de las Escuelas Deportivas Municipales vuelven a entrenar la próxima semana. Estas escuelas son de Mantenimiento Físico y Artes Marciales.",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "Fernando Gómez es el concejal de Deportes. Él dice que el deporte federado empieza. También debes volver a hacer esta actividad. Esta actividad es muy importante para muchas personas. Ellos necesitan una oferta asequible. El deporte es para todos.",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "El Concejal trabaja en el Ayuntamiento. Él gestiona un tema concreto. Por ejemplo, el deporte.",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "Fernando Gómez dice que están muy contentos. Las Escuelas Municipales tienen muchos inscritos. Muchas personas quieren apuntarse. Hay más de 400 personas en las actividades. El Ayuntamiento trabajará para crear más escuelas.",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "La gente quiere apuntarse más. Esto trajo más plazas en 2017. También hay más cursos. Hoy hay diferentes niveles y actividades. Esto es en las clases de Mantenimiento Físico y de Artes Marciales.",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "La pandemia del Covid-19 complica el deporte esta temporada. Las autoridades paran las actividades dos veces. ... La Generalitat Valenciana elimina las normas de limitación. Esto ocurre si la salud lo permite. ... Los alumnos de las Escuelas Deportivas Municipales vuelven a entrenar la próxima semana.",
+      "pauta_id": "G40"
+    }
+  ],
+  "conclusion": "La estructura del texto necesita simplificación debido a la presencia de puntuación no recomendada, uso de mayúsculas innecesarias y falta de organización temporal clara en la narrativa."
+}
+
+
+2026-08-27 17:22:45,793 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Se ha recibido un informe del agente Crítico.
+2026-08-27 17:22:45,796 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Ejecutando modelo de simplificación estructural.
+2026-08-27 17:22:47,713 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:22:47,716 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Resultado generado correctamente: 2538 caracteres.
+2026-08-27 17:31:22,211 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Solicitud recibida. Texto: 650 caracteres. Informe crítico: sí
+2026-08-27 17:31:22,212 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | === INFORME DEL CRÍTICO ESTRUCTURAL ===
+ESTRUCTURAL ===
+{
+  "especialidad": "estructural",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "CIUDAD DEPORTIVA ANTONIO VALLS:",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "PABELLÓN FLORIDA BABEL:",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "Lista de horarios bajo 'CIUDAD DEPORTIVA ANTONIO VALLS' (08:30h a 10:00h, etc.)",
+      "pauta_id": "G43"
+    },
+    {
+      "elemento": "Lista de horarios bajo 'PABELLÓN FLORIDA BABEL' (17:30h a 19:00h, etc.)",
+      "pauta_id": "G43"
+    },
+    {
+      "elemento": "siendo posible el uso de las pistas de lunes a viernes en los siguientes horarios:",
+      "pauta_id": "G22"
+    }
+  ],
+  "conclusion": "La estructura del texto necesita simplificación debido a la presencia de mayúsculas innecesarias, falta de viñetas en las listas de horarios y uso de puntuación que interrumpe el flujo."
+}
+
+
+2026-08-27 17:31:22,213 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Se ha recibido un informe del agente Crítico.
+2026-08-27 17:31:22,215 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Ejecutando modelo de simplificación estructural.
+2026-08-27 17:31:23,304 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:31:23,311 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Resultado generado correctamente: 662 caracteres.
+2026-08-27 17:42:43,188 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Solicitud recibida. Texto: 1851 caracteres. Informe crítico: sí
+2026-08-27 17:42:43,188 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | === INFORME DEL CRÍTICO ESTRUCTURAL ===
+ESTRUCTURAL ===
+{
+  "especialidad": "estructural",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "Alicante, 3 de abril de 2022.-. El concejal de Urbanismo, Adri\u000e1n Santos P\u000e9rez, ha enfatizado este domingo sobre las ra\u000edces familiares festeras de las Reinas -adulta e infantil- de las Cruces de Mayo de Santa Cruz, Alejandra Mingall\u000f3n L\u000fpez y Nayara Mas Bl\u000e1zquez, durante el acto de Proclamaci\u000f3n que se ha desarrollado en la Plaza de la Ermita.",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "Alicante, 3 de abril de 2022.-. El concejal de Urbanismo, Adri\u000e1n Santos P\u000e9rez, ha enfatizado este domingo sobre las ra\u000edces familiares festeras de las Reinas -adulta e infantil- de las Cruces de Mayo de Santa Cruz, Alejandra Mingall\u000f3n L\u000fpez y Nayara Mas Bl\u000e1zquez, durante el acto de Proclamaci\u000f3n que se ha desarrollado en la Plaza de la Ermita.",
+      "pauta_id": "G39"
+    }
+  ],
+  "conclusion": "El texto presenta problemas estructurales que requieren simplificación, principalmente por el uso de puntuaci\u000f3n compleja, listas sin vi\u000f1etas y falta de organizaci\u000f3n temporal clara."
+}
+
+
+2026-08-27 17:42:43,189 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Se ha recibido un informe del agente Crítico.
+2026-08-27 17:42:43,189 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Ejecutando modelo de simplificación estructural.
+2026-08-27 17:42:44,586 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:42:44,590 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Resultado generado correctamente: 1814 caracteres.
+2026-08-27 17:47:00,049 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Solicitud recibida. Texto: 1814 caracteres. Informe crítico: sí
+2026-08-27 17:47:00,049 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | === INFORME DEL CRÍTICO ESTRUCTURAL ===
+ESTRUCTURAL ===
+{
+  "especialidad": "estructural",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "Las Reinas de las Cruces de Mayo de Santa Cruz son:",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "Proclamación: es el momento en que se anuncia oficialmente quién es la Reina.",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "Alejandra Mingallón López.",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "Nayara Mas Blázquez.",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "Adrián Santos Pérez",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "Mari Carmen Orquín Pascual",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "Andrés Mas Llorca",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "El Tío Farina",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "Ainhoa de la Osa",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "Edurne Mira",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "Alejandra Mingallón",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "Nayara Mas",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "Dice:\n- Vuestras familias participan en las fiestas de este Barrio.\n- Vivís las fiestas desde pequeñas.\n- Cantáis y bailáis en las noches de verbena.\n- Una verbena es una fiesta al aire libre con música y baile.\n- Ayudáis a preparar las Cruces de Mayo en las calles San Antonio o Diputado Auset.\n- Estas vivencias cambian con vuestro nuevo cargo.",
+      "pauta_id": "G43"
+    },
+    {
+      "elemento": "Dice:\n- Vuestras familias participan en las fiestas de este Barrio.\n- Vivís las fiestas desde pequeñas.\n- Cantáis y bailáis en las noches de verbena.\n- Una verbena es una fiesta al aire libre con música y baile.\n- Ayudáis a preparar las Cruces de Mayo en las calles San Antonio o Diputado Auset.\n- Estas vivencias cambian con vuestro nuevo cargo.",
+      "pauta_id": "G44"
+    }
+  ],
+  "conclusion": "La estructura del texto necesita simplificación debido a la presencia de signos de puntuación no recomendados (dos puntos, guiones para listas y diálogos) y al uso de mayúsculas innecesarias en nombres propios y títulos."
+}
+
+
+2026-08-27 17:47:00,051 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Se ha recibido un informe del agente Crítico.
+2026-08-27 17:47:00,052 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Ejecutando modelo de simplificación estructural.
+2026-08-27 17:47:01,605 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:47:01,616 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Resultado generado correctamente: 1814 caracteres.
+2026-08-27 17:57:57,353 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Solicitud recibida. Texto: 2016 caracteres. Informe crítico: sí
+2026-08-27 17:57:57,354 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | === INFORME DEL CRÍTICO ESTRUCTURAL ===
+ESTRUCTURAL ===
+{
+  "especialidad": "estructural",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "Las Reinas de las Cruces de Mayo de Santa Cruz son:\n• Alejandra Mingallón López.\n• Nayara Mas Blázquez.",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "Dice:\n- Vuestras familias participan en las fiestas de este Barrio.\n- Vosotras vivís las fiestas desde pequeñas.\n- Cantáis y bailáis en las noches de verbena.\n- Una verbena es una fiesta al aire libre.\nTiene música y baile.\n- Vosotras ayudáis a preparar las Cruces de Mayo.\nLo hacéis en las calles San Antonio o Diputado Auset.\n- Estas vivencias cambian con vuestro nuevo cargo.",
+      "pauta_id": "G44"
+    },
+    {
+      "elemento": "Alejandra Mingallón y Nayara Mas iban a ser Reinas en 2020.\nLa pandemia impidió la proclamación.\nAinhoa de la Osa y Edurne Mira no se despidieron en la primavera de 2020.\nAlejandra y Nayara toman su lugar.",
+      "pauta_id": "G40"
+    }
+  ],
+  "conclusion": "La estructura del texto presenta varios incumplimientos de las reglas de Lectura Fácil, principalmente en el uso de puntuación, la organización de la información temporal y la presentación de listas."
+}
+
+
+2026-08-27 17:57:57,355 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Se ha recibido un informe del agente Crítico.
+2026-08-27 17:57:57,356 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Ejecutando modelo de simplificación estructural.
+2026-08-27 17:57:59,226 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:57:59,232 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Resultado generado correctamente: 2026 caracteres.
+2026-08-27 18:08:41,880 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Solicitud recibida. Texto: 5203 caracteres. Informe crítico: sí
+2026-08-27 18:08:41,881 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | === INFORME DEL CRÍTICO ESTRUCTURAL ===
+ESTRUCTURAL ===
+{
+  "especialidad": "estructural",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "El Patronato de Turismo del Ayuntamiento de Alicante, que dirige Mari Carmen Sánchez, ha presentado la programación de los actos de “Verano Mágico” que se celebrarán en el Castillo de Santa Bárbara durante los meses de julio a septiembre, y cuya inauguración tendrá lugar mañana a las 12 horas con una jornada de recreación histórica.",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "La vicealcaldesa y edil de Turismo, Mari Carmen Sánchez, ha destacado que “pretendemos dinamizar el Castillo para abrirlo a las actividades familiares, pero todo enmarcado dentro de las medidas sanitarias impuestas y siguiendo un riguroso control de aforo, que no van a impedir disfrutar de este amplio programa que presentamos”.",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "El programa de actividades se celebrará en los meses de verano, de julio a septiembre, con dos ciclos de conciertos, cuentacuentos, talleres, actividades familiares, magia y marionetas medievales.",
+      "pauta_id": "G43"
+    },
+    {
+      "elemento": "Durante este fin de semana y coincidiendo con la inauguración de “Verano Mágico”, tendrá lugar unas jornadas de recreación histórica en el propio Castillo de Santa Bárbara de la mano de recreadores templarios. El público familiar e infantil podrán disfrutar de exhibiciones de combate en vivo a cargo de especialistas de cine, cantos medievales en directo, demostraciones de esgrima clásica y de danzas de antaño, así como el nombramiento de damas y caballeros a pequeños infantes y doncellas.",
+      "pauta_id": "G43"
+    },
+    {
+      "elemento": "En cuanto a los ciclos de conciertos, la nueva edición de Live the roof incluye espectáculos musicales protagonizados por L.A, Ventiuno, Marwan y Bely Basarte. Y, por otro lado, en A la Llum del Castell, se han organizado ocho cenas con espectáculo y actuaciones de Albaladre, Ciudad Canalla, The Liverpool Band, Trivox, ABBA Élite, Keeng, DLocos, Tos Secret.",
+      "pauta_id": "G43"
+    },
+    {
+      "elemento": "En cuanto a las actuaciones de los ciclo conciertos, las entradas se pueden adquirir a través de la página web meetandlive.es",
+      "pauta_id": "G41"
+    },
+    {
+      "elemento": "En enero de 2021, el alcalde de Alicante, Luis Barcala firmó el decreto mediante el que se cedió las competencias de la gestión de los espacios públicos del Castillo de Santa Bárbara a la Concejalía de Turismo, que dirige Mari Carmen Sánchez, para su aprovechamiento para la promoción turística de la ciudad.",
+      "pauta_id": "G40"
+    }
+  ],
+  "conclusion": "La estructura del texto necesita simplificación debido a la presencia de listas sin viñetas, uso de puntuación no recomendada (comillas, paréntesis implícitos en la estructura de frases largas) y falta de organización temporal clara en algunos párrafos."
+}
+
+
+2026-08-27 18:08:41,882 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Se ha recibido un informe del agente Crítico.
+2026-08-27 18:08:41,883 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Ejecutando modelo de simplificación estructural.
+2026-08-27 18:08:45,068 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:08:45,071 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Resultado generado correctamente: 5226 caracteres.
+2026-08-27 18:15:24,534 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Solicitud recibida. Texto: 5400 caracteres. Informe crítico: sí
+2026-08-27 18:15:24,535 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | === INFORME DEL CRÍTICO ESTRUCTURAL ===
+ESTRUCTURAL ===
+{
+  "especialidad": "estructural",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "El programa incluye:\n- Dos ciclos de conciertos.\n- Personas que cuentan historias.\n- Talleres.\n- Actividades familiares.\n- Magia.\n- Títeres de la época medieval.",
+      "pauta_id": "G43"
+    },
+    {
+      "elemento": "Los artistas son:\n- L.A.\n- Ventiuno.\n- Marwan.\n- Bely Basarte.",
+      "pauta_id": "G43"
+    },
+    {
+      "elemento": "Los artistas son:\n- Albaladre.\n- Ciudad Canalla.\n- The Liverpool Band.\n- Trivox.\n- ABBA Élite.\n- Keeng.\n- DLocos.\n- Tos Secret.",
+      "pauta_id": "G43"
+    },
+    {
+      "elemento": "El ciclo de conciertos Live the roof incluye espectáculos musicales.",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "El ciclo A la Llum del Castell ofrece 8 cenas con música y espectáculo.",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "En enero de 2021, Luis Barcala, alcalde de Alicante, firma un decreto. ... Mari Carmen Sánchez dirige esta Concejalía. ... Antonio Manresa, concejal de Cultura, gestiona la Concejalía de Cultura.",
+      "pauta_id": "G40"
+    }
+  ],
+  "conclusion": "La estructura del texto necesita simplificación debido a la presencia de listas sin viñetas, uso de mayúsculas innecesarias y falta de organización temporal en algunas secciones."
+}
+
+
+2026-08-27 18:15:24,536 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Se ha recibido un informe del agente Crítico.
+2026-08-27 18:15:24,538 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Ejecutando modelo de simplificación estructural.
+2026-08-27 18:15:27,710 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:15:27,714 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Resultado generado correctamente: 5186 caracteres.
+2026-08-27 18:23:55,751 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Solicitud recibida. Texto: 5285 caracteres. Informe crítico: sí
+2026-08-27 18:23:55,753 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | === INFORME DEL CRÍTICO ESTRUCTURAL ===
+ESTRUCTURAL ===
+{
+  "especialidad": "estructural",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "El Patronato de Turismo del Ayuntamiento de Alicante presenta la programación de Verano Mágico.",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "Las actividades se celebran en el Castillo de Santa Bárbara.",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "Mari Carmen Sánchez es la vicealcaldesa y la concejala de Turismo.",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "El programa incluye:\n- Dos ciclos de conciertos.\n- Personas que cuentan historias.\n- Talleres.\n- Actividades familiares.\n- Magia.\n- Títeres de la época medieval.",
+      "pauta_id": "G43"
+    },
+    {
+      "elemento": "Los artistas son:\n- L.A.\n- Ventiuno.\n- Marwan.\n- Bely Basarte.",
+      "pauta_id": "G43"
+    },
+    {
+      "elemento": "Los artistas son:\n- Albaladre.\n- Ciudad Canalla.\n- The Liverpool Band.\n- Trivox.\n- ABBA Élite.\n- Keeng.\n- DLocos.\n- Tos Secret.",
+      "pauta_id": "G43"
+    },
+    {
+      "elemento": "El lunes anterior a las actividades familiares, la página web de Turismo publica el enlace de inscripción.",
+      "pauta_id": "G40"
+    },
+    {
+      "elemento": "En enero de 2021, Luis Barcala, alcalde de Alicante, firma un decreto.",
+      "pauta_id": "G40"
+    }
+  ],
+  "conclusion": "La estructura del texto presenta incumplimientos de las reglas de Lectura Fácil, principalmente en el uso de mayúsculas innecesarias, la puntuación en listas y la organización de la información temporal."
+}
+
+
+2026-08-27 18:23:55,755 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Se ha recibido un informe del agente Crítico.
+2026-08-27 18:23:55,758 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Ejecutando modelo de simplificación estructural.
+2026-08-27 18:23:59,000 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:23:59,006 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Resultado generado correctamente: 5283 caracteres.
+2026-08-27 18:31:21,278 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Solicitud recibida. Texto: 5283 caracteres. Informe crítico: sí
+2026-08-27 18:31:21,280 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | === INFORME DEL CRÍTICO ESTRUCTURAL ===
+ESTRUCTURAL ===
+{
+  "especialidad": "estructural",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "El programa incluye:\n- Dos ciclos de conciertos.\n- Personas que cuentan historias.\n- Talleres.\n- Actividades familiares.\n- Magia.\n- Títeres de la época medieval.",
+      "pauta_id": "G43"
+    },
+    {
+      "elemento": "Los artistas son:\n- L.A.\n- Ventiuno.\n- Marwan.\n- Bely Basarte.",
+      "pauta_id": "G43"
+    },
+    {
+      "elemento": "Los artistas son:\n- Albaladre.\n- Ciudad Canalla.\n- The Liverpool Band.\n- Trivox.\n- ABBA Élite.\n- Keeng.\n- DLocos.\n- Tos Secret.",
+      "pauta_id": "G43"
+    },
+    {
+      "elemento": "El ciclo de conciertos Live the roof incluye espectáculos musicales.",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "Live the roof es el nombre en inglés de un ciclo de conciertos.",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "L.A es el nombre artístico de un grupo musical.",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "El Covd-19 es el nombre de la enfermedad causada por el coronavirus.",
+      "pauta_id": "G20"
+    },
+    {
+      "elemento": "Luis Barcala, alcalde de Alicante, firma un decreto en enero de 2021.",
+      "pauta_id": "G40"
+    }
+  ],
+  "conclusion": "La estructura del texto necesita simplificación debido a la presencia de listas sin viñetas, uso de mayúsculas innecesarias y falta de organización temporal en algunas secciones."
+}
+
+
+2026-08-27 18:31:21,281 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Se ha recibido un informe del agente Crítico.
+2026-08-27 18:31:21,282 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Ejecutando modelo de simplificación estructural.
+2026-08-27 18:31:24,650 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:31:24,656 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Resultado generado correctamente: 5284 caracteres.
+2026-08-27 18:42:45,177 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Solicitud recibida. Texto: 2238 caracteres. Informe crítico: sí
+2026-08-27 18:42:45,178 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | === INFORME DEL CRÍTICO ESTRUCTURAL ===
+ESTRUCTURAL ===
+{
+  "especialidad": "estructural",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "Primer p\u001arrrafo: \u001c...le traslada \u001c\u001c...mi m\u0011s sincera preocupaci\u0011n...\u001c\u001c\u001d",
+      "pauta_id": "G44"
+    },
+    {
+      "elemento": "Segundo p\u001arrrafo: \u001cBarcala explica en la misiva que \u001c\u001c...como alcalde de Alicante...\u001c\u001c\u001d",
+      "pauta_id": "G44"
+    },
+    {
+      "elemento": "Tercer p\u001arrrafo: \u001c...considera que \u001c\u001c...la suspensi\u0011n de actividad...\u001c\u001c\u001d",
+      "pauta_id": "G44"
+    },
+    {
+      "elemento": "Tercer p\u001arrrafo: \u001c...que se permita su apertura hasta las 01:00 horas, una ocupaci\u0011n por mesa o agrupaciones de mesas de hasta 10 personas y el mantenimiento de la distancia interpersonal de 1,5 metros, manteni\u0011ndose respecto a los mismos la prohibici\u0011n de desarrollo de la actividad en el interior cerrado de los locales\u001d",
+      "pauta_id": "G43"
+    },
+    {
+      "elemento": "Cuarto p\u001arrrafo: \u001c...expone que la decisi\u0011n... ser\u000eda \u001c\u001c...una medida tanto justa como necesaria...\u001c\u001c\u001d",
+      "pauta_id": "G44"
+    },
+    {
+      "elemento": "Quinto p\u001arrrafo: \u001c...recuerda a la consellera... que el sector hostelero... \u001c\u001c...ha colaborado activa y decisivamente...\u001c\u001c\u001d",
+      "pauta_id": "G44"
+    },
+    {
+      "elemento": "Tercer p\u001arrrafo: \u001c...como \u001c\u001cbares de copas\u001c\u001c que dispongan de terraza...\u001d",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "Tercer p\u001arrrafo: \u001c...es decir, que se permita su apertura hasta las 01:00 horas, una ocupaci\u0011n por mesa o agrupaciones de mesas de hasta 10 personas y el mantenimiento de la distancia interpersonal de 1,5 metros, manteni\u0011ndose respecto a los mismos la prohibici\u0011n de desarrollo de la actividad en el interior cerrado de los locales\u001d",
+      "pauta_id": "G39"
+    },
+    {
+      "elemento": "Cuarto p\u001arrrafo: \u001c...con 20.000 millones de euros de facturaci\u0011n y m\u0011s de 200.000 trabajadores vinculados, especialmente de empleo joven\u001d",
+      "pauta_id": "G39"
+    }
+  ],
+  "conclusion": "La estructura del texto necesita simplificación debido a la presencia de diálogos en estilo indirecto con comillas, listas sin viñetas, uso de puntos suspensivos y frases excesivamente largas que dificultan la lectura."
+}
+
+
+2026-08-27 18:42:45,179 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Se ha recibido un informe del agente Crítico.
+2026-08-27 18:42:45,180 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Ejecutando modelo de simplificación estructural.
+2026-08-27 18:42:47,051 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:42:47,058 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Resultado generado correctamente: 2239 caracteres.
+2026-08-27 18:53:24,283 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Solicitud recibida. Texto: 2459 caracteres. Informe crítico: sí
+2026-08-27 18:53:24,284 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | === INFORME DEL CRÍTICO ESTRUCTURAL ===
+ESTRUCTURAL ===
+{
+  "especialidad": "estructural",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "Ocio nocturno: son los bares y discotecas donde la gente sale a divertirse por la noche.",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "Hostelería: son los negocios que sirven comida y bebida, como bares y restaurantes.",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "Le pide a la consejera que permita que los bares de copas abran hasta la 1 de la madrugada. Estos bares tienen terraza. También pide que haya hasta 10 personas en cada mesa o grupo de mesas. Además, las personas deben mantener una distancia de 1,5 metros. La actividad no puede ser dentro del local cerrado.",
+      "pauta_id": "G43"
+    }
+  ],
+  "conclusion": "La estructura del texto necesita simplificación debido a la presencia de puntuación no recomendada (dos puntos) y la falta de organización en listas con viñetas."
+}
+
+
+2026-08-27 18:53:24,285 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Se ha recibido un informe del agente Crítico.
+2026-08-27 18:53:24,285 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Ejecutando modelo de simplificación estructural.
+2026-08-27 18:53:26,413 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:53:26,419 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Resultado generado correctamente: 2459 caracteres.
+2026-08-27 19:07:08,649 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Solicitud recibida. Texto: 2274 caracteres. Informe crítico: sí
+2026-08-27 19:07:08,649 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | === INFORME DEL CRÍTICO ESTRUCTURAL ===
+ESTRUCTURAL ===
+{
+  "especialidad": "estructural",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "Alicante 24 de abril de 2018. La Concejal\u000eda de Cultura del Ayuntamiento de Alicante, ha informado que por tercer a\u000f1o consecutivo el MACA junto a numerosos museos nacionales e internacionales, participa durante toda esta semana en este proyecto nacido en Francia hace cinco a\u000f1os y co-organizado por UNESCO, en el que se invita a todas las instituciones culturales y museos del planeta a participar a trav\u000e\t de twitter con 7 temas a trav\u000e\t de 7 hastags.",
+      "pauta_id": "G39"
+    },
+    {
+      "elemento": "Alicante 24 de abril de 2018. La Concejal\u000eda de Cultura del Ayuntamiento de Alicante, ha informado que por tercer a\u000f1o consecutivo el MACA junto a numerosos museos nacionales e internacionales, participa durante toda esta semana en este proyecto nacido en Francia hace cinco a\u000f1os y co-organizado por UNESCO, en el que se invita a todas las instituciones culturales y museos del planeta a participar a trav\u000e\t de twitter con 7 temas a trav\u000e\t de 7 hastags.",
+      "pauta_id": "G42"
+    },
+    {
+      "elemento": "Hasta el domingo, los museos y centros culturales intercambiaran vivencias, im\u000e1genes o proyectos bajo los hastag: #cityMW (el martes), #heritageMW (mi\u000e9rcoles), #professionsMW (jueves), #kidsMW (viernes), #natureMW (s\u000e1bado) y #differenceMW (domingo).",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "Hasta el domingo, los museos y centros culturales intercambiaran vivencias, im\u000e1genes o proyectos bajo los hastag: #cityMW (el martes), #heritageMW (mi\u000e9rcoles), #professionsMW (jueves), #kidsMW (viernes), #natureMW (s\u000e1bado) y #differenceMW (domingo).",
+      "pauta_id": "G43"
+    },
+    {
+      "elemento": "Hasta el domingo, los museos y centros culturales intercambiaran vivencias, im\u000e1genes o proyectos bajo los hastag: #cityMW (el martes), #heritageMW (mi\u000e9rcoles), #professionsMW (jueves), #kidsMW (viernes), #natureMW (s\u000e1bado) y #differenceMW (domingo).",
+      "pauta_id": "G40"
+    },
+    {
+      "elemento": "Museos como el Museo Reina Sof\u000eda, el Guggenheim de Bilbao, el Museo del Prado, el Museo del Louvre, o la National Gallery participan en esta original iniciativa, que adem\u000e1s de dar a conocer a los visitantes informaci\u000f3n sobre los museos, permite que exista un fuerte feedback entre las diferentes instituciones.",
+      "pauta_id": "G39"
+    },
+    {
+      "elemento": "Entre el lunes y el martes los centros han publicado 15.600 tweets, se han compartido 125.700 veces y se han realizado 3.958 comentarios por los usuarios.",
+      "pauta_id": "G41"
+    },
+    {
+      "elemento": "Los pa\u000edses con m\u000e1s participaci\u000f3n son: Italia con un 22 % seguido de Francia con un 19 % y Espa\u000f1a con un 12 %, obteniendo una mayor respuesta en mujeres que en hombres con un 59 % del total de interacciones.",
+      "pauta_id": "G41"
+    }
+  ],
+  "conclusion": "El texto presenta m\u000fasiples incumplimientos estructurales graves, incluyendo oraciones excesivamente largas, uso de puntuaci\u000f3n compleja, falta de organizaci\u000f3n en listas y ausencia de direcci\u000f3n directa al lector. Es necesario simplificar la estructura para cumplir con la norma UNE 153101:2018."
+}
+
+
+2026-08-27 19:07:08,650 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Se ha recibido un informe del agente Crítico.
+2026-08-27 19:07:08,651 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Ejecutando modelo de simplificación estructural.
+2026-08-27 19:07:10,471 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 19:07:10,476 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Resultado generado correctamente: 2288 caracteres.
+2026-08-27 19:13:46,158 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Solicitud recibida. Texto: 2729 caracteres. Informe crítico: sí
+2026-08-27 19:13:46,159 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | === INFORME DEL CRÍTICO ESTRUCTURAL ===
+ESTRUCTURAL ===
+{
+  "especialidad": "estructural",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "El Museo de Arte Contemporáneo de Alicante (MACA) participa en un proyecto.",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "El proyecto tiene 7 temas.\nEl proyecto tiene 7 etiquetas. Una etiqueta es una palabra con el símbolo # que sirve para agrupar mensajes en redes sociales.\n\nEste año, los temas son la tolerancia y la vida en sociedad.\nTolerancia: es el respeto hacia las personas que son diferentes a ti.\nLos temas también tratan el papel de los museos en la sociedad.\n\nEl proyecto tiene 7 días.\nEl proyecto tiene 7 temas.\nEl proyecto tiene 7 etiquetas.",
+      "pauta_id": "G39"
+    },
+    {
+      "elemento": "Cada etiqueta diaria muestra una parte de los valores.\nCada etiqueta muestra un aspecto concreto de los valores.",
+      "pauta_id": "G39"
+    },
+    {
+      "elemento": "Los museos usan estas etiquetas:\n- El martes usan #cityMW.\n- El miércoles usan #heritageMW.\n- El jueves usan #professionsMW.\n- El viernes usan #kidsMW.\n- El sábado usan #natureMW.\n- El domingo usan #differenceMW.",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "El Museo Reina Sofía participa en la actividad.\nEl Guggenheim de Bilbao participa en la actividad.\nEl Museo del Prado participa en la actividad.\nEl Museo del Louvre participa en la actividad.\nLa National Gallery participa en la actividad.",
+      "pauta_id": "G43"
+    }
+  ],
+  "conclusion": "La estructura del texto presenta problemas de redundancia, uso de puntuación no recomendada y falta de organización en listas que requieren simplificación."
+}
+
+
+2026-08-27 19:13:46,159 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Se ha recibido un informe del agente Crítico.
+2026-08-27 19:13:46,160 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Ejecutando modelo de simplificación estructural.
+2026-08-27 19:13:47,992 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 19:13:47,998 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Resultado generado correctamente: 2537 caracteres.
+2026-08-27 19:23:23,575 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Solicitud recibida. Texto: 1671 caracteres. Informe crítico: sí
+2026-08-27 19:23:23,576 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | === INFORME DEL CRÍTICO ESTRUCTURAL ===
+ESTRUCTURAL ===
+{
+  "especialidad": "estructural",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "La edil, M\u0001a Dolores Padilla ha presentado esta ma\u000fana la segunda edici\u000f3n del programa \"Estiu cultural\" que es el conjunto de programas y actividades que la Concejal\u000eda de cultura, con la colaboraci\u000f3n de diferentes entidades, como la Diputaci\u000f3n de Alicante, realiza durante el periodo Julio-Septiembre, con el fin de ofrecer a los ciudadanos, visitantes y turistas un amplio abanico de propuestas: Teatro, M\u000fasica (jazz. Pop., indie, rock...), Cine, Exposiciones, talleres, conciertos, cenas-espect\u000e1culo, corales, cuenta cuentos, t\u000edteres, circo, danza, videojuegos, audiovisuales, mercado de dise\u000f1o\u00026",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "La edil, M\u0001a Dolores Padilla ha presentado esta ma\u000fana la segunda edici\u000f3n del programa \"Estiu cultural\" que es el conjunto de programas y actividades que la Concejal\u000eda de cultura, con la colaboraci\u000f3n de diferentes entidades, como la Diputaci\u000f3n de Alicante, realiza durante el periodo Julio-Septiembre, con el fin de ofrecer a los ciudadanos, visitantes y turistas un amplio abanico de propuestas: Teatro, M\u000fasica (jazz. Pop., indie, rock...), Cine, Exposiciones, talleres, conciertos, cenas-espect\u000e1culo, corales, cuenta cuentos, t\u000edteres, circo, danza, videojuegos, audiovisuales, mercado de dise\u000f1o\u00026",
+      "pauta_id": "G24"
+    },
+    {
+      "elemento": "La edil, M\u0001a Dolores Padilla ha presentado esta ma\u000fana la segunda edici\u000f3n del programa \"Estiu cultural\" que es el conjunto de programas y actividades que la Concejal\u000eda de cultura, con la colaboraci\u000f3n de diferentes entidades, como la Diputaci\u000f3n de Alicante, realiza durante el periodo Julio-Septiembre, con el fin de ofrecer a los ciudadanos, visitantes y turistas un amplio abanico de propuestas: Teatro, M\u000fasica (jazz. Pop., indie, rock...), Cine, Exposiciones, talleres, conciertos, cenas-espect\u000e1culo, corales, cuenta cuentos, t\u000edteres, circo, danza, videojuegos, audiovisuales, mercado de dise\u000f1o\u00026",
+      "pauta_id": "G43"
+    },
+    {
+      "elemento": "La edil, M\u0001a Dolores Padilla ha presentado esta ma\u000fana la segunda edici\u000f3n del programa \"Estiu cultural\" que es el conjunto de programas y actividades que la Concejal\u000eda de cultura, con la colaboraci\u000f3n de diferentes entidades, como la Diputaci\u000f3n de Alicante, realiza durante el periodo Julio-Septiembre, con el fin de ofrecer a los ciudadanos, visitantes y turistas un amplio abanico de propuestas: Teatro, M\u000fasica (jazz. Pop., indie, rock...), Cine, Exposiciones, talleres, conciertos, cenas-espect\u000e1culo, corales, cuenta cuentos, t\u000edteres, circo, danza, videojuegos, audiovisuales, mercado de dise\u000f1o\u00026",
+      "pauta_id": "G39"
+    },
+    {
+      "elemento": "\"Padilla ha querido agradecer el trabajo realizado por los t\u000e9cnicos de la Concejal\u000eda que ha permitido la elaboraci\u000f3n de un extenso programa cultural para los meses de verano\". Ha querido invitar a los alicantinos y visitantes a disfrutar de la oferta que Alicante ofrece m\u000e1s all\u000e1 del sol y playa con actividades para todos los p\u000fablicos y gustos.",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "Muchos son los espacios de la ciudad que albergar\u000e1n las diferentes actividades, como el Castillo de Santa B\u000e1rbara, el MACA, la Sala de exposiciones de la Lonja del Pescado, la Concha de la Explanada, Cigarreras, los parques o la Plaza del Ayuntamiento.",
+      "pauta_id": "G43"
+    },
+    {
+      "elemento": "Durante los pr\u000fóxos meses estivales est\u000e1n previstas unas 115 actividades que pretenden ofrecer una amplia gama cultural que muestra la creatividad de todas las artes y propuestas para el disfrute del publico en general que quieren proyectar una ciudad comprometida con la cultura.",
+      "pauta_id": "G39"
+    }
+  ],
+  "conclusion": "El texto presenta m\u000fasiples incumplimientos estructurales graves, incluyendo listas sin vi\u000fetas, uso de puntuaci\u000f3n inadecuada (puntos suspensivos, par\u000fntesis, comillas), frases excesivamente largas y falta de organizaci\u000f3n clara de la informaci\u000f3n. Es necesario simplificar la estructura para cumplir con la norma UNE 153101:2018."
+}
+
+
+2026-08-27 19:23:23,578 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Se ha recibido un informe del agente Crítico.
+2026-08-27 19:23:23,580 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Ejecutando modelo de simplificación estructural.
+2026-08-27 19:23:25,063 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 19:23:25,066 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Resultado generado correctamente: 1559 caracteres.
+2026-08-27 19:34:06,170 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Solicitud recibida. Texto: 2740 caracteres. Informe crítico: sí
+2026-08-27 19:34:06,170 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | === INFORME DEL CRÍTICO ESTRUCTURAL ===
+ESTRUCTURAL ===
+{
+  "especialidad": "estructural",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "Fragmento: 'Las actividades incluyen teatro. Las actividades incluyen música. ... Las actividades incluyen un mercado de diseño.'",
+      "pauta_id": "G43"
+    },
+    {
+      "elemento": "Fragmento: 'El Castillo de Santa Bárbara acoge las actividades. El MACA acoge las actividades. ... La Plaza del Ayuntamiento acoge las actividades.'",
+      "pauta_id": "G43"
+    },
+    {
+      "elemento": "Fragmento: 'Las actividades son para los vecinos. Las actividades son para los visitantes. Las actividades son para los turistas.'",
+      "pauta_id": "G42"
+    },
+    {
+      "elemento": "Fragmento: 'El programa dura de julio a septiembre. El programa ofrece muchas actividades.'",
+      "pauta_id": "G42"
+    },
+    {
+      "elemento": "Fragmento: 'Padilla presenta la edición número 2 del programa Estiu cultural. Padilla organiza este programa.'",
+      "pauta_id": "G42"
+    },
+    {
+      "elemento": "Fragmento: 'La Concha de la Explanada acoge las actividades. La Concha de la Explanada es una plaza grande. La Concha de la Explanada es curva. La Concha de la Explanada está en el centro de la ciudad.'",
+      "pauta_id": "G39"
+    },
+    {
+      "elemento": "Fragmento: 'El programa tiene 115 actividades este verano. ... El año pasado, el programa tuvo 115 actividades.'",
+      "pauta_id": "G39"
+    }
+  ],
+  "conclusion": "La estructura del texto necesita simplificación debido a la falta de organización temática, la ausencia de viñetas en listas largas y el uso de puntuación inadecuada."
+}
+
+
+2026-08-27 19:34:06,171 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Se ha recibido un informe del agente Crítico.
+2026-08-27 19:34:06,171 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Ejecutando modelo de simplificación estructural.
+2026-08-27 19:34:08,002 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 19:34:08,005 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Resultado generado correctamente: 2198 caracteres.
+2026-08-28 11:10:09,552 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Iniciando agente A2A en puerto 8006.
+2026-08-28 11:17:25,199 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Solicitud recibida. Texto: 3495 caracteres. Informe crítico: sí
+2026-08-28 11:17:25,200 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | === INFORME DEL CRÍTICO ESTRUCTURAL ===
+ESTRUCTURAL ===
+{
+  "especialidad": "estructural",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "Párrafo 1: '...programación organizada para celebrar una nueva edición de Los Murales de San Isidro este próximo fin de semana.'",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "Párrafo 2: 'Con la música como protagonista... habrá también rutas teatralizadas, pasacalles, batukada, recitales poéticos, fútbol sala y una gran fiesta infantil con hinchables, juegos y talleres durante todo el fin de semana'",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "Párrafo 2: 'Con la música como protagonista... habrá también rutas teatralizadas, pasacalles, batukada, recitales poéticos, fútbol sala y una gran fiesta infantil con hinchables, juegos y talleres durante todo el fin de semana'",
+      "pauta_id": "G43"
+    },
+    {
+      "elemento": "Párrafo 2: '...ha anunciado Mar Ezcurra, quien ha asegurado que “volvemos a este maravilloso barrio a llenarlo de color y poesía en homenaje a nuestro poeta Miguel Hernández”.'",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "Párrafo 3: '...servirá como “pistoletazo de salida” a todo un fin de semana cultural.'",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "Párrafo 4: 'Así, tras el pasacalles por el barrio de la agrupación musical “Ideales” y la sesión DJ que ofrecerá el oriolano David Rodriguez sobre las 20.30, Varry Brava, finalistas en el Benidorm Fest 2022, ofrecerán un concierto en formato electroacústico en la Plaza de la Ermita de este popular barrio.'",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "Párrafo 6: 'Durante el día, y al margen de estos conciertos, habrá una ruta teatralizada a las 12.30 horas, pasacalles del grupo instrumental Banda Filarmonía Orihuela (Acamdo), una gran batukada, la gran fiesta infantil, el torneo de Fútbol Sala, recitales poéticos y la tradicional pintada de fachadas.'",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "Párrafo 6: 'Durante el día, y al margen de estos conciertos, habrá una ruta teatralizada a las 12.30 horas, pasacalles del grupo instrumental Banda Filarmonía Orihuela (Acamdo), una gran batukada, la gran fiesta infantil, el torneo de Fútbol Sala, recitales poéticos y la tradicional pintada de fachadas.'",
+      "pauta_id": "G43"
+    },
+    {
+      "elemento": "Párrafo 6: '...pasacalles del grupo instrumental Banda Filarmonía Orihuela (Acamdo)...'",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "Párrafo 7: '“Aunque hay nuevas fachadas para pintar, se va a hacer un esfuerzo importantísimo en restaurar los murales más deteriorados con artistas locales y restauradores profesionales”, ha afirmado la concejala de Cultura.'",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "Párrafo 9: '“Queremos llenar de vida este barrio que cada año nos recibe con tanto cariño y celebrar con sus vecinos este especial homenaje a Miguel Hernández”, ha comentado Mar Ezcurra, quien ha estado acompañada de Maribel, en representación de la plataforma de vecinos y vecinas de San Isidro y de Miguel Ángel Murcia, miembro de la Junta Directiva del C.F.P. Orihuela Deportiva, que es quien organiza el Torneo de Fútbol Sala Murales de San Isidro y quien gestionará la barra benéfica durante todo el fin de semana.'",
+      "pauta_id": "G22"
+    },
+    {
+      "elemento": "Párrafo 9: '...quien ha estado acompañada de Maribel, en representación de la plataforma de vecinos y vecinas de San Isidro y de Miguel Ángel Murcia, miembro de la Junta Directiva del C.F.P. Orihuela Deportiva, que es quien organiza el Torneo de Fútbol Sala Murales de San Isidro y quien gestionará la barra benéfica durante todo el fin de semana.'",
+      "pauta_id": "G39"
+    },
+    {
+      "elemento": "Párrafo 10: 'Toda la programación íntegra ya se puede consultar en la web de culturaorihuela.com y en las redes sociales de la Concejalía.'",
+      "pauta_id": "G41"
+    },
+    {
+      "elemento": "Párrafo 11: 'Además, la Concejalía de Cultura y Juventud volverá a habilitar el tren turístico durante todo el fin de semana que tendrá paradas en el Ayuntamiento de Orihuela, la Glorieta Gabriel Miró, el Casino Orcelitano, la plaza Ramón Sijé y el barrio de San Isidro.'",
+      "pauta_id": "G21"
+    },
+    {
+      "elemento": "Párrafo 11: 'Además, la Concejalía de Cultura y Juventud volverá a habilitar el tren turístico durante todo el fin de semana que tendrá paradas en el Ayuntamiento de Orihuela, la Glorieta Gabriel Miró, el Casino Orcelitano, la plaza Ramón Sijé y el barrio de San Isidro.'",
+      "pauta_id": "G43"
+    }
+  ],
+  "conclusion": "La estructura del texto necesita simplificación debido a la presencia de listas sin viñetas, uso de puntuación no recomendada (comillas, punto y coma implícito en la estructura de frases largas) y falta de organización temática clara."
+}
+
+
+2026-08-28 11:17:25,200 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Se ha recibido un informe del agente Crítico.
+2026-08-28 11:17:25,201 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Ejecutando modelo de simplificación estructural.
+2026-08-28 11:17:28,595 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 11:17:28,617 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Resultado generado correctamente: 3442 caracteres.
+2026-09-03 11:05:00,099 | INFO | Agentes.agentes_simplificacion.simplificador_estructural | Iniciando agente A2A en puerto 8006.

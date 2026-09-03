@@ -1,0 +1,1132 @@
+2026-08-27 10:59:35,546 | INFO | Agentes.agentes_critico.critico_estructural | Iniciando agente A2A en puerto 8009.
+2026-08-27 11:00:03,483 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 2842 caracteres.
+2026-08-27 11:00:03,484 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 11:00:06,135 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-08-27 11:00:06,138 | ERROR | Agentes.agentes_critico.critico_estructural | Error al ejecutar el modelo de crítica estructural.
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\PracticaFinal\Agentes\agentes_critico\critico_estructural.py", line 146, in process
+    informe = await structured_llm.ainvoke(messages)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 3241, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5752, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 494, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1760, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1718, in agenerate
+    raise exceptions[0]
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2053, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_groq\chat_models.py", line 642, in _agenerate
+    response = await self.async_client.create(messages=message_dicts, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\resources\chat\completions.py", line 941, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1762, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1576, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.BadRequestError: Error code: 400 - {'error': {'message': "Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': ''}}
+2026-08-27 11:00:17,954 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 1659 caracteres.
+2026-08-27 11:00:17,954 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 11:00:18,087 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-27 11:00:18,089 | INFO | groq._base_client | Retrying request to /openai/v1/chat/completions in 11.000000 seconds
+2026-08-27 11:00:31,733 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-08-27 11:00:31,735 | ERROR | Agentes.agentes_critico.critico_estructural | Error al ejecutar el modelo de crítica estructural.
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\PracticaFinal\Agentes\agentes_critico\critico_estructural.py", line 146, in process
+    informe = await structured_llm.ainvoke(messages)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 3241, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5752, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 494, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1760, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1718, in agenerate
+    raise exceptions[0]
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2053, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_groq\chat_models.py", line 642, in _agenerate
+    response = await self.async_client.create(messages=message_dicts, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\resources\chat\completions.py", line 941, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1762, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1576, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.BadRequestError: Error code: 400 - {'error': {'message': "Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': ''}}
+2026-08-27 11:01:24,821 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 1656 caracteres.
+2026-08-27 11:01:24,823 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 11:01:24,943 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-27 11:01:24,944 | INFO | groq._base_client | Retrying request to /openai/v1/chat/completions in 8.000000 seconds
+2026-08-27 11:01:36,251 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-08-27 11:01:36,253 | ERROR | Agentes.agentes_critico.critico_estructural | Error al ejecutar el modelo de crítica estructural.
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\PracticaFinal\Agentes\agentes_critico\critico_estructural.py", line 146, in process
+    informe = await structured_llm.ainvoke(messages)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 3241, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5752, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 494, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1760, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1718, in agenerate
+    raise exceptions[0]
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2053, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_groq\chat_models.py", line 642, in _agenerate
+    response = await self.async_client.create(messages=message_dicts, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\resources\chat\completions.py", line 941, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1762, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1576, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.BadRequestError: Error code: 400 - {'error': {'message': "Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': ''}}
+2026-08-27 11:02:44,406 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 1484 caracteres.
+2026-08-27 11:02:44,407 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 11:02:44,518 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-27 11:02:44,520 | INFO | groq._base_client | Retrying request to /openai/v1/chat/completions in 7.000000 seconds
+2026-08-27 11:02:51,691 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-27 11:02:51,693 | INFO | groq._base_client | Retrying request to /openai/v1/chat/completions in 16.000000 seconds
+2026-08-27 11:03:11,276 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-08-27 11:03:11,279 | ERROR | Agentes.agentes_critico.critico_estructural | Error al ejecutar el modelo de crítica estructural.
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\PracticaFinal\Agentes\agentes_critico\critico_estructural.py", line 146, in process
+    informe = await structured_llm.ainvoke(messages)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 3241, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5752, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 494, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1760, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1718, in agenerate
+    raise exceptions[0]
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2053, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_groq\chat_models.py", line 642, in _agenerate
+    response = await self.async_client.create(messages=message_dicts, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\resources\chat\completions.py", line 941, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1762, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1576, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.BadRequestError: Error code: 400 - {'error': {'message': "Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': ''}}
+2026-08-27 11:07:51,135 | INFO | Agentes.agentes_critico.critico_estructural | Iniciando agente A2A en puerto 8009.
+2026-08-27 11:08:02,959 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 2842 caracteres.
+2026-08-27 11:08:02,959 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 11:08:03,233 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-08-27 11:08:03,235 | ERROR | Agentes.agentes_critico.critico_estructural | Error al ejecutar el modelo de crítica estructural.
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\PracticaFinal\Agentes\agentes_critico\critico_estructural.py", line 146, in process
+    informe = await structured_llm.ainvoke(messages)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 3241, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5752, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 494, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1760, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1718, in agenerate
+    raise exceptions[0]
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2053, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_groq\chat_models.py", line 642, in _agenerate
+    response = await self.async_client.create(messages=message_dicts, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\resources\chat\completions.py", line 941, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1762, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1576, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.BadRequestError: Error code: 400 - {'error': {'message': "'messages' must contain the word 'json' in some form, to use 'response_format' of type 'json_object'.", 'type': 'invalid_request_error'}}
+2026-08-27 11:08:09,644 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 1659 caracteres.
+2026-08-27 11:08:09,645 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 11:08:09,829 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-08-27 11:08:09,831 | ERROR | Agentes.agentes_critico.critico_estructural | Error al ejecutar el modelo de crítica estructural.
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\PracticaFinal\Agentes\agentes_critico\critico_estructural.py", line 146, in process
+    informe = await structured_llm.ainvoke(messages)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 3241, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5752, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 494, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1760, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1718, in agenerate
+    raise exceptions[0]
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2053, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_groq\chat_models.py", line 642, in _agenerate
+    response = await self.async_client.create(messages=message_dicts, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\resources\chat\completions.py", line 941, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1762, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1576, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.BadRequestError: Error code: 400 - {'error': {'message': "'messages' must contain the word 'json' in some form, to use 'response_format' of type 'json_object'.", 'type': 'invalid_request_error'}}
+2026-08-27 11:09:55,966 | INFO | Agentes.agentes_critico.critico_estructural | Iniciando agente A2A en puerto 8009.
+2026-08-27 11:10:14,139 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 2842 caracteres.
+2026-08-27 11:10:14,139 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 11:10:17,268 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-08-27 11:10:17,270 | ERROR | Agentes.agentes_critico.critico_estructural | Error al ejecutar el modelo de crítica estructural.
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\PracticaFinal\Agentes\agentes_critico\critico_estructural.py", line 146, in process
+    informe = await structured_llm.ainvoke(messages)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 3241, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5752, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 494, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1760, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1718, in agenerate
+    raise exceptions[0]
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2053, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_groq\chat_models.py", line 642, in _agenerate
+    response = await self.async_client.create(messages=message_dicts, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\resources\chat\completions.py", line 941, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1762, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1576, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.BadRequestError: Error code: 400 - {'error': {'message': "Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': ''}}
+2026-08-27 11:14:44,304 | INFO | Agentes.agentes_critico.critico_estructural | Iniciando agente A2A en puerto 8009.
+2026-08-27 11:14:59,479 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 2842 caracteres.
+2026-08-27 11:14:59,480 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 11:15:03,480 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-08-27 11:15:03,482 | ERROR | Agentes.agentes_critico.critico_estructural | Error al ejecutar el modelo de crítica estructural.
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\PracticaFinal\Agentes\agentes_critico\critico_estructural.py", line 131, in process
+    informe = await structured_llm.ainvoke(messages)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 3241, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5752, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 494, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1760, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1718, in agenerate
+    raise exceptions[0]
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2053, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_groq\chat_models.py", line 642, in _agenerate
+    response = await self.async_client.create(messages=message_dicts, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\resources\chat\completions.py", line 941, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1762, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1576, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.BadRequestError: Error code: 400 - {'error': {'message': "Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': ''}}
+2026-08-27 11:15:15,716 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 1659 caracteres.
+2026-08-27 11:15:15,717 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 11:15:18,322 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 11:15:18,355 | ERROR | Agentes.agentes_critico.critico_estructural | Error al ejecutar el modelo de crítica estructural.
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\output_parsers\pydantic.py", line 28, in _parse_obj
+    return self.pydantic_object.model_validate(obj)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\pydantic\main.py", line 732, in model_validate
+    return cls.__pydantic_validator__.validate_python(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        obj,
+        ^^^^
+    ...<5 lines>...
+        by_name=by_name,
+        ^^^^^^^^^^^^^^^^
+    )
+    ^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for CriticReport
+especialidad
+  Field required [type=missing, input_value={'estado': 'necesita_simp...tas de Lectura Fácil.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\PracticaFinal\Agentes\agentes_critico\critico_estructural.py", line 131, in process
+    informe = await structured_llm.ainvoke(messages)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 3241, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\output_parsers\base.py", line 230, in ainvoke
+    return await self._acall_with_config(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 2155, in _acall_with_config
+    output: Output = await coro_with_context(coro, context)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\output_parsers\base.py", line 297, in aparse_result
+    return await run_in_executor(None, self.parse_result, result, partial=partial)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\config.py", line 667, in run_in_executor
+    return await asyncio.get_running_loop().run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Roaming\uv\python\cpython-3.13.0-windows-x86_64-none\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\config.py", line 658, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\output_parsers\pydantic.py", line 76, in parse_result
+    return self._parse_obj(json_object)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\output_parsers\pydantic.py", line 35, in _parse_obj
+    raise self._parser_exception(e, obj) from e
+langchain_core.exceptions.OutputParserException: Failed to parse CriticReport from completion {"estado": "necesita_simplificacion", "problemas": [{"elemento": "párrafo 1", "pauta_id": "G25", "problema": "El texto utiliza únicamente lenguaje femenino y no incluye expresiones inclusivas.", "recomendacion": "Repetir los nombres y adjetivos en masculino y femenino o usar genéricos que incluyan a ambos géneros."}, {"elemento": "párrafo 1", "pauta_id": "G42", "problema": "La información no está agrupada por temas y no hay espacios en blanco entre frases.", "recomendacion": "Separar los temas con líneas en blanco y agrupar las frases relacionadas."}, {"elemento": "párrafo 1", "pauta_id": "G45", "problema": "No se utilizan ejemplos para explicar palabras difíciles.", "recomendacion": "Añadir ejemplos que ilustren el significado de términos complejos."}], "conclusion": "La estructura del texto necesita simplificación para cumplir las pautas de Lectura Fácil."}. Got: 1 validation error for CriticReport
+especialidad
+  Field required [type=missing, input_value={'estado': 'necesita_simp...tas de Lectura Fácil.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE 
+2026-08-27 11:28:05,794 | INFO | Agentes.agentes_critico.critico_estructural | Iniciando agente A2A en puerto 8009.
+2026-08-27 11:28:22,889 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 2842 caracteres.
+2026-08-27 11:28:22,889 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 11:28:25,689 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-08-27 11:28:25,690 | ERROR | Agentes.agentes_critico.critico_estructural | Error al ejecutar el modelo de crítica estructural.
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\PracticaFinal\Agentes\agentes_critico\critico_estructural.py", line 132, in process
+    informe_llm = await structured_llm.ainvoke(messages)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 3241, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5752, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 494, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1760, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1718, in agenerate
+    raise exceptions[0]
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2053, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_groq\chat_models.py", line 642, in _agenerate
+    response = await self.async_client.create(messages=message_dicts, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\resources\chat\completions.py", line 941, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1762, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1576, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.BadRequestError: Error code: 400 - {'error': {'message': 'Tool choice is required, but model did not call a tool', 'type': 'invalid_request_error', 'code': 'tool_use_failed', 'failed_generation': ''}}
+2026-08-27 11:30:52,468 | INFO | Agentes.agentes_critico.critico_estructural | Iniciando agente A2A en puerto 8009.
+2026-08-27 11:31:08,863 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 2842 caracteres.
+2026-08-27 11:31:08,864 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 11:35:19,071 | INFO | Agentes.agentes_critico.critico_estructural | Iniciando agente A2A en puerto 8009.
+2026-08-27 11:35:35,616 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 2842 caracteres.
+2026-08-27 11:35:35,617 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 11:42:49,401 | INFO | Agentes.agentes_critico.critico_estructural | Iniciando agente A2A en puerto 8009.
+2026-08-27 11:43:06,506 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 2842 caracteres.
+2026-08-27 11:43:06,507 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 11:47:07,313 | INFO | Agentes.agentes_critico.critico_estructural | Iniciando agente A2A en puerto 8009.
+2026-08-27 11:48:03,551 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 2842 caracteres.
+2026-08-27 11:48:03,551 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 11:48:08,521 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-08-27 11:48:08,527 | ERROR | Agentes.agentes_critico.critico_estructural | Error al ejecutar el modelo de crítica estructural.
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\PracticaFinal\Agentes\agentes_critico\critico_estructural.py", line 132, in process
+    informe_llm = await structured_llm.ainvoke(messages)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 3241, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5752, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 494, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1760, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1718, in agenerate
+    raise exceptions[0]
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2053, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_groq\chat_models.py", line 642, in _agenerate
+    response = await self.async_client.create(messages=message_dicts, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\resources\chat\completions.py", line 941, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1762, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1576, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.BadRequestError: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': 'max completion tokens reached before generating a valid document'}}
+2026-08-27 11:50:23,619 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 1659 caracteres.
+2026-08-27 11:50:23,620 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 11:50:28,239 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 11:50:28,265 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=13
+2026-08-27 12:00:02,327 | INFO | Agentes.agentes_critico.critico_estructural | Iniciando agente A2A en puerto 8009.
+2026-08-27 12:01:19,472 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 2842 caracteres.
+2026-08-27 12:01:19,473 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 12:01:24,481 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-08-27 12:01:24,483 | ERROR | Agentes.agentes_critico.critico_estructural | Error al ejecutar el modelo de crítica estructural.
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\PracticaFinal\Agentes\agentes_critico\critico_estructural.py", line 132, in process
+    informe_llm = await structured_llm.ainvoke(messages)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 3241, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5752, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 494, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1760, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1718, in agenerate
+    raise exceptions[0]
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2053, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_groq\chat_models.py", line 642, in _agenerate
+    response = await self.async_client.create(messages=message_dicts, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\resources\chat\completions.py", line 941, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1762, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1576, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.BadRequestError: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': 'max completion tokens reached before generating a valid document'}}
+2026-08-27 12:16:55,122 | INFO | Agentes.agentes_critico.critico_estructural | Iniciando agente A2A en puerto 8009.
+2026-08-27 12:18:18,020 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 2842 caracteres.
+2026-08-27 12:18:18,020 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 12:18:20,295 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 12:18:20,321 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=11
+2026-08-27 12:23:48,671 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 3073 caracteres.
+2026-08-27 12:23:48,672 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 12:23:50,435 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 12:23:50,439 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=9
+2026-08-27 12:30:44,528 | INFO | Agentes.agentes_critico.critico_estructural | Iniciando agente A2A en puerto 8009.
+2026-08-27 12:32:00,680 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 2842 caracteres.
+2026-08-27 12:32:00,680 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 12:32:02,985 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 12:32:03,011 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=11
+2026-08-27 12:37:34,967 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 3073 caracteres.
+2026-08-27 12:37:34,969 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 12:37:36,913 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 12:37:36,919 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=9
+2026-08-27 12:41:09,066 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 1659 caracteres.
+2026-08-27 12:41:09,067 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 12:41:10,727 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 12:41:10,732 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=7
+2026-08-27 12:46:13,180 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 1764 caracteres.
+2026-08-27 12:46:13,181 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 12:46:14,073 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 12:46:14,078 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=adecuado, problemas=0
+2026-08-27 12:56:39,770 | INFO | Agentes.agentes_critico.critico_estructural | Iniciando agente A2A en puerto 8009.
+2026-08-27 12:57:56,510 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 2842 caracteres.
+2026-08-27 12:57:56,510 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 12:57:58,559 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 12:57:58,584 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=9
+2026-08-27 13:02:01,427 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 1659 caracteres.
+2026-08-27 13:02:01,429 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 13:02:02,885 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:02:02,889 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=7
+2026-08-27 13:06:33,747 | INFO | Agentes.agentes_critico.critico_estructural | Iniciando agente A2A en puerto 8009.
+2026-08-27 13:07:49,477 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 2842 caracteres.
+2026-08-27 13:07:49,477 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 13:07:51,440 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:07:51,448 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=11
+2026-08-27 13:15:05,225 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 3390 caracteres.
+2026-08-27 13:15:05,226 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 13:15:05,716 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:15:05,719 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=adecuado, problemas=0
+2026-08-27 13:18:17,668 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 1659 caracteres.
+2026-08-27 13:18:17,668 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 13:18:18,940 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:18:18,942 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=7
+2026-08-27 13:24:59,824 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 1514 caracteres.
+2026-08-27 13:24:59,824 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 13:25:00,376 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:25:00,378 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=adecuado, problemas=0
+2026-08-27 13:30:17,416 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 1452 caracteres.
+2026-08-27 13:30:17,416 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 13:30:18,009 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:30:18,010 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=adecuado, problemas=0
+2026-08-27 13:34:28,817 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 1432 caracteres.
+2026-08-27 13:34:28,818 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 13:34:29,374 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:34:29,375 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=adecuado, problemas=0
+2026-08-27 13:38:39,604 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 1432 caracteres.
+2026-08-27 13:38:39,605 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 13:38:40,068 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:38:40,071 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=adecuado, problemas=0
+2026-08-27 13:41:53,924 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 1656 caracteres.
+2026-08-27 13:41:53,924 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 13:41:56,072 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:41:56,075 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=5
+2026-08-27 13:49:16,142 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 1570 caracteres.
+2026-08-27 13:49:16,143 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 13:49:17,374 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:49:17,376 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=5
+2026-08-27 13:55:32,538 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 1594 caracteres.
+2026-08-27 13:55:32,538 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 13:55:33,081 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:55:33,083 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=adecuado, problemas=0
+2026-08-27 14:00:45,559 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 1566 caracteres.
+2026-08-27 14:00:45,560 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 14:00:46,742 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:00:46,744 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=6
+2026-08-27 14:05:59,297 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 1569 caracteres.
+2026-08-27 14:05:59,297 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 14:06:00,797 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:06:00,800 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=8
+2026-08-27 14:09:12,942 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 1484 caracteres.
+2026-08-27 14:09:12,942 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 14:09:14,618 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:09:14,620 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=6
+2026-08-27 14:16:12,762 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 1623 caracteres.
+2026-08-27 14:16:12,763 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 14:16:13,343 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:16:13,345 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=adecuado, problemas=0
+2026-08-27 14:19:22,536 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 1156 caracteres.
+2026-08-27 14:19:22,537 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 14:19:23,617 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:19:23,620 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=9
+2026-08-27 14:25:37,573 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 1217 caracteres.
+2026-08-27 14:25:37,573 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 14:25:38,168 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:25:38,170 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=adecuado, problemas=0
+2026-08-27 14:29:48,327 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 1255 caracteres.
+2026-08-27 14:29:48,327 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 14:29:48,741 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:29:48,743 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=adecuado, problemas=0
+2026-08-27 14:33:57,717 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 1286 caracteres.
+2026-08-27 14:33:57,717 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 14:33:58,173 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:33:58,176 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=adecuado, problemas=0
+2026-08-27 14:37:10,678 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 1591 caracteres.
+2026-08-27 14:37:10,679 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 14:37:12,083 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:37:12,086 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=5
+2026-08-27 14:44:09,072 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 1555 caracteres.
+2026-08-27 14:44:09,073 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 14:44:09,883 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:44:09,885 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=adecuado, problemas=0
+2026-08-27 14:47:22,003 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 3105 caracteres.
+2026-08-27 14:47:22,004 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 14:47:23,780 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:47:23,783 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=6
+2026-08-27 14:54:36,272 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 3403 caracteres.
+2026-08-27 14:54:36,272 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 14:54:37,970 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:54:37,974 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=6
+2026-08-27 14:57:53,800 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 3217 caracteres.
+2026-08-27 14:57:53,801 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 14:57:56,112 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:57:56,117 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=9
+2026-08-27 15:05:16,674 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 3277 caracteres.
+2026-08-27 15:05:16,675 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 15:05:17,969 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:05:17,978 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=adecuado, problemas=0
+2026-08-27 15:09:40,146 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 3535 caracteres.
+2026-08-27 15:09:40,147 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 15:09:41,241 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:09:41,245 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=adecuado, problemas=0
+2026-08-27 15:14:08,057 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 4065 caracteres.
+2026-08-27 15:14:08,058 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 15:14:09,545 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:14:09,549 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=6
+2026-08-27 15:19:36,647 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 4384 caracteres.
+2026-08-27 15:19:36,648 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 15:19:38,547 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:19:38,551 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=5
+2026-08-27 15:22:54,273 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 3469 caracteres.
+2026-08-27 15:22:54,273 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 15:22:57,482 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:22:57,486 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=15
+2026-08-27 15:26:12,753 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 3071 caracteres.
+2026-08-27 15:26:12,753 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 15:26:14,634 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:26:14,638 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=8
+2026-08-27 15:33:57,129 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 3036 caracteres.
+2026-08-27 15:33:57,130 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 15:33:58,515 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:33:58,519 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=7
+2026-08-27 15:40:27,959 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 3266 caracteres.
+2026-08-27 15:40:27,960 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 15:40:29,891 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:40:29,897 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=15
+2026-08-27 15:46:16,979 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 3363 caracteres.
+2026-08-27 15:46:16,979 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 15:46:17,541 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:46:17,544 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=adecuado, problemas=0
+2026-08-27 15:49:32,687 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 2988 caracteres.
+2026-08-27 15:49:32,688 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 15:49:34,970 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:49:34,974 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=10
+2026-08-27 15:57:24,573 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 2731 caracteres.
+2026-08-27 15:57:24,574 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 15:57:25,195 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:57:25,201 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=adecuado, problemas=0
+2026-08-27 16:01:37,257 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 2887 caracteres.
+2026-08-27 16:01:37,258 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 16:01:37,822 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:01:37,825 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=adecuado, problemas=0
+2026-08-27 16:04:51,292 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 3154 caracteres.
+2026-08-27 16:04:51,293 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 16:04:56,170 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-08-27 16:04:56,172 | ERROR | Agentes.agentes_critico.critico_estructural | Error al ejecutar el modelo de crítica estructural.
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\PracticaFinal\Agentes\agentes_critico\critico_estructural.py", line 131, in process
+    informe_llm = await structured_llm.ainvoke(messages)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 3241, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5752, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 494, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1760, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1718, in agenerate
+    raise exceptions[0]
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2053, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_groq\chat_models.py", line 642, in _agenerate
+    response = await self.async_client.create(messages=message_dicts, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\resources\chat\completions.py", line 941, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1762, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1576, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.BadRequestError: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': 'max completion tokens reached before generating a valid document'}}
+2026-08-27 16:09:54,303 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 3926 caracteres.
+2026-08-27 16:09:54,304 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 16:09:56,103 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:09:56,109 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=12
+2026-08-27 16:17:33,548 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 4097 caracteres.
+2026-08-27 16:17:33,549 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 16:17:36,126 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:17:36,136 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=18
+2026-08-27 16:24:44,347 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 4120 caracteres.
+2026-08-27 16:24:44,348 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 16:24:45,153 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:24:45,156 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=adecuado, problemas=0
+2026-08-27 16:29:31,389 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 4776 caracteres.
+2026-08-27 16:29:31,390 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 16:29:32,285 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:29:32,289 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=adecuado, problemas=0
+2026-08-27 16:32:47,038 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 3010 caracteres.
+2026-08-27 16:32:47,039 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 16:32:52,011 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:32:52,015 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=12
+2026-08-27 16:40:13,160 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 3579 caracteres.
+2026-08-27 16:40:13,161 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 16:40:14,366 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:40:14,370 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=8
+2026-08-27 16:45:34,291 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 3599 caracteres.
+2026-08-27 16:45:34,292 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 16:45:36,697 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:45:36,701 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=18
+2026-08-27 16:51:06,375 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 3646 caracteres.
+2026-08-27 16:51:06,376 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 16:51:07,556 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:51:07,561 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=6
+2026-08-27 16:56:23,994 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 3675 caracteres.
+2026-08-27 16:56:23,995 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 16:56:25,517 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:56:25,522 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=5
+2026-08-27 16:59:45,866 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 2322 caracteres.
+2026-08-27 16:59:45,867 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 16:59:47,917 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:59:47,927 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=7
+2026-08-27 17:07:08,282 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 2603 caracteres.
+2026-08-27 17:07:08,283 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 17:07:09,883 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:07:09,888 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=7
+2026-08-27 17:12:30,071 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 2393 caracteres.
+2026-08-27 17:12:30,072 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 17:12:31,078 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:12:31,083 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=4
+2026-08-27 17:18:04,375 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 2119 caracteres.
+2026-08-27 17:18:04,376 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 17:18:06,626 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:18:06,634 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=16
+2026-08-27 17:24:54,020 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 2538 caracteres.
+2026-08-27 17:24:54,021 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 17:24:55,815 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:24:55,821 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=8
+2026-08-27 17:28:10,830 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 777 caracteres.
+2026-08-27 17:28:10,831 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 17:28:11,924 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:28:11,933 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=5
+2026-08-27 17:34:30,895 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 794 caracteres.
+2026-08-27 17:34:30,896 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 17:34:31,925 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:34:31,934 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=adecuado, problemas=0
+2026-08-27 17:37:48,380 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 1560 caracteres.
+2026-08-27 17:37:48,382 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 17:37:53,144 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:37:53,154 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=2
+2026-08-27 17:44:49,747 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 1814 caracteres.
+2026-08-27 17:44:49,748 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 17:44:51,556 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:44:51,561 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=14
+2026-08-27 17:49:07,510 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 1814 caracteres.
+2026-08-27 17:49:07,511 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 17:49:08,069 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:49:08,074 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=adecuado, problemas=0
+2026-08-27 17:53:25,175 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 1797 caracteres.
+2026-08-27 17:53:25,176 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 17:53:26,447 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:53:26,459 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=3
+2026-08-27 18:00:04,806 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 2026 caracteres.
+2026-08-27 18:00:04,809 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 18:00:06,412 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:00:06,422 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=10
+2026-08-27 18:03:23,491 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 3150 caracteres.
+2026-08-27 18:03:23,493 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 18:03:25,475 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:03:25,486 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=7
+2026-08-27 18:10:54,021 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 5226 caracteres.
+2026-08-27 18:10:54,022 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 18:10:55,239 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:10:55,244 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=6
+2026-08-27 18:18:38,650 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 5257 caracteres.
+2026-08-27 18:18:38,651 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 18:18:40,358 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:18:40,368 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=8
+2026-08-27 18:26:06,817 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 5283 caracteres.
+2026-08-27 18:26:06,819 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 18:26:08,132 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:26:08,141 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=8
+2026-08-27 18:33:33,337 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 5284 caracteres.
+2026-08-27 18:33:33,337 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 18:33:35,007 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:33:35,017 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=12
+2026-08-27 18:36:55,042 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 2852 caracteres.
+2026-08-27 18:36:55,043 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 18:36:57,463 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:36:57,471 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=9
+2026-08-27 18:44:52,529 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 2239 caracteres.
+2026-08-27 18:44:52,530 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 18:44:53,312 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:44:53,316 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=adecuado, problemas=0
+2026-08-27 18:50:12,275 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 2420 caracteres.
+2026-08-27 18:50:12,277 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 18:50:13,213 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:50:13,222 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=3
+2026-08-27 18:55:33,077 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 2459 caracteres.
+2026-08-27 18:55:33,078 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 18:55:33,934 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:55:33,939 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=adecuado, problemas=0
+2026-08-27 18:59:52,347 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 2442 caracteres.
+2026-08-27 18:59:52,349 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 18:59:52,908 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:59:52,917 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=adecuado, problemas=0
+2026-08-27 19:03:09,979 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 1974 caracteres.
+2026-08-27 19:03:09,980 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 19:03:12,705 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 19:03:12,714 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=8
+2026-08-27 19:10:18,685 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 2672 caracteres.
+2026-08-27 19:10:18,687 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 19:10:20,320 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 19:10:20,329 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=5
+2026-08-27 19:15:53,384 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 2537 caracteres.
+2026-08-27 19:15:53,385 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 19:15:54,144 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 19:15:54,148 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=adecuado, problemas=0
+2026-08-27 19:19:10,975 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 1661 caracteres.
+2026-08-27 19:19:10,976 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 19:19:15,161 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 19:19:15,172 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=7
+2026-08-27 19:26:34,621 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 2054 caracteres.
+2026-08-27 19:26:34,623 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 19:26:35,180 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 19:26:35,189 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=adecuado, problemas=0
+2026-08-27 19:31:53,814 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 2740 caracteres.
+2026-08-27 19:31:53,816 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 19:31:55,284 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 19:31:55,294 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=7
+2026-08-27 19:38:19,328 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 2309 caracteres.
+2026-08-27 19:38:19,329 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-27 19:38:19,902 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 19:38:19,907 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=adecuado, problemas=0
+2026-08-28 11:10:09,551 | INFO | Agentes.agentes_critico.critico_estructural | Iniciando agente A2A en puerto 8009.
+2026-08-28 11:11:34,190 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 3469 caracteres.
+2026-08-28 11:11:34,190 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-28 11:11:37,764 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 11:11:37,787 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=15
+2026-08-28 11:19:32,152 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 3442 caracteres.
+2026-08-28 11:19:32,152 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-08-28 11:19:33,931 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 11:19:33,934 | INFO | Agentes.agentes_critico.critico_estructural | Informe estructural generado: estado=necesita_simplificacion, problemas=9
+2026-09-03 11:05:00,098 | INFO | Agentes.agentes_critico.critico_estructural | Iniciando agente A2A en puerto 8009.
+2026-09-03 11:07:47,394 | INFO | Agentes.agentes_critico.critico_estructural | Solicitud recibida. Texto: 30 caracteres.
+2026-09-03 11:07:47,394 | INFO | Agentes.agentes_critico.critico_estructural | Ejecutando modelo de crítica estructural.
+2026-09-03 11:07:47,615 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-09-03 11:07:47,617 | ERROR | Agentes.agentes_critico.critico_estructural | Error al ejecutar el modelo de crítica estructural.
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\PracticaFinal\Agentes\agentes_critico\critico_estructural.py", line 131, in process
+    informe_llm = await structured_llm.ainvoke(messages)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 3241, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5752, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 494, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1760, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1718, in agenerate
+    raise exceptions[0]
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2053, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_groq\chat_models.py", line 642, in _agenerate
+    response = await self.async_client.create(messages=message_dicts, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\resources\chat\completions.py", line 941, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1762, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1576, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.AuthenticationError: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'expired_api_key'}}

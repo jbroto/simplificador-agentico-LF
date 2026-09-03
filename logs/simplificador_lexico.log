@@ -1,0 +1,5086 @@
+2026-08-27 10:59:35,464 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Iniciando agente A2A en puerto 8007.
+2026-08-27 11:07:51,086 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Iniciando agente A2A en puerto 8007.
+2026-08-27 11:09:55,970 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Iniciando agente A2A en puerto 8007.
+2026-08-27 11:14:44,173 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Iniciando agente A2A en puerto 8007.
+2026-08-27 11:28:05,784 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Iniciando agente A2A en puerto 8007.
+2026-08-27 11:30:52,414 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Iniciando agente A2A en puerto 8007.
+2026-08-27 11:35:19,026 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Iniciando agente A2A en puerto 8007.
+2026-08-27 11:42:49,422 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Iniciando agente A2A en puerto 8007.
+2026-08-27 11:47:07,242 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Iniciando agente A2A en puerto 8007.
+2026-08-27 12:00:02,335 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Iniciando agente A2A en puerto 8007.
+2026-08-27 12:16:55,151 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Iniciando agente A2A en puerto 8007.
+2026-08-27 12:21:07,771 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Solicitud recibida. Texto: 2842 caracteres. Informe crítico: sí
+2026-08-27 12:21:07,772 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | === INFORME DEL CRÍTICO LEXICO ===
+LEXICO ===
+{
+  "especialidad": "lexico",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "Sábado Ramblero",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "concurrido",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "concejal",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "azotara",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "referente",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "paréntesis",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "discurrirá",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "photocall",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "habilitará",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "colindante",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "ámbito",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "barras solidarias",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "coordinadas",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Restauración",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "ALROA",
+      "pauta_id": "G09"
+    },
+    {
+      "elemento": "recaudación",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Apsa",
+      "pauta_id": "G09"
+    },
+    {
+      "elemento": "epicentro",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Mesa de Carnaval",
+      "pauta_id": "G10"
+    },
+    {
+      "elemento": "La Meka",
+      "pauta_id": "G02"
+    },
+    {
+      "elemento": "Pregón",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "protagonismo",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "escenificarán",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "sucesión",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Miércoles de Ceniza",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Panteón de Quijano",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Velatorio de la Sardina",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "conclusión",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Quema de la Sardina",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "punto final",
+      "pauta_id": "G02"
+    },
+    {
+      "elemento": "17 horas",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "4 de la madrugada",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "20 horas",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "22 horas",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "21 horas",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "2.30 de la madrugada",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "18 horas",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "diez de la noche",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "20 horas",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "21 horas",
+      "pauta_id": "G19"
+    }
+  ],
+  "conclusion": "El texto presenta múltiples incumplimientos de las reglas de Lectura Fácil, principalmente en el uso de vocabulario abstracto o complejo, abreviaturas, siglas no explicadas, formatos de hora incorrectos y falta de coherencia en la denominación de los elementos."
+}
+
+
+2026-08-27 12:21:07,773 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Se ha recibido un informe del agente Crítico.
+2026-08-27 12:21:07,773 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Ejecutando modelo de simplificación léxica.
+2026-08-27 12:21:08,146 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-27 12:21:08,148 | INFO | groq._base_client | Retrying request to /openai/v1/chat/completions in 32.000000 seconds
+2026-08-27 12:21:42,440 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 12:21:42,465 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Resultado generado correctamente: 3073 caracteres.
+2026-08-27 12:30:44,490 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Iniciando agente A2A en puerto 8007.
+2026-08-27 12:34:44,751 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Solicitud recibida. Texto: 2842 caracteres. Informe crítico: sí
+2026-08-27 12:34:44,752 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | === INFORME DEL CRÍTICO LEXICO ===
+LEXICO ===
+{
+  "especialidad": "lexico",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "Sábado Ramblero",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "concurrido",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "concejal",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "azotara",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "referente",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "paréntesis",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "discurrirá",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "photocall",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "habilitará",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "colindante",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "ámbito",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "barras solidarias",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "coordinadas",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Restauración",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "ALROA",
+      "pauta_id": "G09"
+    },
+    {
+      "elemento": "recaudación",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Apsa",
+      "pauta_id": "G09"
+    },
+    {
+      "elemento": "epicentro",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Mesa de Carnaval",
+      "pauta_id": "G10"
+    },
+    {
+      "elemento": "La Meka",
+      "pauta_id": "G02"
+    },
+    {
+      "elemento": "Pregón",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "protagonismo",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "escenificarán",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "sucesión",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Miércoles de Ceniza",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Panteón de Quijano",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Velatorio de la Sardina",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "conclusión",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Quema de la Sardina",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "punto final",
+      "pauta_id": "G02"
+    },
+    {
+      "elemento": "17 horas",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "4 de la madrugada",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "20 horas",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "22 horas",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "21 horas",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "2.30 de la madrugada",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "18 horas",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "diez de la noche",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "20 horas",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "21 horas",
+      "pauta_id": "G19"
+    }
+  ],
+  "conclusion": "El texto presenta múltiples incumplimientos de las reglas de Lectura Fácil, principalmente en el uso de vocabulario abstracto o complejo, abreviaturas, siglas no explicadas, formatos de hora incorrectos y falta de coherencia en la denominación de los elementos."
+}
+
+
+2026-08-27 12:34:44,752 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Se ha recibido un informe del agente Crítico.
+2026-08-27 12:34:44,752 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Ejecutando modelo de simplificación léxica.
+2026-08-27 12:34:45,063 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-27 12:34:45,065 | INFO | groq._base_client | Retrying request to /openai/v1/chat/completions in 38.000000 seconds
+2026-08-27 12:35:23,236 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-27 12:35:23,238 | INFO | groq._base_client | Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-08-27 12:35:27,480 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 12:35:27,527 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Resultado generado correctamente: 3073 caracteres.
+2026-08-27 12:43:37,496 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Solicitud recibida. Texto: 1659 caracteres. Informe crítico: sí
+2026-08-27 12:43:37,497 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | === INFORME DEL CRÍTICO LEXICO ===
+LEXICO ===
+{
+  "especialidad": "lexico",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "runrún",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "revolvía el estómago",
+      "pauta_id": "G02"
+    },
+    {
+      "elemento": "tragándose promesas rotas",
+      "pauta_id": "G02"
+    },
+    {
+      "elemento": "algo raro",
+      "pauta_id": "G11"
+    },
+    {
+      "elemento": "jodiera",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "por dentro",
+      "pauta_id": "G02"
+    },
+    {
+      "elemento": "un mundo distinto",
+      "pauta_id": "G02"
+    },
+    {
+      "elemento": "cosquilleo",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "otra cosa que no tiene nombre",
+      "pauta_id": "G11"
+    },
+    {
+      "elemento": "alguno lugar del alma",
+      "pauta_id": "G02"
+    },
+    {
+      "elemento": "quince",
+      "pauta_id": "G12"
+    },
+    {
+      "elemento": "cuarenta y uno",
+      "pauta_id": "G12"
+    },
+    {
+      "elemento": "veintitrés",
+      "pauta_id": "G12"
+    },
+    {
+      "elemento": "cinco",
+      "pauta_id": "G12"
+    },
+    {
+      "elemento": "treinta y dos",
+      "pauta_id": "G12"
+    },
+    {
+      "elemento": "tres",
+      "pauta_id": "G12"
+    }
+  ],
+  "conclusion": "El texto presenta múltiples incumplimientos de las reglas de Lectura Fácil, principalmente por el uso de lenguaje abstracto, metáforas, expresiones coloquiales y números escritos en letra. Es necesario simplificar el vocabulario y la estructura."
+}
+
+
+2026-08-27 12:43:37,497 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Se ha recibido un informe del agente Crítico.
+2026-08-27 12:43:37,498 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Ejecutando modelo de simplificación léxica.
+2026-08-27 12:43:37,647 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-27 12:43:37,658 | INFO | groq._base_client | Retrying request to /openai/v1/chat/completions in 28.000000 seconds
+2026-08-27 12:44:07,369 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 12:44:07,376 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Resultado generado correctamente: 1764 caracteres.
+2026-08-27 12:56:39,740 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Iniciando agente A2A en puerto 8007.
+2026-08-27 13:06:33,711 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Iniciando agente A2A en puerto 8007.
+2026-08-27 13:11:55,401 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Solicitud recibida. Texto: 2698 caracteres. Informe crítico: sí
+2026-08-27 13:11:55,401 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | === INFORME DEL CRÍTICO LEXICO ===
+LEXICO ===
+{
+  "especialidad": "lexico",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "Sábado Ramblero",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "concurrido",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "concejal",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "azotara",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "referente",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "paréntesis",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "discurrirá",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "photocall",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "habilitará",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "colindante",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "ámbito",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "barras solidarias",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "coordinadas",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Restauración",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "ALROA",
+      "pauta_id": "G09"
+    },
+    {
+      "elemento": "recaudación",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Apsa",
+      "pauta_id": "G09"
+    },
+    {
+      "elemento": "epicentro",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Mesa de Carnaval",
+      "pauta_id": "G10"
+    },
+    {
+      "elemento": "La Meka",
+      "pauta_id": "G02"
+    },
+    {
+      "elemento": "Pregón",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "protagonismo",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "escenificarán",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "sucesión",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Miércoles de Ceniza",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Panteón de Quijano",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Velatorio de la Sardina",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "conclusión",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Quema de la Sardina",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "punto final",
+      "pauta_id": "G02"
+    },
+    {
+      "elemento": "17 horas",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "4 de la madrugada",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "20 horas",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "22 horas",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "21 horas",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "2.30 de la madrugada",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "18 horas",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "diez de la noche",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "20 horas",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "21 horas",
+      "pauta_id": "G19"
+    }
+  ],
+  "conclusion": "El texto presenta múltiples incumplimientos de las reglas de Lectura Fácil, principalmente en el uso de vocabulario abstracto o complejo, abreviaturas, siglas no explicadas, formatos de hora incorrectos y falta de coherencia en la denominación de los elementos."
+}
+
+
+2026-08-27 13:11:55,402 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Se ha recibido un informe del agente Crítico.
+2026-08-27 13:11:55,402 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Ejecutando modelo de simplificación léxica.
+2026-08-27 13:11:58,124 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:11:58,133 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Resultado generado correctamente: 3376 caracteres.
+2026-08-27 13:21:52,780 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Solicitud recibida. Texto: 1560 caracteres. Informe crítico: sí
+2026-08-27 13:21:52,780 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | === INFORME DEL CRÍTICO LEXICO ===
+LEXICO ===
+{
+  "especialidad": "lexico",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "runrún",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "revolvía el estómago",
+      "pauta_id": "G02"
+    },
+    {
+      "elemento": "tragándose promesas rotas",
+      "pauta_id": "G02"
+    },
+    {
+      "elemento": "algo raro",
+      "pauta_id": "G11"
+    },
+    {
+      "elemento": "jodiera",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "por dentro",
+      "pauta_id": "G02"
+    },
+    {
+      "elemento": "un mundo distinto",
+      "pauta_id": "G02"
+    },
+    {
+      "elemento": "cosquilleo",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "otra cosa que no tiene nombre",
+      "pauta_id": "G11"
+    },
+    {
+      "elemento": "alguno lugar del alma",
+      "pauta_id": "G02"
+    },
+    {
+      "elemento": "quince",
+      "pauta_id": "G12"
+    },
+    {
+      "elemento": "cuarenta y uno",
+      "pauta_id": "G12"
+    },
+    {
+      "elemento": "veintitrés",
+      "pauta_id": "G12"
+    },
+    {
+      "elemento": "cinco",
+      "pauta_id": "G12"
+    },
+    {
+      "elemento": "treinta y dos",
+      "pauta_id": "G12"
+    },
+    {
+      "elemento": "tres",
+      "pauta_id": "G12"
+    }
+  ],
+  "conclusion": "El texto presenta múltiples incumplimientos de las reglas de Lectura Fácil, principalmente por el uso de lenguaje abstracto, metáforas, expresiones coloquiales y números escritos en letra. Es necesario simplificar el vocabulario y la estructura."
+}
+
+
+2026-08-27 13:21:52,780 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Se ha recibido un informe del agente Crítico.
+2026-08-27 13:21:52,780 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Ejecutando modelo de simplificación léxica.
+2026-08-27 13:21:54,175 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:21:54,178 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Resultado generado correctamente: 1525 caracteres.
+2026-08-27 13:27:05,645 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Solicitud recibida. Texto: 1514 caracteres. Informe crítico: sí
+2026-08-27 13:27:05,645 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | === INFORME DEL CRÍTICO LEXICO ===
+LEXICO ===
+{
+  "especialidad": "lexico",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "interior",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Algo",
+      "pauta_id": "G11"
+    },
+    {
+      "elemento": "Ese algo",
+      "pauta_id": "G11"
+    },
+    {
+      "elemento": "otra cosa sin nombre",
+      "pauta_id": "G11"
+    },
+    {
+      "elemento": "Todo se acaba",
+      "pauta_id": "G02"
+    },
+    {
+      "elemento": "ciertas cosas",
+      "pauta_id": "G11"
+    }
+  ],
+  "conclusion": "El texto presenta varios incumplimientos de las reglas de Lectura Fácil, principalmente por el uso de palabras abstractas, expresiones indeterminadas y metáforas que dificultan la comprensión directa."
+}
+
+
+2026-08-27 13:27:05,645 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Se ha recibido un informe del agente Crítico.
+2026-08-27 13:27:05,646 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Ejecutando modelo de simplificación léxica.
+2026-08-27 13:27:05,754 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-27 13:27:05,755 | INFO | groq._base_client | Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2026-08-27 13:27:06,832 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-27 13:27:06,833 | INFO | groq._base_client | Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-08-27 13:27:11,144 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:27:11,147 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Resultado generado correctamente: 1501 caracteres.
+2026-08-27 13:44:31,934 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Solicitud recibida. Texto: 1656 caracteres. Informe crítico: sí
+2026-08-27 13:44:31,934 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | === INFORME DEL CRÍTICO LEXICO ===
+LEXICO ===
+{
+  "especialidad": "lexico",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "desvencijada",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "desplomó",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "exhausto",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "debutado",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "ruinoso",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "carmesí",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "ladeado",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "trastabillado",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "irrumpido",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "inconexas",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "desbrozando",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "galimatías",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "incomprensible",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "aquietas",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "dilatar",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "amanecer",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "espetado",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "macerarían",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "rencor",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "turbios",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "escamotearíamos",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "estrújando",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "libreto",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "amarillento",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "indefinible",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "volatilizado",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "rememoraba",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "tergiversarse",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "punzante",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "fracturado",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "irreversible",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "postergar",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "exacerbaría",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "quince años",
+      "pauta_id": "G12"
+    },
+    {
+      "elemento": "17/09/2019",
+      "pauta_id": "G18"
+    },
+    {
+      "elemento": "tres meses",
+      "pauta_id": "G12"
+    },
+    {
+      "elemento": "veintiséis días",
+      "pauta_id": "G12"
+    },
+    {
+      "elemento": "al borde de algo peligroso",
+      "pauta_id": "G02"
+    },
+    {
+      "elemento": "algo se había fracturado entre ellos",
+      "pauta_id": "G02"
+    }
+  ],
+  "conclusion": "El texto presenta un vocabulario muy complejo, con numerosas palabras abstractas, largas o de uso poco habitual, así como expresiones figuradas y metáforas que dificultan la comprensión. Además, se incumplen normas sobre el uso de números (escritos en letra o formato incorrecto) y fechas. Es necesario simplificar significativamente el vocabulario y la estructura."
+}
+
+
+2026-08-27 13:44:31,935 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Se ha recibido un informe del agente Crítico.
+2026-08-27 13:44:31,935 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Ejecutando modelo de simplificación léxica.
+2026-08-27 13:44:32,065 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-27 13:44:32,066 | INFO | groq._base_client | Retrying request to /openai/v1/chat/completions in 35.000000 seconds
+2026-08-27 13:45:08,640 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:45:08,642 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Resultado generado correctamente: 1581 caracteres.
+2026-08-27 13:53:27,444 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Solicitud recibida. Texto: 1490 caracteres. Informe crítico: sí
+2026-08-27 13:53:27,444 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | === INFORME DEL CRÍTICO LEXICO ===
+LEXICO ===
+{
+  "especialidad": "lexico",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "cruje",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "nerviosos",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "hasta que salga el sol",
+      "pauta_id": "G02"
+    },
+    {
+      "elemento": "ojos tristes",
+      "pauta_id": "G02"
+    },
+    {
+      "elemento": "algo los mantiene unidos",
+      "pauta_id": "G02"
+    },
+    {
+      "elemento": "se rompe para siempre",
+      "pauta_id": "G02"
+    },
+    {
+      "elemento": "peor",
+      "pauta_id": "G06"
+    },
+    {
+      "elemento": "nerviosos",
+      "pauta_id": "G05"
+    }
+  ],
+  "conclusion": "El texto presenta varios incumplimientos de las reglas de Lectura Fácil, principalmente relacionados con el uso de expresiones abstractas, metáforas, superlativos y adverbios terminados en -mente. Es necesario simplificar el vocabulario para cumplir con la norma UNE 153101:2018."
+}
+
+
+2026-08-27 13:53:27,444 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Se ha recibido un informe del agente Crítico.
+2026-08-27 13:53:27,445 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Ejecutando modelo de simplificación léxica.
+2026-08-27 13:53:28,890 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:53:28,892 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Resultado generado correctamente: 1594 caracteres.
+2026-08-27 13:58:40,141 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Solicitud recibida. Texto: 1562 caracteres. Informe crítico: sí
+2026-08-27 13:58:40,142 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | === INFORME DEL CRÍTICO LEXICO ===
+LEXICO ===
+{
+  "especialidad": "lexico",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "irregular",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "irregular",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "lógica",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "definitiva",
+      "pauta_id": "G06"
+    }
+  ],
+  "conclusion": "El texto presenta varios incumplimientos de las reglas de Lectura Fácil, principalmente en el uso de adverbios terminados en -mente, superlativos, abreviaturas y expresiones abstractas o indeterminadas. Es necesario simplificar el vocabulario para cumplir con la norma UNE 153101:2018."
+}
+
+
+2026-08-27 13:58:40,142 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Se ha recibido un informe del agente Crítico.
+2026-08-27 13:58:40,142 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Ejecutando modelo de simplificación léxica.
+2026-08-27 13:58:41,596 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:58:41,598 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Resultado generado correctamente: 1566 caracteres.
+2026-08-27 14:11:22,416 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Solicitud recibida. Texto: 1484 caracteres. Informe crítico: sí
+2026-08-27 14:11:22,416 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | === INFORME DEL CRÍTICO LEXICO ===
+LEXICO ===
+{
+  "especialidad": "lexico",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "¾ de taza",
+      "pauta_id": "G15"
+    },
+    {
+      "elemento": "50% de la superficie",
+      "pauta_id": "G15"
+    },
+    {
+      "elemento": "80% del almidón",
+      "pauta_id": "G15"
+    },
+    {
+      "elemento": "75% del total",
+      "pauta_id": "G15"
+    },
+    {
+      "elemento": "20% adicional",
+      "pauta_id": "G15"
+    },
+    {
+      "elemento": "almidón",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "ebullición",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "consistencia",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "textura",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "generosamente",
+      "pauta_id": "G05"
+    },
+    {
+      "elemento": "cuidadosamente",
+      "pauta_id": "G05"
+    },
+    {
+      "elemento": "constante",
+      "pauta_id": "G05"
+    },
+    {
+      "elemento": "cesar",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "absorbido",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "combinar",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "reducir",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "espesará",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "verter",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "porciones",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "preferencia",
+      "pauta_id": "G01"
+    }
+  ],
+  "conclusion": "El texto presenta múltiples incumplimientos de las reglas de Lectura Fácil, principalmente en el uso de porcentajes, fracciones, números con muchos dígitos implícitos en la complejidad, y vocabulario técnico o abstracto sin glosar. Es necesario simplificar el vocabulario y las expresiones numéricas."
+}
+
+
+2026-08-27 14:11:22,416 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Se ha recibido un informe del agente Crítico.
+2026-08-27 14:11:22,416 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Ejecutando modelo de simplificación léxica.
+2026-08-27 14:11:22,550 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-27 14:11:22,551 | INFO | groq._base_client | Retrying request to /openai/v1/chat/completions in 42.000000 seconds
+2026-08-27 14:12:06,116 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:12:06,118 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Resultado generado correctamente: 1602 caracteres.
+2026-08-27 14:23:33,187 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Solicitud recibida. Texto: 1215 caracteres. Informe crítico: sí
+2026-08-27 14:23:33,187 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | === INFORME DEL CRÍTICO LEXICO ===
+LEXICO ===
+{
+  "especialidad": "lexico",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "exactamente",
+      "pauta_id": "G05"
+    },
+    {
+      "elemento": "Finalmente",
+      "pauta_id": "G05"
+    },
+    {
+      "elemento": "hermosa",
+      "pauta_id": "G06"
+    },
+    {
+      "elemento": "l@",
+      "pauta_id": "G08"
+    },
+    {
+      "elemento": "L@s",
+      "pauta_id": "G08"
+    },
+    {
+      "elemento": "vecin@s",
+      "pauta_id": "G08"
+    },
+    {
+      "elemento": "veinte",
+      "pauta_id": "G12"
+    },
+    {
+      "elemento": "CIENTOS",
+      "pauta_id": "G13"
+    },
+    {
+      "elemento": "décadas",
+      "pauta_id": "G13"
+    },
+    {
+      "elemento": "amor imposible",
+      "pauta_id": "G02"
+    }
+  ],
+  "conclusion": "El texto presenta varios incumplimientos de las reglas de Lectura Fácil, principalmente en el uso de adverbios terminados en -mente, superlativos, abreviaturas, siglas no explicadas, números escritos en letra y expresiones con significado indeterminado o metáforas. Es necesario simplificar el vocabulario y la estructura para cumplir con la norma UNE 153101:2018."
+}
+
+
+2026-08-27 14:23:33,187 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Se ha recibido un informe del agente Crítico.
+2026-08-27 14:23:33,188 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Ejecutando modelo de simplificación léxica.
+2026-08-27 14:23:34,418 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:23:34,419 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Resultado generado correctamente: 1217 caracteres.
+2026-08-27 14:41:03,064 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Solicitud recibida. Texto: 1519 caracteres. Informe crítico: sí
+2026-08-27 14:41:03,065 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | === INFORME DEL CRÍTICO LEXICO ===
+LEXICO ===
+{
+  "especialidad": "lexico",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "aferraba",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "fulgor",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "antinatural",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "pacto",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "plaga",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "forjado",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "herrería",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "robles centenarios",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "materializó",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "etérea",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "luminosa",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "habitando",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "como si tuviera vida propia",
+      "pauta_id": "G02"
+    },
+    {
+      "elemento": "lugar maldito",
+      "pauta_id": "G02"
+    },
+    {
+      "elemento": "producto de su imaginación exhausta",
+      "pauta_id": "G02"
+    },
+    {
+      "elemento": "las estrellas brillaban demasiado",
+      "pauta_id": "G02"
+    },
+    {
+      "elemento": "los ojos de su hermana",
+      "pauta_id": "G02"
+    },
+    {
+      "elemento": "las lágrimas quemaban sus mejillas",
+      "pauta_id": "G02"
+    },
+    {
+      "elemento": "algo terrible habitando detrás de sus ojos",
+      "pauta_id": "G02"
+    }
+  ],
+  "conclusion": "El texto presenta un vocabulario muy complejo, con numerosas palabras abstractas, largas o de uso poco habitual, así como metáforas y expresiones literarias que dificultan la comprensión para un lector de Lectura Fácil. Es necesario simplificar el vocabulario sustancialmente."
+}
+
+
+2026-08-27 14:41:03,065 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Se ha recibido un informe del agente Crítico.
+2026-08-27 14:41:03,066 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Ejecutando modelo de simplificación léxica.
+2026-08-27 14:41:04,631 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:41:04,633 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Resultado generado correctamente: 1555 caracteres.
+2026-08-27 14:51:27,460 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Solicitud recibida. Texto: 3236 caracteres. Informe crítico: sí
+2026-08-27 14:51:27,460 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | === INFORME DEL CRÍTICO LEXICO ===
+LEXICO ===
+{
+  "especialidad": "lexico",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "17:00",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "20:30",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "18:30",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "17:30",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "19:00",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "19:30",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "20:30",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "DJ",
+      "pauta_id": "G08"
+    },
+    {
+      "elemento": "globoflexia",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "tattos",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "pintacaras",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "didáctica",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "batukada",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "zancudos",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "céntricas",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "asistente",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "originalidad",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "creatividad",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "colorida",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "diferente",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "impulso",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "emplazamiento",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "centenares",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "prolongará",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "habilitada",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "trabajados",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "aventuras",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "icono",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "prójimo",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "pasacalles",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "novedad",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "bufones",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "arlequines",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "interactuar",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "recorrerá",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "nuevamente",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "previamente",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "categoría",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "amenizada",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "madrugada",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "animado",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "programado",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "familia",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "amigos",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "tarde",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "colorida",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "diferente",
+      "pauta_id": "G01"
+    }
+  ],
+  "conclusion": "El texto presenta múltiples incumplimientos de las reglas de Lectura Fácil, principalmente en el uso de horas en formato 24 horas, abreviaturas, palabras abstractas o largas, y falta de claridad en algunos términos. Es necesario simplificar el vocabulario y la estructura para cumplir con la norma UNE 153101:2018."
+}
+
+
+2026-08-27 14:51:27,460 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Se ha recibido un informe del agente Crítico.
+2026-08-27 14:51:27,460 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Ejecutando modelo de simplificación léxica.
+2026-08-27 14:51:30,272 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:51:30,273 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Resultado generado correctamente: 3487 caracteres.
+2026-08-27 15:03:10,274 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Solicitud recibida. Texto: 3169 caracteres. Informe crítico: sí
+2026-08-27 15:03:10,275 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | === INFORME DEL CRÍTICO LEXICO ===
+LEXICO ===
+{
+  "especialidad": "lexico",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "74\u000ba",
+      "pauta_id": "G14"
+    },
+    {
+      "elemento": "VCV",
+      "pauta_id": "G09"
+    },
+    {
+      "elemento": "13:54",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "14:01",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "rut\u0003metro",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "N 332",
+      "pauta_id": "G08"
+    },
+    {
+      "elemento": "13 y 15 horas",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "13,30",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "14,30",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "N#340",
+      "pauta_id": "G08"
+    },
+    {
+      "elemento": "14:11",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "14:19",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "precortes",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "recayentes",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "filtrado",
+      "pauta_id": "G01"
+    }
+  ],
+  "conclusion": "El texto presenta múltiples incumplimientos de las reglas de Lectura Fácil, principalmente en el uso de números (formato, ordinales, horas), abreviaturas, siglas no explicadas y vocabulario técnico o abstracto sin glosas."
+}
+
+
+2026-08-27 15:03:10,275 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Se ha recibido un informe del agente Crítico.
+2026-08-27 15:03:10,276 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Ejecutando modelo de simplificación léxica.
+2026-08-27 15:03:13,306 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:03:13,309 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Resultado generado correctamente: 3277 caracteres.
+2026-08-27 15:07:24,670 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Solicitud recibida. Texto: 3277 caracteres. Informe crítico: sí
+2026-08-27 15:07:24,670 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | === INFORME DEL CRÍTICO LEXICO ===
+LEXICO ===
+{
+  "especialidad": "lexico",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "número 74",
+      "pauta_id": "G14"
+    },
+    {
+      "elemento": "Vía Parque",
+      "pauta_id": "G08"
+    },
+    {
+      "elemento": "Vía Parque",
+      "pauta_id": "G09"
+    },
+    {
+      "elemento": "desalar",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "instrumento para medir la distancia recorrida",
+      "pauta_id": "G03"
+    }
+  ],
+  "conclusion": "El texto presenta varios incumplimientos de las reglas de Lectura Fácil, principalmente relacionados con el uso de números ordinales, abreviaturas, siglas no explicadas y términos técnicos o abstractos sin glosa."
+}
+
+
+2026-08-27 15:07:24,671 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Se ha recibido un informe del agente Crítico.
+2026-08-27 15:07:24,671 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Ejecutando modelo de simplificación léxica.
+2026-08-27 15:07:24,844 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-27 15:07:24,845 | INFO | groq._base_client | Retrying request to /openai/v1/chat/completions in 7.000000 seconds
+2026-08-27 15:07:32,033 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-27 15:07:32,034 | INFO | groq._base_client | Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-08-27 15:07:36,721 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:07:36,724 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Resultado generado correctamente: 3535 caracteres.
+2026-08-27 15:11:50,611 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Solicitud recibida. Texto: 3535 caracteres. Informe crítico: sí
+2026-08-27 15:11:50,611 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | === INFORME DEL CRÍTICO LEXICO ===
+LEXICO ===
+{
+  "especialidad": "lexico",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "primera",
+      "pauta_id": "G14"
+    },
+    {
+      "elemento": "número 74",
+      "pauta_id": "G14"
+    },
+    {
+      "elemento": "Volta a la Comunitat Valenciana",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "Ayuntamiento",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "Policía Local",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "Altet",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "túnel iluminado",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "rotonda número 332",
+      "pauta_id": "G14"
+    },
+    {
+      "elemento": "Vía Parque",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "desalar",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "instrumento para medir la distancia recorrida",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "Sala de Control de Tráfico",
+      "pauta_id": "G03"
+    }
+  ],
+  "conclusion": "El texto presenta varios incumplimientos de las reglas de Lectura Fácil, principalmente relacionados con el uso de superlativos, abreviaturas, siglas no explicadas, números ordinales y términos técnicos sin glosa adecuada."
+}
+
+
+2026-08-27 15:11:50,612 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Se ha recibido un informe del agente Crítico.
+2026-08-27 15:11:50,612 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Ejecutando modelo de simplificación léxica.
+2026-08-27 15:11:50,745 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-27 15:11:50,746 | INFO | groq._base_client | Retrying request to /openai/v1/chat/completions in 10.000000 seconds
+2026-08-27 15:12:03,649 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:12:03,652 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Resultado generado correctamente: 4065 caracteres.
+2026-08-27 15:30:47,985 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Solicitud recibida. Texto: 2680 caracteres. Informe crítico: sí
+2026-08-27 15:30:47,986 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | === INFORME DEL CRÍTICO LEXICO ===
+LEXICO ===
+{
+  "especialidad": "lexico",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "recuperase",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "homenajeaba",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Concejalía",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "habitualmente",
+      "pauta_id": "G05"
+    },
+    {
+      "elemento": "suponiendo",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "protagonista",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "corte salinera",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "Luciendo",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "galas",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "comparsas",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "declarado de Interés Turístico Autonómico",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "Comunitat Valenciana",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "colorido",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "espectaculares",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "coreografías",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "reinas mayor e infantil",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "representación",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "arraigadas",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "festeros",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "lazos de amistad",
+      "pauta_id": "G02"
+    },
+    {
+      "elemento": "Interés Turístico Nacional",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "escuadras",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "contrabandistas",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "femenina y otra masculina",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "desplazará",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "amplia representación",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "cargos de las fiestas",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "alfombras",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "filaes",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "berberíscos",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "agrupaciones musicales",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "secciones",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "manifestado",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "agradecimiento",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "aliciente",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "afluencia",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "resaltó",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "voluntaria y altruista",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "gratitud",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "inmediaciones",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "intersección",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "movilidad reducida",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "20:30 horas",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "20:30 horas",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "13 de agosto",
+      "pauta_id": "G18"
+    },
+    {
+      "elemento": "2019",
+      "pauta_id": "G12"
+    },
+    {
+      "elemento": "2021/2022",
+      "pauta_id": "G12"
+    },
+    {
+      "elemento": "2019",
+      "pauta_id": "G12"
+    },
+    {
+      "elemento": "desfile",
+      "pauta_id": "G10"
+    },
+    {
+      "elemento": "Desfile de Verano",
+      "pauta_id": "G10"
+    },
+    {
+      "elemento": "corte salinera",
+      "pauta_id": "G10"
+    },
+    {
+      "elemento": "Reina de la Sal",
+      "pauta_id": "G10"
+    },
+    {
+      "elemento": "damas",
+      "pauta_id": "G10"
+    },
+    {
+      "elemento": "comparsas",
+      "pauta_id": "G10"
+    },
+    {
+      "elemento": "reinas mayor e infantil",
+      "pauta_id": "G10"
+    },
+    {
+      "elemento": "representación",
+      "pauta_id": "G10"
+    },
+    {
+      "elemento": "festeros",
+      "pauta_id": "G10"
+    },
+    {
+      "elemento": "escuadras",
+      "pauta_id": "G10"
+    },
+    {
+      "elemento": "filaes",
+      "pauta_id": "G10"
+    },
+    {
+      "elemento": "agrupaciones musicales",
+      "pauta_id": "G10"
+    },
+    {
+      "elemento": "secciones",
+      "pauta_id": "G10"
+    },
+    {
+      "elemento": "concejal",
+      "pauta_id": "G10"
+    },
+    {
+      "elemento": "Concejalía",
+      "pauta_id": "G10"
+    },
+    {
+      "elemento": "desfile",
+      "pauta_id": "G10"
+    }
+  ],
+  "conclusion": "El texto presenta múltiples incumplimientos de las reglas de Lectura Fácil, principalmente en el uso de vocabulario abstracto, tecnicismos sin glosar, abreviaturas, siglas, formatos de hora incorrectos y falta de coherencia en la denominación de los elementos."
+}
+
+
+2026-08-27 15:30:47,986 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Se ha recibido un informe del agente Crítico.
+2026-08-27 15:30:47,987 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Ejecutando modelo de simplificación léxica.
+2026-08-27 15:30:50,295 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:30:50,297 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Resultado generado correctamente: 3135 caracteres.
+2026-08-27 15:38:21,642 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Solicitud recibida. Texto: 3052 caracteres. Informe crítico: sí
+2026-08-27 15:38:21,643 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | === INFORME DEL CRÍTICO LEXICO ===
+LEXICO ===
+{
+  "especialidad": "lexico",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "20:30 horas",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "20:30 horas",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "Magoñ",
+      "pauta_id": "G08"
+    },
+    {
+      "elemento": "Rivero",
+      "pauta_id": "G08"
+    },
+    {
+      "elemento": "Vizcaíno",
+      "pauta_id": "G08"
+    },
+    {
+      "elemento": "Hernández",
+      "pauta_id": "G08"
+    },
+    {
+      "elemento": "Marín",
+      "pauta_id": "G08"
+    },
+    {
+      "elemento": "Gallud",
+      "pauta_id": "G08"
+    },
+    {
+      "elemento": "Pérez",
+      "pauta_id": "G08"
+    },
+    {
+      "elemento": "contrabandistas",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "filaes",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "berberíscos",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "muy bonitos",
+      "pauta_id": "G06"
+    }
+  ],
+  "conclusion": "El texto presenta varios incumplimientos de las reglas de Lectura Fácil, principalmente en el uso de horas en formato 24 horas, abreviaturas, términos sin glosa y uso de superlativos."
+}
+
+
+2026-08-27 15:38:21,644 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Se ha recibido un informe del agente Crítico.
+2026-08-27 15:38:21,645 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Ejecutando modelo de simplificación léxica.
+2026-08-27 15:38:24,036 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:38:24,041 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Resultado generado correctamente: 3266 caracteres.
+2026-08-27 15:42:36,814 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Solicitud recibida. Texto: 3266 caracteres. Informe crítico: sí
+2026-08-27 15:42:36,815 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | === INFORME DEL CRÍTICO LEXICO ===
+LEXICO ===
+{
+  "especialidad": "lexico",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "homenaje",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "principal",
+      "pauta_id": "G06"
+    },
+    {
+      "elemento": "Interés Turístico Autonómico",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "Interés Turístico Nacional",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "desinteresada",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "concejalía / concejal",
+      "pauta_id": "G10"
+    }
+  ],
+  "conclusion": "El texto presenta varios incumplimientos de las reglas de Lectura Fácil, principalmente relacionados con el uso de términos abstractos o técnicos sin glosa adecuada (G03), el uso de superlativos (G06) y la falta de consistencia en la denominación de los referentes (G10). Es necesario simplificar el vocabulario y añadir explicaciones para mejorar la comprensión."
+}
+
+
+2026-08-27 15:42:36,816 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Se ha recibido un informe del agente Crítico.
+2026-08-27 15:42:36,816 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Ejecutando modelo de simplificación léxica.
+2026-08-27 15:42:36,951 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-27 15:42:36,952 | INFO | groq._base_client | Retrying request to /openai/v1/chat/completions in 30.000000 seconds
+2026-08-27 15:43:09,557 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:43:09,560 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Resultado generado correctamente: 3363 caracteres.
+2026-08-27 15:55:17,352 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Solicitud recibida. Texto: 2630 caracteres. Informe crítico: sí
+2026-08-27 15:55:17,354 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | === INFORME DEL CRÍTICO LEXICO ===
+LEXICO ===
+{
+  "especialidad": "lexico",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "concejalas",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "programación",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "impulsadas",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "colaboración",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "entidades",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "colectivos",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "veintena",
+      "pauta_id": "G12"
+    },
+    {
+      "elemento": "conferencias",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "proyecciones",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "mesas redondas",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "destacando",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Concejalía",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Unidad de Igualdad",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "coeducativo",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "Infantil",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Secundaria",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "concluirá",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "alumnado",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "sólida",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "promoviendo",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "infancia",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "edil",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "Taller de Coeducación",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "ciclo infantil",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Centros Educativos",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "fomentar",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "visibilidad",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Balonmano",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Femenino",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "éxitos",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "deportivos",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "campeón",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "germen",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "élite",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "espectáculos",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "escenario",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Monólogos",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "cuquis",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Pink Show Comedy",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "agotadas",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "representará",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Flamenco Kitchen",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "recrea",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "laboral",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "tragicómico",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "vivencias",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "jornadas",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "afirmado",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "calendario",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "motivo",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "8-M",
+      "pauta_id": "G08"
+    },
+    {
+      "elemento": "impresionante",
+      "pauta_id": "G06"
+    },
+    {
+      "elemento": "coordinación",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "áreas",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "complejo",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "cuadrar",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "eventos",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "repasado",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "organizada",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Universidad",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Mujeres de la Transición",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "disfrutar",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Sala Ficia",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Museo del Calzado",
+      "pauta_id": "G01"
+    }
+  ],
+  "conclusion": "El texto presenta múltiples incumplimientos de las reglas de Lectura Fácil, principalmente en el uso de vocabulario abstracto, tecnicismos sin glosar, abreviaturas, fechas incompletas y formatos de hora incorrectos. Es necesario simplificar el vocabulario y reformatear la información para cumplir con la norma UNE 153101:2018."
+}
+
+
+2026-08-27 15:55:17,355 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Se ha recibido un informe del agente Crítico.
+2026-08-27 15:55:17,355 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Ejecutando modelo de simplificación léxica.
+2026-08-27 15:55:19,573 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:55:19,577 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Resultado generado correctamente: 2731 caracteres.
+2026-08-27 16:07:45,780 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Solicitud recibida. Texto: 3339 caracteres. Informe crítico: sí
+2026-08-27 16:07:45,780 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | === INFORME DEL CRÍTICO LEXICO ===
+LEXICO ===
+{
+  "especialidad": "lexico",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "2º Edición",
+      "pauta_id": "G14"
+    },
+    {
+      "elemento": "1ª Edición",
+      "pauta_id": "G14"
+    },
+    {
+      "elemento": "Centro14",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "18:00 a 22:00",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "info@nextmind.es",
+      "pauta_id": "G08"
+    },
+    {
+      "elemento": "4x4",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "jugadores/ras",
+      "pauta_id": "G08"
+    },
+    {
+      "elemento": "jugadores/ras",
+      "pauta_id": "G08"
+    },
+    {
+      "elemento": "18:15, 19:30, 20:30 horas",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "kettlbells",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "18:30, 19:45",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "Zona Biosaludable",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "18:00 a 21:30 horas",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "placajes",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "ensayos",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "18:00 a 21:30 horas",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "19:05",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "19h",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "20.15h",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "speaker",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "photocall",
+      "pauta_id": "G07"
+    }
+  ],
+  "conclusion": "El texto presenta múltiples incumplimientos de las reglas de Lectura Fácil, principalmente en el uso de abreviaturas, siglas, formatos de hora, números ordinales y términos técnicos sin glosar. Es necesario simplificar el vocabulario y la estructura para cumplir con la norma UNE 153101:2018."
+}
+
+
+2026-08-27 16:07:45,781 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Se ha recibido un informe del agente Crítico.
+2026-08-27 16:07:45,782 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Ejecutando modelo de simplificación léxica.
+2026-08-27 16:07:48,820 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:07:48,823 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Resultado generado correctamente: 3926 caracteres.
+2026-08-27 16:12:22,012 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Solicitud recibida. Texto: 3926 caracteres. Informe crítico: sí
+2026-08-27 16:12:22,013 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | === INFORME DEL CRÍTICO LEXICO ===
+LEXICO ===
+{
+  "especialidad": "lexico",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "ONU",
+      "pauta_id": "G09"
+    },
+    {
+      "elemento": "Avda.",
+      "pauta_id": "G08"
+    },
+    {
+      "elemento": "Sr.",
+      "pauta_id": "G08"
+    },
+    {
+      "elemento": "Ma",
+      "pauta_id": "G08"
+    },
+    {
+      "elemento": "Next Mind",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "Wild Light's",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "Crossfit",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "Futevolei",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "Grizzly Mode One",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "B\u0011rbaros Ultimate Frisbee",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "In Situ Dance School",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "Tramuntana Avenura",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "Dancehall",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "Gymkhana",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "Photocall",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "Zona Biosaludable",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "Placajes",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "Ensayos",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "Pesas rusas",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "edicin",
+      "pauta_id": "G10"
+    },
+    {
+      "elemento": "participacin",
+      "pauta_id": "G10"
+    },
+    {
+      "elemento": "inscripcin",
+      "pauta_id": "G10"
+    },
+    {
+      "elemento": "horario",
+      "pauta_id": "G10"
+    },
+    {
+      "elemento": "grupos",
+      "pauta_id": "G10"
+    },
+    {
+      "elemento": "exhibicin",
+      "pauta_id": "G10"
+    },
+    {
+      "elemento": "torneo",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "categoras",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "iniciacin",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "orientaciones",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "instrucciones",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "avituallamiento",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "fisioterapia",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "ambiental",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "locutor",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "trofeos",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "camisetas",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "masica",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "deportivas",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "deportivo",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "deportivos",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "deportistas",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "deporte",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "deportes",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "deportivo",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "deportistas",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "deporte",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "deportes",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "deportivo",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "deportistas",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "deporte",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "deportes",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "deportivo",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "deportistas",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "deporte",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "deportes",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "deportivo",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "deportistas",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "deporte",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "deportes",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "deportivo",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "deportistas",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "deporte",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "deportes",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "deportivo",
+      "pauta_id": "G01"
+    }
+  ],
+  "conclusion": "El texto presenta varios incumplimientos de las reglas de Lectura Fácil, principalmente relacionados con el uso de siglas sin explicar, abreviaturas, términos extranjeros sin aclarar y la repetición innecesaria de la misma información con variaciones léxicas que confunden al lector."
+}
+
+
+2026-08-27 16:12:22,014 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Se ha recibido un informe del agente Crítico.
+2026-08-27 16:12:22,014 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Ejecutando modelo de simplificación léxica.
+2026-08-27 16:12:22,167 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-27 16:12:22,169 | INFO | groq._base_client | Retrying request to /openai/v1/chat/completions in 43.000000 seconds
+2026-08-27 16:13:05,347 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-27 16:13:05,348 | INFO | groq._base_client | Retrying request to /openai/v1/chat/completions in 11.000000 seconds
+2026-08-27 16:13:19,884 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:13:19,891 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Resultado generado correctamente: 3927 caracteres.
+2026-08-27 16:21:31,494 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Solicitud recibida. Texto: 4098 caracteres. Informe crítico: sí
+2026-08-27 16:21:31,495 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | === INFORME DEL CRÍTICO LEXICO ===
+LEXICO ===
+{
+  "especialidad": "lexico",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "ONU",
+      "pauta_id": "G09"
+    },
+    {
+      "elemento": "Avda.",
+      "pauta_id": "G08"
+    },
+    {
+      "elemento": "Sr.",
+      "pauta_id": "G08"
+    },
+    {
+      "elemento": "Ma",
+      "pauta_id": "G08"
+    },
+    {
+      "elemento": "18a",
+      "pauta_id": "G14"
+    },
+    {
+      "elemento": "decimoctava",
+      "pauta_id": "G14"
+    },
+    {
+      "elemento": "Benedicto XVI",
+      "pauta_id": "G16"
+    },
+    {
+      "elemento": "Siglo XX",
+      "pauta_id": "G16"
+    },
+    {
+      "elemento": "Alfonso X",
+      "pauta_id": "G16"
+    },
+    {
+      "elemento": "Remake",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "Conseller de Sanitat",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "Esternocleidomastoideo",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Prevencin de Riesgos Laborales",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "Alejandra",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "Desafo",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "baca",
+      "pauta_id": "G04"
+    },
+    {
+      "elemento": "claramente",
+      "pauta_id": "G05"
+    },
+    {
+      "elemento": "Generalmente",
+      "pauta_id": "G05"
+    },
+    {
+      "elemento": "Finalmente",
+      "pauta_id": "G05"
+    },
+    {
+      "elemento": "antepenaltima",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "retransmite",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "un ojo de la cara",
+      "pauta_id": "G02"
+    },
+    {
+      "elemento": "corazn de oro",
+      "pauta_id": "G02"
+    },
+    {
+      "elemento": "A palabras necias, odos sordos",
+      "pauta_id": "G02"
+    },
+    {
+      "elemento": "cosa",
+      "pauta_id": "G11"
+    },
+    {
+      "elemento": "algo",
+      "pauta_id": "G11"
+    },
+    {
+      "elemento": "lugar",
+      "pauta_id": "G11"
+    },
+    {
+      "elemento": "dieciocho",
+      "pauta_id": "G12"
+    },
+    {
+      "elemento": "trece",
+      "pauta_id": "G12"
+    },
+    {
+      "elemento": "veintitrs",
+      "pauta_id": "G12"
+    },
+    {
+      "elemento": "1.234.567",
+      "pauta_id": "G13"
+    },
+    {
+      "elemento": "18.000",
+      "pauta_id": "G13"
+    },
+    {
+      "elemento": "medio",
+      "pauta_id": "G15"
+    },
+    {
+      "elemento": "25%",
+      "pauta_id": "G15"
+    },
+    {
+      "elemento": "d",
+      "pauta_id": "G15"
+    },
+    {
+      "elemento": "915234678",
+      "pauta_id": "G17"
+    },
+    {
+      "elemento": "695245871",
+      "pauta_id": "G17"
+    },
+    {
+      "elemento": "915234785",
+      "pauta_id": "G17"
+    },
+    {
+      "elemento": "12:40",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "23:00",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "17:40",
+      "pauta_id": "G19"
+    }
+  ],
+  "conclusion": "El texto presenta varios incumplimientos de las reglas de Lectura Fácil, principalmente relacionados con el uso de siglas sin explicar, abreviaturas, términos técnicos o extranjeros sin glosa, y el uso de números ordinales."
+}
+
+
+2026-08-27 16:21:31,495 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Se ha recibido un informe del agente Crítico.
+2026-08-27 16:21:31,496 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Ejecutando modelo de simplificación léxica.
+2026-08-27 16:21:35,158 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:21:35,161 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Resultado generado correctamente: 4108 caracteres.
+2026-08-27 16:26:53,897 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Solicitud recibida. Texto: 4120 caracteres. Informe crítico: sí
+2026-08-27 16:26:53,898 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | === INFORME DEL CRÍTICO LEXICO ===
+LEXICO ===
+{
+  "especialidad": "lexico",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "Concejalía",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Ayuntamiento",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Next Mind",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "Wild Light's",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "Crossfit",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "Futevolei",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Grizzly Mode One",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "Bárbaros Ultimate Frisbee",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "In Situ Dance School",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "Tramuntana Avenura",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "info@nextmind.es",
+      "pauta_id": "G08"
+    },
+    {
+      "elemento": "Voley playa",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "mixto",
+      "pauta_id": "G04"
+    },
+    {
+      "elemento": "Futevolei",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "futvóley",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Crossfit",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "Empuje de trineos",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Pesas rusas",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Pilates",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Calistenia",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Zona Biosaludable",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "Rugby",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Olímpico",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "evasión",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "placajes",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "ensayos",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Ultimate Frisbee",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "Dancehall",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "Gymkhana",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "fisioterapia",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "música ambiental",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "photocall",
+      "pauta_id": "G07"
+    }
+  ],
+  "conclusion": "El texto presenta varios incumplimientos de las reglas de Lectura Fácil, principalmente relacionados con el uso de términos técnicos sin glosa, abreviaturas, siglas no explicadas, palabras de origen extranjero y expresiones ambiguas. Se recomienda simplificar el vocabulario y añadir explicaciones donde sea necesario."
+}
+
+
+2026-08-27 16:26:53,898 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Se ha recibido un informe del agente Crítico.
+2026-08-27 16:26:53,899 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Ejecutando modelo de simplificación léxica.
+2026-08-27 16:26:54,053 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-27 16:26:54,055 | INFO | groq._base_client | Retrying request to /openai/v1/chat/completions in 30.000000 seconds
+2026-08-27 16:27:27,771 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:27:27,774 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Resultado generado correctamente: 4776 caracteres.
+2026-08-27 16:37:02,420 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Solicitud recibida. Texto: 3307 caracteres. Informe crítico: sí
+2026-08-27 16:37:02,420 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | === INFORME DEL CRÍTICO LEXICO ===
+LEXICO ===
+{
+  "especialidad": "lexico",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "SUP",
+      "pauta_id": "G09"
+    },
+    {
+      "elemento": "APP",
+      "pauta_id": "G09"
+    },
+    {
+      "elemento": "paddle surf",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "penúltima",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "EE UU",
+      "pauta_id": "G08"
+    },
+    {
+      "elemento": "desestacionalización",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "infraestructuras",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "City&Beach",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "Molokai Oahu",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "SUP Race",
+      "pauta_id": "G09"
+    },
+    {
+      "elemento": "riders",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "Djs",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "simposio",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "grafiteros",
+      "pauta_id": "G01"
+    }
+  ],
+  "conclusion": "El texto presenta múltiples incumplimientos de las reglas de Lectura Fácil, principalmente por el uso de términos técnicos sin glosa, abreviaturas, siglas no explicadas, anglicismos y expresiones abstractas o complejas. Es necesario simplificar el vocabulario y añadir explicaciones para cumplir con la norma UNE 153101:2018."
+}
+
+
+2026-08-27 16:37:02,421 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Se ha recibido un informe del agente Crítico.
+2026-08-27 16:37:02,421 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Ejecutando modelo de simplificación léxica.
+2026-08-27 16:37:05,414 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:37:05,416 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Resultado generado correctamente: 3739 caracteres.
+2026-08-27 17:03:55,743 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Solicitud recibida. Texto: 2176 caracteres. Informe crítico: sí
+2026-08-27 17:03:55,745 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | === INFORME DEL CRÍTICO LEXICO ===
+LEXICO ===
+{
+  "especialidad": "lexico",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "Mantenimiento Físico",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "Artes Marciales",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "reanudarán",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "restricciones",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Generalitat Valenciana",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "sanitaria",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "concejal",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "federado",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "ciudadanos y ciudadanas",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "igualitario",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "inclusión",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "pandemia",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "dificultado",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "realización",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "usuarios",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "suspendidas",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "oportunidades",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "procediendo",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "devolución",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "tasas",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "disfrutadas",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Campeonatos Locales",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "edil",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "evolución",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Ayuntamiento",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "adoptar",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "restrictivas",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "aplazamiento",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Concejalía",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "documentación",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "beneficiarios/as",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "trámite",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "cumplimentar",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Hoja de Mantenimiento a Terceros",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "www.elda.es",
+      "pauta_id": "G08"
+    },
+    {
+      "elemento": "cita previa",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "966989202",
+      "pauta_id": "G17"
+    },
+    {
+      "elemento": "satisfechos",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "participación",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "demanda",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "modalidades",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "ampliar",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "futuro",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "creciente",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "oferta",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "plazas",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "ofertadas",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "actualidad",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "niveles",
+      "pauta_id": "G01"
+    }
+  ],
+  "conclusion": "El texto presenta múltiples incumplimientos de las reglas de Lectura Fácil, principalmente en el uso de vocabulario abstracto, tecnicismos sin glosar, abreviaturas, siglas, números en letra y formatos de teléfono incorrectos. Es necesario simplificar el vocabulario y la estructura."
+}
+
+
+2026-08-27 17:03:55,747 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Se ha recibido un informe del agente Crítico.
+2026-08-27 17:03:55,749 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Ejecutando modelo de simplificación léxica.
+2026-08-27 17:03:57,687 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:03:57,693 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Resultado generado correctamente: 2603 caracteres.
+2026-08-27 17:20:16,062 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Solicitud recibida. Texto: 2119 caracteres. Informe crítico: sí
+2026-08-27 17:20:16,064 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | === INFORME DEL CRÍTICO LEXICO ===
+LEXICO ===
+{
+  "especialidad": "lexico",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "Covid-19",
+      "pauta_id": "G09"
+    },
+    {
+      "elemento": "www.elda.es",
+      "pauta_id": "G08"
+    },
+    {
+      "elemento": "Mantenimiento a Terceros",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "Mantenimiento Físico",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "Artes Marciales",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "Escuelas Municipales / Escuelas Deportivas Municipales",
+      "pauta_id": "G10"
+    },
+    {
+      "elemento": "Concejalía / Concejal",
+      "pauta_id": "G10"
+    }
+  ],
+  "conclusion": "El texto presenta varios incumplimientos de las reglas de Lectura Fácil, principalmente relacionados con el uso de siglas no explicadas, abreviaturas, términos técnicos sin glosa adecuada y variaciones en la denominación de los mismos conceptos."
+}
+
+
+2026-08-27 17:20:16,065 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Se ha recibido un informe del agente Crítico.
+2026-08-27 17:20:16,066 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Ejecutando modelo de simplificación léxica.
+2026-08-27 17:20:16,226 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-27 17:20:16,230 | INFO | groq._base_client | Retrying request to /openai/v1/chat/completions in 24.000000 seconds
+2026-08-27 17:20:42,067 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:20:42,072 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Resultado generado correctamente: 2601 caracteres.
+2026-08-27 17:32:24,357 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Solicitud recibida. Texto: 662 caracteres. Informe crítico: sí
+2026-08-27 17:32:24,358 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | === INFORME DEL CRÍTICO LEXICO ===
+LEXICO ===
+{
+  "especialidad": "lexico",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "08:30h a 10:00h",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "10:30h a 12:00h",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "17:30h a 19:00h",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "19:30h a 21:00h",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "17:30h a 19:00h",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "19:30h a 21:00h",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "Instalaciones Deportivas Municipales",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "página web",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "Trámites para usuarios registrados",
+      "pauta_id": "G01"
+    }
+  ],
+  "conclusion": "El texto presenta varios incumplimientos de las reglas de Lectura Fácil, principalmente en el uso de horas en formato 24 horas, abreviaturas y términos abstractos o largos sin glosa."
+}
+
+
+2026-08-27 17:32:24,358 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Se ha recibido un informe del agente Crítico.
+2026-08-27 17:32:24,359 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Ejecutando modelo de simplificación léxica.
+2026-08-27 17:32:25,564 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:32:25,570 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Resultado generado correctamente: 794 caracteres.
+2026-08-27 17:41:40,382 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Solicitud recibida. Texto: 1285 caracteres. Informe crítico: sí
+2026-08-27 17:41:40,384 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | === INFORME DEL CRÍTICO LEXICO ===
+LEXICO ===
+{
+  "especialidad": "lexico",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "enfatizado",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "raíces familiares festeras",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Proclamación",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "desarrollado",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Provenís",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "implicadas",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "seduce",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "verbena",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "adquieren",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "prisma",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "desempeñáis",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Ahondando",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "dinastías",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "bellea",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "hoguera",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "bisabuelo",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "retoma la actividad",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "suspensiones",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "derivadas",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "obran",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "datados",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Toman el relevo",
+      "pauta_id": "G02"
+    },
+    {
+      "elemento": "festeras",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "Cruces de Mayo",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "bellea",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "hoguera",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "Reina",
+      "pauta_id": "G10"
+    },
+    {
+      "elemento": "Reinas",
+      "pauta_id": "G10"
+    },
+    {
+      "elemento": "concejal",
+      "pauta_id": "G10"
+    },
+    {
+      "elemento": "edil",
+      "pauta_id": "G10"
+    }
+  ],
+  "conclusion": "El texto presenta múltiples incumplimientos de las reglas de Lectura Fácil, principalmente por el uso de vocabulario abstracto, tecnicismos sin glosar, expresiones figuradas y falta de claridad en la denominación de los referentes."
+}
+
+
+2026-08-27 17:41:40,385 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Se ha recibido un informe del agente Crítico.
+2026-08-27 17:41:40,386 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Ejecutando modelo de simplificación léxica.
+2026-08-27 17:41:42,319 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:41:42,325 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Resultado generado correctamente: 1851 caracteres.
+2026-08-27 17:55:36,211 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Solicitud recibida. Texto: 1797 caracteres. Informe crítico: sí
+2026-08-27 17:55:36,212 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | === INFORME DEL CRÍTICO LEXICO ===
+LEXICO ===
+{
+  "especialidad": "lexico",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "concejal",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "Proclamación",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "bellea",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "hoguera",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "festeras",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "verbena",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "bisabuelo",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "pandemia",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "Archivo Municipal",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "Ainhoa de la Osa y Edurne Mira no se despidieron",
+      "pauta_id": "G01"
+    }
+  ],
+  "conclusion": "El texto presenta varios incumplimientos de las reglas de Lectura Fácil, principalmente por el uso de términos abstractos o técnicos sin glosa adecuada, abreviaturas, y falta de claridad en algunos conceptos."
+}
+
+
+2026-08-27 17:55:36,214 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Se ha recibido un informe del agente Crítico.
+2026-08-27 17:55:36,215 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Ejecutando modelo de simplificación léxica.
+2026-08-27 17:55:36,372 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-27 17:55:36,375 | INFO | groq._base_client | Retrying request to /openai/v1/chat/completions in 11.000000 seconds
+2026-08-27 17:55:47,550 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-27 17:55:47,552 | INFO | groq._base_client | Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2026-08-27 17:55:53,578 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:55:53,587 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Resultado generado correctamente: 1968 caracteres.
+2026-08-27 18:07:37,605 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Solicitud recibida. Texto: 2951 caracteres. Informe crítico: sí
+2026-08-27 18:07:37,606 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | === INFORME DEL CRÍTICO LEXICO ===
+LEXICO ===
+{
+  "especialidad": "lexico",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "Patronato de Turismo",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "Ayuntamiento",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "programación",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "inauguración",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "recreación histórica",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "vicealcaldesa",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "edil",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "destacado",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "pretendemos",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "dinamizar",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "enmarcado",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "sanitarias",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "riguroso",
+      "pauta_id": "G06"
+    },
+    {
+      "elemento": "aforo",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "cuentacuentos",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "marionetas medievales",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "coincidiendo",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "recreadores templarios",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "exhibiciones",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "esgrima clásica",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "danzas de antaño",
+      "pauta_id": "G02"
+    },
+    {
+      "elemento": "nombramiento",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "infantes",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "doncellas",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "L.A",
+      "pauta_id": "G08"
+    },
+    {
+      "elemento": "A la Llum del Castell",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "cenas con espectáculo",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "fortaleza",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "previamente",
+      "pauta_id": "G05"
+    },
+    {
+      "elemento": "covid-19",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "alicanteturismo.com",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "meetandlive.es",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "decreto",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "competencias",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Concejalía",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "aprovechamiento",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "400.000",
+      "pauta_id": "G13"
+    },
+    {
+      "elemento": "reclamos",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "potestad",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "preservación",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "enclave",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Bien de Interés Cultural (BIC)",
+      "pauta_id": "G09"
+    },
+    {
+      "elemento": "monumental",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "12 horas",
+      "pauta_id": "G19"
+    }
+  ],
+  "conclusion": "El texto presenta múltiples incumplimientos de las reglas de Lectura Fácil, principalmente en el uso de vocabulario abstracto, tecnicismos sin glosar, abreviaturas, siglas, superlativos y formatos de hora incorrectos. Es necesario simplificar el vocabulario y la estructura."
+}
+
+
+2026-08-27 18:07:37,608 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Se ha recibido un informe del agente Crítico.
+2026-08-27 18:07:37,609 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Ejecutando modelo de simplificación léxica.
+2026-08-27 18:07:41,019 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:07:41,026 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Resultado generado correctamente: 5203 caracteres.
+2026-08-27 18:16:28,718 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Solicitud recibida. Texto: 5186 caracteres. Informe crítico: sí
+2026-08-27 18:16:28,719 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | === INFORME DEL CRÍTICO LEXICO ===
+LEXICO ===
+{
+  "especialidad": "lexico",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "muy estricto",
+      "pauta_id": "G06"
+    },
+    {
+      "elemento": "L.A.",
+      "pauta_id": "G08"
+    },
+    {
+      "elemento": "Covd-19",
+      "pauta_id": "G09"
+    },
+    {
+      "elemento": "web",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "meetandlive.es",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "alicanteturismo.com",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "Live the roof",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "A la Llum del Castell",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "The Liverpool Band",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "ABBA Élite",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "Keeng",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "DLocos",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "Tos Secret",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "Ventiuno",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "Marwan",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "Bely Basarte",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "Albaladre",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "Ciudad Canalla",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "Trivox",
+      "pauta_id": "G07"
+    }
+  ],
+  "conclusion": "El texto presenta varios incumplimientos de las reglas de Lectura Fácil, principalmente en el uso de superlativos, abreviaturas, siglas sin explicar adecuadamente, y términos que podrían simplificarse o explicarse mejor según las pautas."
+}
+
+
+2026-08-27 18:16:28,720 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Se ha recibido un informe del agente Crítico.
+2026-08-27 18:16:28,722 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Ejecutando modelo de simplificación léxica.
+2026-08-27 18:16:31,916 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:16:31,923 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Resultado generado correctamente: 5257 caracteres.
+2026-08-27 18:21:03,595 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Solicitud recibida. Texto: 5257 caracteres. Informe crítico: sí
+2026-08-27 18:21:03,595 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | === INFORME DEL CRÍTICO LEXICO ===
+LEXICO ===
+{
+  "especialidad": "lexico",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "L.A.",
+      "pauta_id": "G08"
+    },
+    {
+      "elemento": "Covd-19",
+      "pauta_id": "G08"
+    },
+    {
+      "elemento": "Live the roof",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "A la Llum del Castell",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "The Liverpool Band",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "ABBA Élite",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "Keeng",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "DLocos",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "Tos Secret",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "meetandlive.es",
+      "pauta_id": "G08"
+    },
+    {
+      "elemento": "alicanteturismo.com",
+      "pauta_id": "G08"
+    },
+    {
+      "elemento": "recreación histórica",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "jornada",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "recreadores templarios",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Orden del Temple",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "exhibiciones",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "esgrima clásica",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "danzas de antaño",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "nombramiento",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "infantes",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "doncellas",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "fortaleza",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "decreto",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Concejalía",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "promoción turística",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "monumento",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "reclamos",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "edil",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "preservación",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Bien de Interés Cultural",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "referente histórico y monumental",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "monumental",
+      "pauta_id": "G01"
+    }
+  ],
+  "conclusion": "El texto presenta varios incumplimientos de las reglas de Lectura Fácil, principalmente en el uso de abreviaturas, siglas, palabras de otros idiomas sin explicación adecuada, y términos abstractos o técnicos que requieren glosas más claras o sustitución por vocabulario más sencillo."
+}
+
+
+2026-08-27 18:21:03,596 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Se ha recibido un informe del agente Crítico.
+2026-08-27 18:21:03,597 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Ejecutando modelo de simplificación léxica.
+2026-08-27 18:21:03,747 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-27 18:21:03,749 | INFO | groq._base_client | Retrying request to /openai/v1/chat/completions in 43.000000 seconds
+2026-08-27 18:21:50,015 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:21:50,022 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Resultado generado correctamente: 5285 caracteres.
+2026-08-27 18:28:32,843 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Solicitud recibida. Texto: 5283 caracteres. Informe crítico: sí
+2026-08-27 18:28:32,844 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | === INFORME DEL CRÍTICO LEXICO ===
+LEXICO ===
+{
+  "especialidad": "lexico",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "L.A.",
+      "pauta_id": "G08"
+    },
+    {
+      "elemento": "Covd-19",
+      "pauta_id": "G08"
+    },
+    {
+      "elemento": "Live the roof",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "A la Llum del Castell",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "The Liverpool Band",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "ABBA Élite",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "DLocos",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "Tos Secret",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "meetandlive.es",
+      "pauta_id": "G08"
+    },
+    {
+      "elemento": "alicanteturismo.com",
+      "pauta_id": "G08"
+    },
+    {
+      "elemento": "400.000",
+      "pauta_id": "G13"
+    },
+    {
+      "elemento": "estricto",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "esgrima clásica",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "Bien de Interés Cultural",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "referente",
+      "pauta_id": "G01"
+    }
+  ],
+  "conclusion": "El texto presenta varios incumplimientos de las reglas de Lectura Fácil, principalmente en el uso de abreviaturas, siglas, palabras extranjeras y términos técnicos sin glosa adecuada."
+}
+
+
+2026-08-27 18:28:32,844 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Se ha recibido un informe del agente Crítico.
+2026-08-27 18:28:32,845 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Ejecutando modelo de simplificación léxica.
+2026-08-27 18:28:32,991 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-27 18:28:32,992 | INFO | groq._base_client | Retrying request to /openai/v1/chat/completions in 39.000000 seconds
+2026-08-27 18:29:15,931 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:29:15,938 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Resultado generado correctamente: 5283 caracteres.
+2026-08-27 18:39:50,233 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Solicitud recibida. Texto: 2852 caracteres. Informe crítico: sí
+2026-08-27 18:39:50,234 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | === INFORME DEL CRÍTICO LEXICO ===
+LEXICO ===
+{
+  "especialidad": "lexico",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "remitido",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "consellera",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "traslada",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "continuidad",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "adoptadas",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "resolución",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "misiva",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "responsable político",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "atajen",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "incremento",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "positivos",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Covid-19",
+      "pauta_id": "G09"
+    },
+    {
+      "elemento": "Ayuntamiento",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "aseguramiento",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "estrictamente",
+      "pauta_id": "G05"
+    },
+    {
+      "elemento": "imprescindibles",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "contagios",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "suspensión",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "excede",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "contemple",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "acogerse",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "régimen",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "hostelería",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "restauración",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "01:00 horas",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "ocupación",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "agrupaciones",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "mantenimiento",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "interpersonal",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "1,5 metros",
+      "pauta_id": "G15"
+    },
+    {
+      "elemento": "prohibición",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "desarrollo",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "interior cerrado",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "primer edil",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "expone",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "restricciones",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Comunidades Autónomas",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "incidencia acumulada",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "supervivencia",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "PIB",
+      "pauta_id": "G09"
+    },
+    {
+      "elemento": "20.000 millones",
+      "pauta_id": "G13"
+    },
+    {
+      "elemento": "facturación",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "200.000",
+      "pauta_id": "G13"
+    },
+    {
+      "elemento": "vinculados",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "agravio comparativo",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "establecimientos",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "espacios cerrados",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "hostelero",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "activa y decisivamente",
+      "pauta_id": "G05"
+    },
+    {
+      "elemento": "control",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "policía local",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "estricta",
+      "pauta_id": "G05"
+    },
+    {
+      "elemento": "autorregulación",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "pernicioso",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "derivando",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "suspensión total",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "incremento",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "botellón",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "alcalde / primer edil",
+      "pauta_id": "G10"
+    },
+    {
+      "elemento": "escrito / misiva",
+      "pauta_id": "G10"
+    }
+  ],
+  "conclusion": "El texto presenta múltiples incumplimientos de las reglas de Lectura Fácil, principalmente por el uso de vocabulario abstracto, tecnicismos sin glosar, abreviaturas, siglas, números con muchos dígitos, porcentajes, horas en formato 24h y falta de coherencia en la denominación de los referentes."
+}
+
+
+2026-08-27 18:39:50,235 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Se ha recibido un informe del agente Crítico.
+2026-08-27 18:39:50,237 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Ejecutando modelo de simplificación léxica.
+2026-08-27 18:39:50,408 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-27 18:39:50,411 | INFO | groq._base_client | Retrying request to /openai/v1/chat/completions in 49.000000 seconds
+2026-08-27 18:40:41,405 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:40:41,412 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Resultado generado correctamente: 2258 caracteres.
+2026-08-27 18:48:04,315 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Solicitud recibida. Texto: 2247 caracteres. Informe crítico: sí
+2026-08-27 18:48:04,316 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | === INFORME DEL CRÍTICO LEXICO ===
+LEXICO ===
+{
+  "especialidad": "lexico",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "1,8%",
+      "pauta_id": "G15"
+    },
+    {
+      "elemento": "20.000 millones",
+      "pauta_id": "G13"
+    },
+    {
+      "elemento": "200.000",
+      "pauta_id": "G13"
+    },
+    {
+      "elemento": "1,5 metros",
+      "pauta_id": "G15"
+    },
+    {
+      "elemento": "1 de la madrugada",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "17 de agosto de 2020",
+      "pauta_id": "G18"
+    },
+    {
+      "elemento": "Covid-19",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "ocio nocturno",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "hostelería",
+      "pauta_id": "G01"
+    }
+  ],
+  "conclusion": "El texto presenta varios incumplimientos de las reglas de Lectura Fácil, principalmente relacionados con el uso de porcentajes, números grandes, abreviaturas y términos que requieren glosas o explicaciones adicionales."
+}
+
+
+2026-08-27 18:48:04,318 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Se ha recibido un informe del agente Crítico.
+2026-08-27 18:48:04,321 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Ejecutando modelo de simplificación léxica.
+2026-08-27 18:48:06,458 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:48:06,464 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Resultado generado correctamente: 2420 caracteres.
+2026-08-27 19:08:11,496 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Solicitud recibida. Texto: 2288 caracteres. Informe crítico: sí
+2026-08-27 19:08:11,497 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | === INFORME DEL CRÍTICO LEXICO ===
+LEXICO ===
+{
+  "especialidad": "lexico",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "Concejala",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Ayuntamiento",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "MACA",
+      "pauta_id": "G09"
+    },
+    {
+      "elemento": "consecutivo",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "internacionales",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "co-organizado",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "UNESCO",
+      "pauta_id": "G09"
+    },
+    {
+      "elemento": "instituciones",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "planeta",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "twitter",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "hastags",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "tolerancia",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "crucial",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "estructura",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "tem\u0011ticas",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "hashtags",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "reflejan",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "dimensin",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "relevancia",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "jornada",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "#womenMW",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "leitmotiv",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "evento",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "intercambiaran",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "vivencias",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "hastag",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "#cityMW",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "#heritageMW",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "#professionsMW",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "#kidsMW",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "#natureMW",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "#differenceMW",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "seguidores",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "redes sociales",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Guggenheim",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "Louvre",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "National Gallery",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "iniciativa",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "feedback",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "15.600",
+      "pauta_id": "G13"
+    },
+    {
+      "elemento": "tweets",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "125.700",
+      "pauta_id": "G13"
+    },
+    {
+      "elemento": "3.958",
+      "pauta_id": "G13"
+    },
+    {
+      "elemento": "22 %",
+      "pauta_id": "G15"
+    },
+    {
+      "elemento": "19 %",
+      "pauta_id": "G15"
+    },
+    {
+      "elemento": "12 %",
+      "pauta_id": "G15"
+    },
+    {
+      "elemento": "59 %",
+      "pauta_id": "G15"
+    }
+  ],
+  "conclusion": "El texto presenta múltiples incumplimientos de las reglas de Lectura Fácil, principalmente en el uso de vocabulario técnico, anglicismos, porcentajes y cifras complejas, por lo que necesita simplificación."
+}
+
+
+2026-08-27 19:08:11,499 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Se ha recibido un informe del agente Crítico.
+2026-08-27 19:08:11,500 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Ejecutando modelo de simplificación léxica.
+2026-08-27 19:08:13,637 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 19:08:13,643 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Resultado generado correctamente: 2672 caracteres.
+2026-08-27 19:12:29,097 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Solicitud recibida. Texto: 2672 caracteres. Informe crítico: sí
+2026-08-27 19:12:29,098 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | === INFORME DEL CRÍTICO LEXICO ===
+LEXICO ===
+{
+  "especialidad": "lexico",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "MACA",
+      "pauta_id": "G09"
+    },
+    {
+      "elemento": "UNESCO",
+      "pauta_id": "G09"
+    },
+    {
+      "elemento": "Twitter",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "etiqueta",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "100.000",
+      "pauta_id": "G13"
+    },
+    {
+      "elemento": "3.000",
+      "pauta_id": "G13"
+    },
+    {
+      "elemento": "segunda",
+      "pauta_id": "G14"
+    },
+    {
+      "elemento": "tercera",
+      "pauta_id": "G14"
+    },
+    {
+      "elemento": "National Gallery",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "fuerte",
+      "pauta_id": "G06"
+    }
+  ],
+  "conclusion": "El texto presenta varios incumplimientos de las reglas de Lectura Fácil, principalmente relacionados con el uso de siglas sin explicación, abreviaturas, números con muchos dígitos, superlativos y términos anglicismos o técnicos sin glosa adecuada."
+}
+
+
+2026-08-27 19:12:29,099 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Se ha recibido un informe del agente Crítico.
+2026-08-27 19:12:29,100 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Ejecutando modelo de simplificación léxica.
+2026-08-27 19:12:29,241 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-27 19:12:29,243 | INFO | groq._base_client | Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2026-08-27 19:12:30,351 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-27 19:12:30,355 | INFO | groq._base_client | Retrying request to /openai/v1/chat/completions in 13.000000 seconds
+2026-08-27 19:12:45,318 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 19:12:45,321 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Resultado generado correctamente: 2729 caracteres.
+2026-08-27 19:24:25,916 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Solicitud recibida. Texto: 1559 caracteres. Informe crítico: sí
+2026-08-27 19:24:25,916 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | === INFORME DEL CRÍTICO LEXICO ===
+LEXICO ===
+{
+  "especialidad": "lexico",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "Ma Dolores",
+      "pauta_id": "G08"
+    },
+    {
+      "elemento": "edil",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Concejala",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Diputacin",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Julio-Septiembre",
+      "pauta_id": "G18"
+    },
+    {
+      "elemento": "abanico",
+      "pauta_id": "G02"
+    },
+    {
+      "elemento": "jazz. Pop., indie, rock...",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "cenas-espectaculo",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "corales",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "cuenta cuentos",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "MACA",
+      "pauta_id": "G09"
+    },
+    {
+      "elemento": "Lonja del Pescado",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "Concha de la Explanada",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "Cigarreras",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "Plaza del Ayuntamiento",
+      "pauta_id": "G03"
+    },
+    {
+      "elemento": "estivales",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "115",
+      "pauta_id": "G13"
+    },
+    {
+      "elemento": "gama cultural",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "proyectar",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "comprometida",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "32.350",
+      "pauta_id": "G13"
+    }
+  ],
+  "conclusion": "El texto presenta múltiples incumplimientos de las reglas de Lectura Fácil, principalmente en el uso de abreviaturas, siglas no explicadas, números con muchos dígitos, palabras abstractas y estructuras complejas. Es necesario simplificar el vocabulario y la estructura."
+}
+
+
+2026-08-27 19:24:25,917 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Se ha recibido un informe del agente Crítico.
+2026-08-27 19:24:25,918 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Ejecutando modelo de simplificación léxica.
+2026-08-27 19:24:27,585 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 19:24:27,589 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Resultado generado correctamente: 2054 caracteres.
+2026-08-27 19:29:46,831 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Solicitud recibida. Texto: 2721 caracteres. Informe crítico: sí
+2026-08-27 19:29:46,832 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | === INFORME DEL CRÍTICO LEXICO ===
+LEXICO ===
+{
+  "especialidad": "lexico",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "2ª",
+      "pauta_id": "G14"
+    },
+    {
+      "elemento": "MACA",
+      "pauta_id": "G09"
+    },
+    {
+      "elemento": "30.000",
+      "pauta_id": "G13"
+    }
+  ],
+  "conclusion": "El texto presenta varios incumplimientos de las reglas de Lectura Fácil, principalmente relacionados con el uso de siglas sin explicar, abreviaturas, números ordinales y porcentajes/numerales que requieren simplificación o aclaración."
+}
+
+
+2026-08-27 19:29:46,835 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Se ha recibido un informe del agente Crítico.
+2026-08-27 19:29:46,838 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Ejecutando modelo de simplificación léxica.
+2026-08-27 19:29:49,023 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 19:29:49,030 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Resultado generado correctamente: 2740 caracteres.
+2026-08-27 19:36:11,955 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Solicitud recibida. Texto: 2198 caracteres. Informe crítico: sí
+2026-08-27 19:36:11,956 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | === INFORME DEL CRÍTICO LEXICO ===
+LEXICO ===
+{
+  "especialidad": "lexico",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "creatividad",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "MACA",
+      "pauta_id": "G09"
+    },
+    {
+      "elemento": "superar a miles de personas",
+      "pauta_id": "G11"
+    }
+  ],
+  "conclusion": "El texto presenta problemas de vocabulario que requieren simplificación, principalmente por el uso de términos abstractos, siglas sin glosa adecuada y expresiones ambiguas."
+}
+
+
+2026-08-27 19:36:11,957 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Se ha recibido un informe del agente Crítico.
+2026-08-27 19:36:11,958 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Ejecutando modelo de simplificación léxica.
+2026-08-27 19:36:13,950 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 19:36:13,953 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Resultado generado correctamente: 2309 caracteres.
+2026-08-28 11:10:09,557 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Iniciando agente A2A en puerto 8007.
+2026-08-28 11:16:21,697 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Solicitud recibida. Texto: 2986 caracteres. Informe crítico: sí
+2026-08-28 11:16:21,697 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | === INFORME DEL CRÍTICO LEXICO ===
+LEXICO ===
+{
+  "especialidad": "lexico",
+  "estado": "necesita_simplificacion",
+  "problemas": [
+    {
+      "elemento": "concejala",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Ayuntamiento",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "programación",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "edición",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "protagonista",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "decena",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "actuaciones",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "teatralizadas",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "batukada",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "recitales",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "hinchables",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "maravilloso",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "homenaje",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "poeta",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "inaugurará",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "formalmente",
+      "pauta_id": "G05"
+    },
+    {
+      "elemento": "recepción",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "pintada",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "fachadas",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "conocidísimo",
+      "pauta_id": "G06"
+    },
+    {
+      "elemento": "pistoletazo de salida",
+      "pauta_id": "G02"
+    },
+    {
+      "elemento": "agrupación",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "sobre las 20.30",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "finalistas",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "electroacústico",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "sobre las 23 horas",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "divertidísimo",
+      "pauta_id": "G06"
+    },
+    {
+      "elemento": "sobre las 12 horas",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "a las 19 horas",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "a las 20.30 horas",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "a las 22 horas",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "a las 12.30 horas",
+      "pauta_id": "G19"
+    },
+    {
+      "elemento": "instrumental",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Filarmonía",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "tradicional",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "esfuerzo importantísimo",
+      "pauta_id": "G06"
+    },
+    {
+      "elemento": "restaurar",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "deteriorados",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "restauradores",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "profesionales",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "clausura",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "XXIV",
+      "pauta_id": "G16"
+    },
+    {
+      "elemento": "Mercadearte",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "especial",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "acompañada",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "representación",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "plataforma",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Junta Directiva",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "C.F.P.",
+      "pauta_id": "G09"
+    },
+    {
+      "elemento": "organiza",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Torneo",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "gestionará",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "barra benéfica",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "íntegra",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "consultar",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "web",
+      "pauta_id": "G07"
+    },
+    {
+      "elemento": "redes sociales",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Concejalía",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "habilitar",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "tren turístico",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "paradas",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Glorieta",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Casino",
+      "pauta_id": "G01"
+    },
+    {
+      "elemento": "Orcelitano",
+      "pauta_id": "G01"
+    }
+  ],
+  "conclusion": "El texto presenta múltiples incumplimientos de las reglas de Lectura Fácil, principalmente en el uso de vocabulario abstracto, metáforas, superlativos, abreviaturas, siglas no explicadas, formatos de hora incorrectos y números romanos. Es necesario simplificar el vocabulario y la estructura para cumplir con la norma UNE 153101:2018."
+}
+
+
+2026-08-28 11:16:21,698 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Se ha recibido un informe del agente Crítico.
+2026-08-28 11:16:21,698 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Ejecutando modelo de simplificación léxica.
+2026-08-28 11:16:24,589 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 11:16:24,610 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Resultado generado correctamente: 3495 caracteres.
+2026-09-03 11:05:00,117 | INFO | Agentes.agentes_simplificacion.simplificador_lexico | Iniciando agente A2A en puerto 8007.

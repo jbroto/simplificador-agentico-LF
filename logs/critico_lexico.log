@@ -1,0 +1,906 @@
+2026-08-27 10:59:35,460 | INFO | Agentes.agentes_critico.critico_lexico | Iniciando agente A2A en puerto 8010.
+2026-08-27 11:00:06,725 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 2842 caracteres.
+2026-08-27 11:00:06,726 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 11:00:09,676 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-08-27 11:00:09,678 | ERROR | Agentes.agentes_critico.critico_lexico | Error al ejecutar el modelo de crítica léxica.
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\PracticaFinal\Agentes\agentes_critico\critico_lexico.py", line 146, in process
+    informe = await structured_llm.ainvoke(messages)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 3241, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5752, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 494, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1760, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1718, in agenerate
+    raise exceptions[0]
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2053, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_groq\chat_models.py", line 642, in _agenerate
+    response = await self.async_client.create(messages=message_dicts, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\resources\chat\completions.py", line 941, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1762, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1576, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.BadRequestError: Error code: 400 - {'error': {'message': "Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': ''}}
+2026-08-27 11:00:32,311 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 1659 caracteres.
+2026-08-27 11:00:32,312 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 11:00:32,445 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-27 11:00:32,446 | INFO | groq._base_client | Retrying request to /openai/v1/chat/completions in 38.000000 seconds
+2026-08-27 11:01:13,309 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-08-27 11:01:13,315 | ERROR | Agentes.agentes_critico.critico_lexico | Error al ejecutar el modelo de crítica léxica.
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\PracticaFinal\Agentes\agentes_critico\critico_lexico.py", line 146, in process
+    informe = await structured_llm.ainvoke(messages)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 3241, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5752, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 494, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1760, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1718, in agenerate
+    raise exceptions[0]
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2053, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_groq\chat_models.py", line 642, in _agenerate
+    response = await self.async_client.create(messages=message_dicts, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\resources\chat\completions.py", line 941, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1762, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1576, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.BadRequestError: Error code: 400 - {'error': {'message': "Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': ''}}
+2026-08-27 11:01:36,823 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 1656 caracteres.
+2026-08-27 11:01:36,824 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 11:01:36,942 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-27 11:01:36,943 | INFO | groq._base_client | Retrying request to /openai/v1/chat/completions in 37.000000 seconds
+2026-08-27 11:02:16,717 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-08-27 11:02:16,720 | ERROR | Agentes.agentes_critico.critico_lexico | Error al ejecutar el modelo de crítica léxica.
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\PracticaFinal\Agentes\agentes_critico\critico_lexico.py", line 146, in process
+    informe = await structured_llm.ainvoke(messages)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 3241, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5752, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 494, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1760, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1718, in agenerate
+    raise exceptions[0]
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2053, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_groq\chat_models.py", line 642, in _agenerate
+    response = await self.async_client.create(messages=message_dicts, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\resources\chat\completions.py", line 941, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1762, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1576, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.BadRequestError: Error code: 400 - {'error': {'message': "Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': ''}}
+2026-08-27 11:03:11,829 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 1484 caracteres.
+2026-08-27 11:03:11,830 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 11:03:12,001 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-27 11:03:12,002 | INFO | groq._base_client | Retrying request to /openai/v1/chat/completions in 37.000000 seconds
+2026-08-27 11:03:51,722 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-08-27 11:03:51,724 | ERROR | Agentes.agentes_critico.critico_lexico | Error al ejecutar el modelo de crítica léxica.
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\PracticaFinal\Agentes\agentes_critico\critico_lexico.py", line 146, in process
+    informe = await structured_llm.ainvoke(messages)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 3241, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5752, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 494, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1760, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1718, in agenerate
+    raise exceptions[0]
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2053, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_groq\chat_models.py", line 642, in _agenerate
+    response = await self.async_client.create(messages=message_dicts, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\resources\chat\completions.py", line 941, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1762, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1576, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.BadRequestError: Error code: 400 - {'error': {'message': "Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': ''}}
+2026-08-27 11:07:51,167 | INFO | Agentes.agentes_critico.critico_lexico | Iniciando agente A2A en puerto 8010.
+2026-08-27 11:08:03,795 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 2842 caracteres.
+2026-08-27 11:08:03,796 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 11:08:04,084 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-08-27 11:08:04,086 | ERROR | Agentes.agentes_critico.critico_lexico | Error al ejecutar el modelo de crítica léxica.
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\PracticaFinal\Agentes\agentes_critico\critico_lexico.py", line 146, in process
+    informe = await structured_llm.ainvoke(messages)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 3241, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5752, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 494, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1760, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1718, in agenerate
+    raise exceptions[0]
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2053, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_groq\chat_models.py", line 642, in _agenerate
+    response = await self.async_client.create(messages=message_dicts, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\resources\chat\completions.py", line 941, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1762, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1576, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.BadRequestError: Error code: 400 - {'error': {'message': "'messages' must contain the word 'json' in some form, to use 'response_format' of type 'json_object'.", 'type': 'invalid_request_error'}}
+2026-08-27 11:08:10,373 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 1659 caracteres.
+2026-08-27 11:08:10,374 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 11:08:11,882 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-08-27 11:08:11,884 | ERROR | Agentes.agentes_critico.critico_lexico | Error al ejecutar el modelo de crítica léxica.
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\PracticaFinal\Agentes\agentes_critico\critico_lexico.py", line 146, in process
+    informe = await structured_llm.ainvoke(messages)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 3241, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5752, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 494, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1760, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1718, in agenerate
+    raise exceptions[0]
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2053, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_groq\chat_models.py", line 642, in _agenerate
+    response = await self.async_client.create(messages=message_dicts, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\resources\chat\completions.py", line 941, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1762, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1576, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.BadRequestError: Error code: 400 - {'error': {'message': "'messages' must contain the word 'json' in some form, to use 'response_format' of type 'json_object'.", 'type': 'invalid_request_error'}}
+2026-08-27 11:09:56,105 | INFO | Agentes.agentes_critico.critico_lexico | Iniciando agente A2A en puerto 8010.
+2026-08-27 11:10:17,852 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 2842 caracteres.
+2026-08-27 11:10:17,853 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 11:10:21,160 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-08-27 11:10:21,162 | ERROR | Agentes.agentes_critico.critico_lexico | Error al ejecutar el modelo de crítica léxica.
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\PracticaFinal\Agentes\agentes_critico\critico_lexico.py", line 145, in process
+    informe = await structured_llm.ainvoke(messages)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 3241, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5752, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 494, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1760, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1718, in agenerate
+    raise exceptions[0]
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2053, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_groq\chat_models.py", line 642, in _agenerate
+    response = await self.async_client.create(messages=message_dicts, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\resources\chat\completions.py", line 941, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1762, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1576, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.BadRequestError: Error code: 400 - {'error': {'message': "Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': ''}}
+2026-08-27 11:14:44,274 | INFO | Agentes.agentes_critico.critico_lexico | Iniciando agente A2A en puerto 8010.
+2026-08-27 11:15:04,024 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 2842 caracteres.
+2026-08-27 11:15:04,025 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 11:15:07,475 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-08-27 11:15:07,477 | ERROR | Agentes.agentes_critico.critico_lexico | Error al ejecutar el modelo de crítica léxica.
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\PracticaFinal\Agentes\agentes_critico\critico_lexico.py", line 132, in process
+    informe = await structured_llm.ainvoke(messages)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 3241, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5752, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 494, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1760, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1718, in agenerate
+    raise exceptions[0]
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2053, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_groq\chat_models.py", line 642, in _agenerate
+    response = await self.async_client.create(messages=message_dicts, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\resources\chat\completions.py", line 941, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1762, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1576, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.BadRequestError: Error code: 400 - {'error': {'message': "Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': ''}}
+2026-08-27 11:15:18,903 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 1659 caracteres.
+2026-08-27 11:15:18,904 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 11:15:19,035 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-27 11:15:19,036 | INFO | groq._base_client | Retrying request to /openai/v1/chat/completions in 24.000000 seconds
+2026-08-27 11:15:43,172 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-27 11:15:43,174 | INFO | groq._base_client | Retrying request to /openai/v1/chat/completions in 15.000000 seconds
+2026-08-27 11:16:01,436 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-08-27 11:16:01,438 | ERROR | Agentes.agentes_critico.critico_lexico | Error al ejecutar el modelo de crítica léxica.
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\PracticaFinal\Agentes\agentes_critico\critico_lexico.py", line 132, in process
+    informe = await structured_llm.ainvoke(messages)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 3241, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5752, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 494, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1760, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1718, in agenerate
+    raise exceptions[0]
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2053, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_groq\chat_models.py", line 642, in _agenerate
+    response = await self.async_client.create(messages=message_dicts, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\resources\chat\completions.py", line 941, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1762, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1576, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.BadRequestError: Error code: 400 - {'error': {'message': "Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': ''}}
+2026-08-27 11:28:05,856 | INFO | Agentes.agentes_critico.critico_lexico | Iniciando agente A2A en puerto 8010.
+2026-08-27 11:30:52,455 | INFO | Agentes.agentes_critico.critico_lexico | Iniciando agente A2A en puerto 8010.
+2026-08-27 11:35:19,080 | INFO | Agentes.agentes_critico.critico_lexico | Iniciando agente A2A en puerto 8010.
+2026-08-27 11:42:49,423 | INFO | Agentes.agentes_critico.critico_lexico | Iniciando agente A2A en puerto 8010.
+2026-08-27 11:47:07,322 | INFO | Agentes.agentes_critico.critico_lexico | Iniciando agente A2A en puerto 8010.
+2026-08-27 11:48:09,115 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 2842 caracteres.
+2026-08-27 11:48:09,116 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 11:48:14,050 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 11:48:14,069 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=24
+2026-08-27 11:51:08,845 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 1659 caracteres.
+2026-08-27 11:51:08,847 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 11:51:11,918 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 11:51:11,927 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=15
+2026-08-27 12:00:02,332 | INFO | Agentes.agentes_critico.critico_lexico | Iniciando agente A2A en puerto 8010.
+2026-08-27 12:01:25,060 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 2842 caracteres.
+2026-08-27 12:01:25,060 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 12:01:30,008 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 12:01:30,042 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=22
+2026-08-27 12:16:55,194 | INFO | Agentes.agentes_critico.critico_lexico | Iniciando agente A2A en puerto 8010.
+2026-08-27 12:19:20,915 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 2842 caracteres.
+2026-08-27 12:19:20,916 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 12:19:23,685 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 12:19:23,710 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=40
+2026-08-27 12:24:50,987 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 3073 caracteres.
+2026-08-27 12:24:50,988 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 12:24:51,876 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 12:24:51,879 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=adecuado, problemas=0
+2026-08-27 12:30:44,492 | INFO | Agentes.agentes_critico.critico_lexico | Iniciando agente A2A en puerto 8010.
+2026-08-27 12:33:03,622 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 2842 caracteres.
+2026-08-27 12:33:03,626 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 12:33:06,369 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 12:33:06,400 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=40
+2026-08-27 12:38:37,585 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 3073 caracteres.
+2026-08-27 12:38:37,586 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 12:38:38,562 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 12:38:38,567 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=adecuado, problemas=0
+2026-08-27 12:42:11,385 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 1659 caracteres.
+2026-08-27 12:42:11,385 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 12:42:13,909 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 12:42:13,914 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=16
+2026-08-27 12:56:39,808 | INFO | Agentes.agentes_critico.critico_lexico | Iniciando agente A2A en puerto 8010.
+2026-08-27 12:58:59,211 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 2842 caracteres.
+2026-08-27 12:58:59,211 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 12:59:02,084 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 12:59:02,109 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=40
+2026-08-27 13:06:33,761 | INFO | Agentes.agentes_critico.critico_lexico | Iniciando agente A2A en puerto 8010.
+2026-08-27 13:08:51,874 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 2842 caracteres.
+2026-08-27 13:08:51,875 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 13:08:54,317 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:08:54,326 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=40
+2026-08-27 13:16:06,141 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 3390 caracteres.
+2026-08-27 13:16:06,141 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 13:16:07,863 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:16:07,866 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=adecuado, problemas=0
+2026-08-27 13:19:19,358 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 1659 caracteres.
+2026-08-27 13:19:19,359 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 13:19:20,922 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:19:20,926 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=16
+2026-08-27 13:26:00,797 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 1514 caracteres.
+2026-08-27 13:26:00,797 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 13:26:01,698 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:26:01,701 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=6
+2026-08-27 13:31:18,436 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 1452 caracteres.
+2026-08-27 13:31:18,437 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 13:31:19,112 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:31:19,115 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=adecuado, problemas=0
+2026-08-27 13:35:29,793 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 1432 caracteres.
+2026-08-27 13:35:29,793 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 13:35:30,527 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:35:30,529 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=adecuado, problemas=0
+2026-08-27 13:39:40,491 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 1432 caracteres.
+2026-08-27 13:39:40,491 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 13:39:41,327 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:39:41,328 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=adecuado, problemas=0
+2026-08-27 13:42:56,500 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 1656 caracteres.
+2026-08-27 13:42:56,500 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 13:42:58,816 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:42:58,817 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=39
+2026-08-27 13:50:17,792 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 1570 caracteres.
+2026-08-27 13:50:17,793 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 13:50:19,582 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:50:19,585 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=8
+2026-08-27 13:56:33,512 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 1594 caracteres.
+2026-08-27 13:56:33,513 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 13:56:34,570 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 13:56:34,572 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=4
+2026-08-27 14:01:47,171 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 1566 caracteres.
+2026-08-27 14:01:47,171 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 14:01:48,565 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:01:48,567 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=adecuado, problemas=0
+2026-08-27 14:07:01,222 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 1569 caracteres.
+2026-08-27 14:07:01,223 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 14:07:02,035 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:07:02,037 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=adecuado, problemas=0
+2026-08-27 14:10:15,042 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 1484 caracteres.
+2026-08-27 14:10:15,043 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 14:10:16,693 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:10:16,696 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=20
+2026-08-27 14:17:13,763 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 1623 caracteres.
+2026-08-27 14:17:13,763 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 14:17:14,560 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:17:14,563 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=adecuado, problemas=0
+2026-08-27 14:20:24,049 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 1156 caracteres.
+2026-08-27 14:20:24,049 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 14:20:25,364 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:20:25,365 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=10
+2026-08-27 14:26:38,591 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 1217 caracteres.
+2026-08-27 14:26:38,591 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 14:26:39,404 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:26:39,406 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=adecuado, problemas=0
+2026-08-27 14:30:49,172 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 1255 caracteres.
+2026-08-27 14:30:49,173 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 14:30:49,916 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:30:49,918 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=adecuado, problemas=0
+2026-08-27 14:34:58,595 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 1286 caracteres.
+2026-08-27 14:34:58,595 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 14:34:59,262 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:34:59,264 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=adecuado, problemas=0
+2026-08-27 14:38:12,502 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 1591 caracteres.
+2026-08-27 14:38:12,502 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 14:38:14,142 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:38:14,144 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=19
+2026-08-27 14:45:10,300 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 1555 caracteres.
+2026-08-27 14:45:10,301 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 14:45:11,233 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:45:11,235 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=adecuado, problemas=0
+2026-08-27 14:48:24,218 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 3105 caracteres.
+2026-08-27 14:48:24,218 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 14:48:27,152 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:48:27,154 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=47
+2026-08-27 14:55:38,561 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 3403 caracteres.
+2026-08-27 14:55:38,563 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 14:55:39,606 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:55:39,611 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=adecuado, problemas=0
+2026-08-27 14:58:56,685 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 3217 caracteres.
+2026-08-27 14:58:56,685 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 14:58:58,295 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 14:58:58,299 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=15
+2026-08-27 15:06:18,544 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 3277 caracteres.
+2026-08-27 15:06:18,545 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 15:06:19,715 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:06:19,719 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=5
+2026-08-27 15:10:41,805 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 3535 caracteres.
+2026-08-27 15:10:41,806 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 15:10:43,403 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:10:43,408 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=12
+2026-08-27 15:15:10,132 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 4065 caracteres.
+2026-08-27 15:15:10,132 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 15:15:10,971 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:15:10,974 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=adecuado, problemas=0
+2026-08-27 15:20:39,125 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 4384 caracteres.
+2026-08-27 15:20:39,125 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 15:20:39,998 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:20:40,001 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=adecuado, problemas=0
+2026-08-27 15:23:58,059 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 3469 caracteres.
+2026-08-27 15:23:58,060 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 15:24:02,132 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:24:02,137 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=64
+2026-08-27 15:27:15,215 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 3071 caracteres.
+2026-08-27 15:27:15,215 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 15:27:18,738 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:27:18,742 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=64
+2026-08-27 15:34:59,086 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 3036 caracteres.
+2026-08-27 15:34:59,086 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 15:35:00,464 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:35:00,468 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=13
+2026-08-27 15:41:30,455 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 3266 caracteres.
+2026-08-27 15:41:30,455 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 15:41:31,637 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:41:31,644 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=6
+2026-08-27 15:47:18,122 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 3363 caracteres.
+2026-08-27 15:47:18,123 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 15:47:19,288 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:47:19,292 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=adecuado, problemas=0
+2026-08-27 15:50:35,576 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 2988 caracteres.
+2026-08-27 15:50:35,576 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 15:50:38,970 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:50:38,975 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=64
+2026-08-27 15:58:25,787 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 2731 caracteres.
+2026-08-27 15:58:25,788 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 15:58:26,639 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 15:58:26,642 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=adecuado, problemas=0
+2026-08-27 16:02:38,372 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 2887 caracteres.
+2026-08-27 16:02:38,373 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 16:02:39,567 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:02:39,570 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=adecuado, problemas=0
+2026-08-27 16:04:57,040 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 3154 caracteres.
+2026-08-27 16:04:57,041 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 16:04:59,140 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:04:59,145 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=21
+2026-08-27 16:10:56,962 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 3926 caracteres.
+2026-08-27 16:10:56,963 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 16:11:00,618 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:11:00,623 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=64
+2026-08-27 16:18:36,991 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 4097 caracteres.
+2026-08-27 16:18:36,993 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 16:18:39,649 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:18:39,652 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=41
+2026-08-27 16:25:45,706 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 4120 caracteres.
+2026-08-27 16:25:45,707 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 16:25:48,852 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:25:48,859 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=32
+2026-08-27 16:30:32,839 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 4776 caracteres.
+2026-08-27 16:30:32,839 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 16:30:34,032 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:30:34,036 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=adecuado, problemas=0
+2026-08-27 16:33:52,588 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 3010 caracteres.
+2026-08-27 16:33:52,588 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 16:33:54,271 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:33:54,275 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=14
+2026-08-27 16:41:14,927 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 3579 caracteres.
+2026-08-27 16:41:14,928 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 16:41:17,010 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:41:17,014 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=adecuado, problemas=0
+2026-08-27 16:46:37,275 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 3599 caracteres.
+2026-08-27 16:46:37,275 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 16:46:38,146 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:46:38,149 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=adecuado, problemas=0
+2026-08-27 16:52:08,111 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 3646 caracteres.
+2026-08-27 16:52:08,112 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 16:52:09,099 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:52:09,103 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=adecuado, problemas=0
+2026-08-27 16:57:26,577 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 3675 caracteres.
+2026-08-27 16:57:26,579 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 16:57:29,561 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 16:57:29,570 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=64
+2026-08-27 17:00:48,777 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 2322 caracteres.
+2026-08-27 17:00:48,778 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 17:00:52,237 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:00:52,242 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=49
+2026-08-27 17:08:10,915 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 2603 caracteres.
+2026-08-27 17:08:10,917 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 17:08:11,940 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:08:11,948 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=adecuado, problemas=0
+2026-08-27 17:13:32,068 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 2393 caracteres.
+2026-08-27 17:13:32,070 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 17:13:33,008 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:13:33,018 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=adecuado, problemas=0
+2026-08-27 17:19:07,681 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 2119 caracteres.
+2026-08-27 17:19:07,682 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 17:19:08,986 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:19:08,991 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=7
+2026-08-27 17:25:56,716 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 2538 caracteres.
+2026-08-27 17:25:56,717 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 17:25:57,673 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:25:57,678 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=adecuado, problemas=0
+2026-08-27 17:29:12,798 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 777 caracteres.
+2026-08-27 17:29:12,799 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 17:29:14,175 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:29:14,184 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=9
+2026-08-27 17:35:32,951 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 794 caracteres.
+2026-08-27 17:35:32,952 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 17:35:33,674 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:35:33,682 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=adecuado, problemas=0
+2026-08-27 17:38:54,127 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 1560 caracteres.
+2026-08-27 17:38:54,129 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 17:38:57,576 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:38:57,582 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=30
+2026-08-27 17:45:52,410 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 1814 caracteres.
+2026-08-27 17:45:52,410 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 17:45:53,313 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:45:53,317 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=adecuado, problemas=0
+2026-08-27 17:50:08,915 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 1814 caracteres.
+2026-08-27 17:50:08,916 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 17:50:10,226 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:50:10,231 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=adecuado, problemas=0
+2026-08-27 17:54:27,521 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 1797 caracteres.
+2026-08-27 17:54:27,523 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 17:54:29,098 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 17:54:29,109 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=10
+2026-08-27 18:01:07,273 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 2026 caracteres.
+2026-08-27 18:01:07,275 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 18:01:08,155 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:01:08,160 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=adecuado, problemas=0
+2026-08-27 18:04:26,343 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 3150 caracteres.
+2026-08-27 18:04:26,344 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 18:04:28,795 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:04:28,800 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=44
+2026-08-27 18:11:56,255 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 5226 caracteres.
+2026-08-27 18:11:56,257 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 18:11:57,890 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:11:57,901 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=19
+2026-08-27 18:19:41,444 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 5257 caracteres.
+2026-08-27 18:19:41,445 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 18:19:43,714 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:19:43,725 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=32
+2026-08-27 18:27:09,179 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 5283 caracteres.
+2026-08-27 18:27:09,181 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 18:27:11,207 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:27:11,216 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=15
+2026-08-27 18:34:36,007 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 5284 caracteres.
+2026-08-27 18:34:36,010 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 18:34:38,802 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:34:38,813 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=19
+2026-08-27 18:37:58,311 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 2852 caracteres.
+2026-08-27 18:37:58,312 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 18:38:01,556 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:38:01,561 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=60
+2026-08-27 18:45:54,181 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 2239 caracteres.
+2026-08-27 18:45:54,182 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 18:45:55,366 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:45:55,371 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=9
+2026-08-27 18:51:14,251 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 2420 caracteres.
+2026-08-27 18:51:14,252 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 18:51:15,375 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:51:15,385 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=adecuado, problemas=0
+2026-08-27 18:56:34,998 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 2459 caracteres.
+2026-08-27 18:56:35,000 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 18:56:36,094 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 18:56:36,103 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=adecuado, problemas=0
+2026-08-27 19:00:53,778 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 2442 caracteres.
+2026-08-27 19:00:53,779 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 19:00:54,454 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 19:00:54,459 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=adecuado, problemas=0
+2026-08-27 19:04:13,770 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 1974 caracteres.
+2026-08-27 19:04:13,772 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 19:04:16,693 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 19:04:16,703 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=47
+2026-08-27 19:11:21,357 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 2672 caracteres.
+2026-08-27 19:11:21,359 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 19:11:22,990 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 19:11:22,998 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=10
+2026-08-27 19:16:55,029 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 2537 caracteres.
+2026-08-27 19:16:55,029 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 19:16:56,305 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 19:16:56,310 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=adecuado, problemas=0
+2026-08-27 19:20:16,154 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 1661 caracteres.
+2026-08-27 19:20:16,156 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 19:20:18,136 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 19:20:18,146 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=21
+2026-08-27 19:27:36,212 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 2054 caracteres.
+2026-08-27 19:27:36,213 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 19:27:37,133 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 19:27:37,142 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=3
+2026-08-27 19:32:56,352 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 2740 caracteres.
+2026-08-27 19:32:56,353 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 19:32:57,954 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 19:32:57,963 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=3
+2026-08-27 19:39:20,876 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 2309 caracteres.
+2026-08-27 19:39:20,877 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-27 19:39:21,958 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 19:39:21,968 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=adecuado, problemas=0
+2026-08-28 11:10:09,556 | INFO | Agentes.agentes_critico.critico_lexico | Iniciando agente A2A en puerto 8010.
+2026-08-28 11:12:38,365 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 3469 caracteres.
+2026-08-28 11:12:38,365 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-28 11:12:42,074 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 11:12:42,096 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=necesita_simplificacion, problemas=64
+2026-08-28 11:20:34,511 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 3442 caracteres.
+2026-08-28 11:20:34,512 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-08-28 11:20:35,985 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 11:20:35,989 | INFO | Agentes.agentes_critico.critico_lexico | Informe léxico generado: estado=adecuado, problemas=0
+2026-09-03 11:05:00,097 | INFO | Agentes.agentes_critico.critico_lexico | Iniciando agente A2A en puerto 8010.
+2026-09-03 11:07:48,152 | INFO | Agentes.agentes_critico.critico_lexico | Solicitud recibida. Texto: 30 caracteres.
+2026-09-03 11:07:48,152 | INFO | Agentes.agentes_critico.critico_lexico | Ejecutando modelo de crítica léxica.
+2026-09-03 11:07:48,418 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-09-03 11:07:48,420 | ERROR | Agentes.agentes_critico.critico_lexico | Error al ejecutar el modelo de crítica léxica.
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\PracticaFinal\Agentes\agentes_critico\critico_lexico.py", line 131, in process
+    informe_llm = await structured_llm.ainvoke(messages)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 3241, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5752, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 494, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1760, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+        prompt_messages, stop=stop, callbacks=callbacks, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1718, in agenerate
+    raise exceptions[0]
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2053, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+        messages, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\langchain_groq\chat_models.py", line 642, in _agenerate
+    response = await self.async_client.create(messages=message_dicts, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\resources\chat\completions.py", line 941, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+    )
+    ^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1762, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\PracticaFinal\.venv\Lib\site-packages\groq\_base_client.py", line 1576, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.AuthenticationError: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'expired_api_key'}}
